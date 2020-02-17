@@ -1,0 +1,16 @@
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <p> 
+  	{% if post.categories.size > 2 %}
+  	- <a href="../titles/{{post.categories[2]}}">{{ post.title }}</a>
+	{% else %}
+	- {{ post.title }}
+	{% endif %}
+  	- <a href="../authors/{{post.categories[1]}}">{{ post.author }}</a>
+  </p>
+  <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 300 }} <a href="{{ post.url }}">Leer más</a> </p>
+{% endfor %}
+
+{% include pagination_links.html %}
+
+

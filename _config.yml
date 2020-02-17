@@ -1,0 +1,25 @@
+plugins:
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 2
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "authors/*"
+    values:
+      layout: "author"
+  - scope:
+      path: "titles/*"
+    values:
+      layout: "title"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
