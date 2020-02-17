@@ -1,12 +1,38 @@
 <!doctype html>
-<html>
+  <html>
+
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+
     <title>Desobra</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" type="text/css">
+    <script src="/assets/js/search.js"></script>
+
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ site.baseurl }}/favicon.png">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/apple-touch-icon.png">
   </head>
+
   <body>
-    {% include header.html %}
-    {{ content }}
+    <nav class="nav-main">
+      <ul>
+        <li class="hvr-underline-reveal"><a href="/aquellos_polvos">Polvos</a></li>
+        <li class="hvr-underline-reveal"><a href="/estos_lodos">Lodos</a></li>
+        <li class="logo"><a class="hvr-ripple-out" href="/">D</a></li>
+        <li class="hvr-underline-reveal"><a href="/morada">Morada</a></li>
+        <li class="hvr-underline-reveal"><a href="/search">Buscar</a></li>
+      </ul>
+    </nav>
+
+    <div class="container content">
+      <main>
+        {{ content }}
+      </main>
+    </div>
+
   </body>
-</html>
+  </html>

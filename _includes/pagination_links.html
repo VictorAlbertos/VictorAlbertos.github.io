@@ -1,13 +1,29 @@
+
+
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">
-      Previous
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
+      <i class="fa fa-arrow-circle-o-left"></i> 
     </a>
+  {% else %}
+    <span>
+      <i class="fa fa-arrow-circle-o-left"></i> 
+    </span>
   {% endif %}
+
   <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+    {% if paginator.total_pages > 1 %}
+      {{ paginator.page }} / {{ paginator.total_pages }}
+    {% endif %}
   </span>
+
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+      <i class="fa fa-arrow-circle-o-right"></i>
+    </a>
+  {% else %}
+    <span>
+      <i class="fa fa-arrow-circle-o-right"></i>
+    </span>
   {% endif %}
 </div>

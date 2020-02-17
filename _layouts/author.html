@@ -2,11 +2,17 @@
 layout: default
 ---
 
-<h1>{{page.author}}</h1>
+<h2>{{page.author}}</h2>
+<hr>
 
 {% for post in paginator.posts %}
-  <p>{{post.title}} </p>
-  <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 300 }} <a href="{{ post.url }}">Leer más</a> </p>
+  <p>
+  	<a href="{{ post.url }}"><div>
+  	<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 300 }}</p>
+  	<p><i> {{ post.title }}</i></p>
+  	</div></a> 
+  </p>
+  <hr>
 {% endfor %}
 
 {% include pagination_links.html %}
