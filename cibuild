@@ -15,6 +15,7 @@ set -e
 #cd temp
 mv ./.git ./_site
 cd _site
+git branch -m master
 git add .
 git commit -m "Travis #$TRAVIS_BUILD_NUMBER"
 git remote add temp https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git
