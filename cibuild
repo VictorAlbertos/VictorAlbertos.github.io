@@ -9,7 +9,7 @@ fi
 # enable error reporting to the console
 set -e
 
-git clone https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git  --branch develop temp
+# git clone https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git  --branch develop temp
 
 # push
 cd temp
