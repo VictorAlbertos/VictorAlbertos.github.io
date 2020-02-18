@@ -9,14 +9,16 @@ fi
 # enable error reporting to the console
 set -e
 
-# git clone https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git  --branch develop temp
+git clone https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git  --branch develop temp
+cd temp
 
 # push
-#cd temp
 mv ./.git ./_site
 cd _site
 git branch -m master
-git add .
-git commit -m "Travis #$TRAVIS_BUILD_NUMBER"
-git remote add temp https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git
-git push --force temp master
+
+git add --all
+git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
+
+git remote add site https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git
+git push --force site master
