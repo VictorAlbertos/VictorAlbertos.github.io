@@ -36,10 +36,10 @@
 /* Ripple Out (from hover.css) */
 @include keyframes(hvr-ripple-out) {
   100% {
-    top: -(6px + 6px);
-    right: -(6px + 6px);
-    bottom: -(6px + 6px);
-    left: -(6px + 6px);
+    top: -(3px + 3px);
+    right: -(3px + 3px);
+    bottom: -(3px + 3px);
+    left: -(3px + 3px);
     opacity: 0;
   }
 }
@@ -52,8 +52,8 @@
   &:before {
     content: '';
     position: absolute;
-    border: $nav-icon-background-color solid 4px;
-    border-radius: 50px;
+    border: $nav-icon-background-color solid 3px;
+    border-radius: 0px;
     top: 0;
     right: 0;
     bottom: 0;
