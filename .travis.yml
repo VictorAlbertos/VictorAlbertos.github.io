@@ -1,0 +1,8 @@
+branches:
+  only:
+  - develop
+before_script:
+ - chmod +x ./cibuild
+script: ./cibuild
+exclude: [vendor]
+sudo: false
