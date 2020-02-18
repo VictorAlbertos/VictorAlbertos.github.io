@@ -2,7 +2,7 @@
 {% for post in paginator.posts %}
   <p>
   	<a href="{{ post.url }}"><div>
-  	<p>{{ post.excerpt | strip_html | strip_newlines | truncate: 300 }}</p>
+  	<p class="giveMeEllipsis">{{ post.excerpt | strip_html | strip_newlines }}</p>
   	<p><i> {{ post.title }}, </i> {{ post.author }}</p>
   	</div></a> 
   </p>
