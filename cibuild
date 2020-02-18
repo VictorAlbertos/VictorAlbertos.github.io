@@ -9,10 +9,12 @@ fi
 # enable error reporting to the console
 set -e
 
+git clone https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git  --branch develop temp
+
 # push
+cd temp
 mv ./.git ./_site
 cd _site
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git remote set-url origin https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git 
 git push --force origin master
