@@ -80,3 +80,22 @@ tbody tr:nth-child(odd) th {
    -webkit-box-orient: vertical;
    -webkit-line-clamp: 3; /* number of lines to show */
 }
+
+h1.title-post {
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 10px;
+}
+
+h3.title-post {
+  opacity: 0.75;
+}
+
+span.post-preview-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+span.post-preview-author {
+  font-weight: bold;
+}

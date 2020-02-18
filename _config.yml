@@ -3,7 +3,7 @@ plugins:
 
 pagination:
   enabled: true
-  per_page: 2
+  per_page: 20
 
 defaults:
   - scope:
@@ -15,10 +15,6 @@ defaults:
       path: "authors/*"
     values:
       layout: "author"
-  - scope:
-      path: "titles/*"
-    values:
-      layout: "title"
   - scope:
       path: ""
     values:

@@ -7,13 +7,21 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += item.title + item.author 
-         + item.excerpt + '<a href="' + results[i].ref + '">Leer más.</a></p>';
+
+        appendString += `
+        <p>
+          <a href="${results[i].ref}"><div>
+          <p class="giveMeEllipsis">${item.excerpt}</p>
+          <p><span class="post-preview-title"> ${item.title} </span> - <span class="post-preview-author">${item.author} </span></p>
+          </div></a> 
+        </p>
+        <hr>
+        `;
       }
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = 'No results found';
+      searchResults.innerHTML = 'No se han encontrado resultados.';
     }
   }
 

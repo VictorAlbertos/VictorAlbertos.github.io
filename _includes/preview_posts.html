@@ -1,14 +1,12 @@
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  <p>
+  <p class="block">
   	<a href="{{ post.url }}"><div>
   	<p class="giveMeEllipsis">{{ post.excerpt | strip_html | strip_newlines }}</p>
-  	<p><i> {{ post.title }}, </i> {{ post.author }}</p>
+  	<p><span class="post-preview-title"> {{ post.title }} </span> - <span class="post-preview-author"> {{ post.author }} </span></p>
   	</div></a> 
   </p>
   <hr>
 {% endfor %}
 
 {% include pagination_links.html %}
-
-
