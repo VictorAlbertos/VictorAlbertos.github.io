@@ -14,6 +14,5 @@ mv ./.git ./_site
 cd _site
 git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git remote rm origin
-git remote add origin https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git 
+git remote set-url origin https://${GH_TOKEN}@github.com/VictorAlbertos/VictorAlbertos.github.io.git 
 git push --force origin master
