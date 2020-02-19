@@ -18,6 +18,7 @@ window.store = {
   "{{ post.url }}": {
     "title": "{{ post.title | xml_escape }}",
     "author": "{{ post.author | xml_escape }}",
+    "image": "{{ post.image }}",
     "excerpt": "{{ post.excerpt | truncate: 500 | strip_html | strip_newlines  }}"
   }
   {% unless forloop.last %},{% endunless %}

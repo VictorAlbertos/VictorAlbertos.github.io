@@ -7,16 +7,28 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-
+        if (item.image) {
+          appendString += `
+          <p>
+            <a href="${results[i].ref}"><div>
+            <img src="/assets/img/${item.image}" width="400px" height="350px" class="centered-and-cropped grayscale"/>
+            <p class="giveMeEllipsis">${item.excerpt}</p>
+            <p><span class="post-preview-title">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
+            </div></a> 
+          </p>
+          <hr>
+          `;
+        } else {
         appendString += `
-        <p>
-          <a href="${results[i].ref}"><div>
-          <p class="giveMeEllipsis">${item.excerpt}</p>
-          <p><span class="post-preview-title"> ${item.title} </span> - <span class="post-preview-author">${item.author} </span></p>
-          </div></a> 
-        </p>
-        <hr>
-        `;
+          <p>
+            <a href="${results[i].ref}"><div>
+            <p class="giveMeEllipsis">${item.excerpt}</p>
+            <p><span class="post-preview-title">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
+            </div></a> 
+          </p>
+          <hr>
+          `;
+        }
       }
 
       searchResults.innerHTML = appendString;
