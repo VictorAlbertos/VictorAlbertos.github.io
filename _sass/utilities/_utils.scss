@@ -11,6 +11,17 @@
     pointer-events: none;
   }
 
-  .centered-and-cropped { object-fit: cover }
+  .centered-and-cropped { 
+    object-fit: cover;
+  }
 
-  .grayscale { filter: grayscale(100%); }
+  .grayscale { filter: grayscale(90%); }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item {
+  padding: 15px;
+}
