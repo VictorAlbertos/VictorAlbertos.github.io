@@ -4,7 +4,7 @@ layout: default
 
 <h1 class="title-post">{{page.title}}</h1>
 {% assign post = site.posts | where: 'author', page.author | first %}
-<h3 class="title-post"><a href="{{site.url}}/authors/{{post.categories[1]}}">{{ page.author }}</a></h3>
+<h3 class="title-post"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></h3>
 
 <hr>
 
