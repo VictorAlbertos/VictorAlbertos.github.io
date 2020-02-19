@@ -11,9 +11,10 @@
 
 .grid-container { display: grid; grid-template-columns: auto auto; }
 
+@media only screen and (max-width: 768px) { .grid-container { grid-template-columns: auto; } }
+
 .grid-item { padding: 15px; }
 
-/*h1 { font-size: 6.9vw; } h2 { font-size: 4.5vh; } p { font-size: 2.7vmin; }*/
 /** _syntax-highlighting.scss Styles for syntax highlighting using Jekyll's configured highlighter. */
 .highlight .hll { background-color: #ffc; }
 
@@ -338,7 +339,7 @@ template { display: none; }
 
 html { font-family: "Roboto"; font-size: 21px; line-height: 1.5; }
 
-@media (max-width: 38em) { html { font-size: 21px; } }
+@media (max-width: 38em) { html { font-size: 18px; } }
 
 body { color: #515151; background-color: #ffffff; border-top: 0px solid #000000; }
 
@@ -361,6 +362,8 @@ th { text-align: left; }
 tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9f9; }
 
 .giveMeEllipsis { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; /* number of lines to show */ }
+
+@media only screen and (max-width: 768px) { .giveMeEllipsis { -webkit-line-clamp: 6; /* number of lines to show */ } }
 
 h1.title-post { padding: 0 !important; margin: 0 !important; line-height: 10px; }
 

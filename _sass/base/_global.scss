@@ -81,6 +81,12 @@ tbody tr:nth-child(odd) th {
    -webkit-line-clamp: 3; /* number of lines to show */
 }
 
+@media only screen and (max-width: 768px) {
+  .giveMeEllipsis {
+   -webkit-line-clamp: 6; /* number of lines to show */
+  }
+}
+
 h1.title-post {
   padding: 0 !important;
   margin: 0 !important;
