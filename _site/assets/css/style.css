@@ -327,9 +327,9 @@ template { display: none; }
 /** _global.scss Foundational and global aspects of the page. */
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-html { font-family: "Source Sans Pro", sans-serif; font-size: 22px; line-height: 1.5; }
+html { font-family: "Roboto"; font-size: 21px; line-height: 1.5; }
 
-@media (max-width: 38em) { html { font-size: 22px; } }
+@media (max-width: 38em) { html { font-size: 21px; } }
 
 body { color: #515151; background-color: #ffffff; border-top: 5px solid #000000; }
 
@@ -406,7 +406,7 @@ a[href^="#fn:"], a[href^="#fnref:"] { display: inline-block; margin-left: .1rem;
 .lead { font-size: 1.25rem; font-weight: 300; }
 
 /** _navigation.scss Styles for the main navigation bar on top of the page. */
-.nav-main { font-size: 22px; text-align: center; margin-bottom: 4rem; }
+.nav-main { font-size: 21px; text-align: center; margin-bottom: 4rem; }
 
 @media (max-width: 38em) { .nav-main { margin-bottom: 2rem; } }
 
@@ -418,7 +418,7 @@ a[href^="#fn:"], a[href^="#fnref:"] { display: inline-block; margin-left: .1rem;
 
 .nav-main li.logo a { color: #ffffff; background: #000000; font-weight: bold; width: 1.6em; height: 1.6em; border-radius: 0px; line-height: 1.6em; margin: 0 1rem; padding: 0; }
 
-.pagination { font-family: "Source Sans Pro", sans-serif; overflow: hidden; margin: 3rem 0; color: #ccc; text-align: center; }
+.pagination { font-family: "Roboto"; overflow: hidden; margin: 3rem 0; color: #ccc; text-align: center; }
 
 .pagination .pagination-text, .pagination .fa { vertical-align: middle; }
 
@@ -435,7 +435,7 @@ a.pagination-item:focus, a.pagination-item:hover { text-decoration: none; backgr
   .pagination-text { display: none; } }
 
 /** _code.scss Inline and block-level code snippets. Includes tweaks to syntax highlighted snippets from Rouge and Gist embeds */
-code, pre { font-family: "Source Code Pro", monospace; }
+code, pre { font-family: "Roboto"; }
 
 code { padding: .25em .5em; font-size: 85%; color: #bf616a; background-color: #f9f9f9; border-radius: 3px; }
 
