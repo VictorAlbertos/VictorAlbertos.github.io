@@ -4,6 +4,7 @@ plugins:
 pagination:
   enabled: true
   per_page: 20
+  sort_reverse: 'true'
 
 defaults:
   - scope:
