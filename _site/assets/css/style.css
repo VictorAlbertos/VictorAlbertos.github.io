@@ -7,6 +7,8 @@
 
 .centered-and-cropped { object-fit: cover; }
 
+.grayscale { filter: grayscale(100%); }
+
 /** _syntax-highlighting.scss Styles for syntax highlighting using Jekyll's configured highlighter. */
 .highlight .hll { background-color: #ffc; }
 
