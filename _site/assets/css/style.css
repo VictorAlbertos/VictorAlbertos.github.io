@@ -5,6 +5,8 @@
 
 .disable-hover { pointer-events: none; }
 
+.centered-and-cropped { object-fit: cover; }
+
 /** _syntax-highlighting.scss Styles for syntax highlighting using Jekyll's configured highlighter. */
 .highlight .hll { background-color: #ffc; }
 

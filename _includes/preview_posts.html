@@ -3,7 +3,10 @@
   <p class="block">
   	<a href="{{ post.url }}"><div>
   	<p class="giveMeEllipsis">{{ post.excerpt | strip_html | strip_newlines }}</p>
-  	<p><span class="post-preview-title"> {{ post.title }} </span> - <span class="post-preview-author"> {{ post.author }} </span></p>
+  	{% if post.image %} 
+	<img src="/assets/img/{{post.image}}" width="300" height="250" class="centered-and-cropped" alt="{{post.title}}"/>
+	{% endif %}
+  	<p><span class="post-preview-title">{{ post.title }}</span>, <span class="post-preview-author"> {{ post.author }} </span></p>
   	</div></a> 
   </p>
   <hr>
