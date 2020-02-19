@@ -339,7 +339,7 @@ html { font-family: "Roboto"; font-size: 21px; line-height: 1.5; }
 
 @media (max-width: 38em) { html { font-size: 21px; } }
 
-body { color: #515151; background-color: #ffffff; border-top: 4px solid #000000; }
+body { color: #515151; background-color: #ffffff; border-top: 0px solid #000000; }
 
 a { color: #000000; text-decoration: none; }
 
