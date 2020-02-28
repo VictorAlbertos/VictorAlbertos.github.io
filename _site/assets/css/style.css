@@ -15,6 +15,10 @@
 
 .grid-item { padding: 15px; }
 
+#highlight-me { animation: glow 2000ms; border-radius: 5px; display: inline-block; padding: 10px 10px; }
+
+@keyframes glow { 50% { box-shadow: 0 0 10px gray; } }
+
 /** _syntax-highlighting.scss Styles for syntax highlighting using Jekyll's configured highlighter. */
 .highlight .hll { background-color: #ffc; }
 
