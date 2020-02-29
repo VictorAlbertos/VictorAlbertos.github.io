@@ -19,15 +19,19 @@
           <hr>
           `;
         } else {
-        appendString += `
-          <p>
-            <a href="${results[i].ref}"><div>
-            <p class="giveMeEllipsis">${item.excerpt}</p>
-            <p><span class="post-preview-title">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
-            </div></a> 
-          </p>
-          <hr>
-          `;
+          var url = "../titles/" + item.title.replace(/ /g, '_').toLowerCase()
+          if (item.fragment) {
+            url = url + "#f" + item.fragment
+          }
+          appendString += `
+            <p>
+              <a href="${url}"><div>
+              <p class="giveMeEllipsis">${item.excerpt}</p>
+              <p><span class="post-preview-title">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
+              </div></a> 
+            </p>
+            <hr>
+            `;
         }
       }
 

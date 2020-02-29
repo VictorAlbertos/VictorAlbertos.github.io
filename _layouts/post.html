@@ -2,14 +2,19 @@
 layout: default
 ---
 
-<h1 class="title-post">{{page.title}}</h1>
-{% assign post = site.posts | where: 'author', page.author | first %}
-<h3 class="title-post"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></h3>
+<!--
+	This is only used by post images
+ -->
 
-<hr>
+<h1 class="center-text">{{page.title}}</h1>
+{% assign post = site.posts | where: 'author', page.author | first %}
+<hr class="divider">
+<h3 class="center-text"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></h3>
+
+<br><br>
 
 {% if page.image %} 
-	<img src="/assets/img/{{page.image}}" alt="{{page.title}}"/>
+	<img src="/assets/img/{{page.image}}" class="center-image" alt="{{page.title}}"/>
 {% endif %}
 
 {{ content }}

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<h1 class="title-post"><a href="/titles/{{page.title downcase | replace: " ", "_" }}">{{ page.title }}</a></h1>
+
+{% assign post = site.posts | where: 'author', page.author | first %}
+<h3 class="title-post"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></h3>
+
+{% assign posts = site.posts | where: 'title', page.title %}
+{% for post in posts %}
+<a class="a_detail" name="f{{post.fragment}}">
+	<hr>
+	<div id="f{{post.fragment}}-target" >{{post.content}}</div>
+</a>
+	
+{% endfor %}
+<hr>
+
+<script src="/assets/js/highlight-fragment.js"></script>

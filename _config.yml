@@ -17,6 +17,10 @@ defaults:
     values:
       layout: "author"
   - scope:
+      path: "titles/*"
+    values:
+      layout: "title"
+  - scope:
       path: ""
     values:
       layout: "default"

@@ -1,6 +1,7 @@
 ---
 author: Maurice Blanchot
 title: Thomas el obscuro
+fragment: 1
 categories: [they, maurice_blanchot]
 ---
 

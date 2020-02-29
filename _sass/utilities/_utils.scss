@@ -34,16 +34,43 @@
   padding: 15px;
 }
 
-
-#highlight-me {
-  animation: glow 2000ms;
+.highlight-fragment {
+  animation: glow 1250ms;
   border-radius: 5px;
-  display: inline-block;
-  padding: 10px 10px;
+  padding: 20px 20px;
+  background-color: #fafafa;
+  box-shadow: 0 0 3px gray;
+}
+
+.remove-margin-bottom {
+  margin-bottom: 0 !important;
 }
 
 @keyframes glow {
   50% {
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 9px gray;
   }
 }
+
+.a_detail {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center-text  {
+  text-align: center;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+hr.divider { 
+  margin: .5em;
+  border-width: 1px;
+} 

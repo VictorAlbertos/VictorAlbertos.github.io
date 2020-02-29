@@ -19,7 +19,8 @@ window.store = {
     "title": "{{ post.title | xml_escape }}",
     "author": "{{ post.author | xml_escape }}",
     "image": "{{ post.image }}",
-    "excerpt": "{{ post.excerpt | truncate: 500 | strip_html | strip_newlines  }}"
+    "excerpt": "{{ post.excerpt | truncate: 500 | strip_html | strip_newlines  }}",
+    "fragment": "{{ post.fragment }}"
   }
   {% unless forloop.last %},{% endunless %}
   {% endfor %}

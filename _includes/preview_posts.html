@@ -1,28 +1,38 @@
 <!-- This loops through the paginated posts -->
-{% assign category = page.pagination.category %}
+{% assign category = paginator.posts[0].categories[0] %}
+
 {% if category == "image" %}
-  <div class="grid-container">
+<div class="grid-container">
   {% for post in paginator.posts %}
-      <a href="{{ post.url }}"><div class="grid-item">
-      <img src="/assets/img/{{post.image}}" width="600px" height="350px" class="centered-and-cropped grayscale" alt="{{post.title}}"/>
-      <i>{{ post.title }}</i>, <span> {{ post.author }} </span>
-      
-      </div>
-    </a> 
-  {% endfor %}
+  <a href="{{ post.url }}"><div class="grid-item">
+    <img src="/assets/img/{{post.image}}" width="600px" height="350px" class="centered-and-cropped grayscale" alt="{{post.title}}"/>
+    <i>{{ post.title }}</i>, <span> {{ post.author }} </span>
+
   </div>
+</a> 
+{% endfor %}
+</div>
 {% else %}
-  {% for post in paginator.posts %}
-    <p class="block">
-      <a href="{{ post.url }}"><div>
+{% for post in paginator.posts %}
+<p class="block">
+  {% if post.fragment %} 
+  <a href="../../titles/{{post.title | downcase | replace: " ", "_" }}#f{{post.fragment}}"><div>
+    {% else %} 
+    <a href="../../titles/{{post.title | downcase | replace: " ", "_" }}"><div>
+      {% endif %}
       <p class="giveMeEllipsis">{{ post.excerpt | strip_html | strip_newlines }}</p>
       {% if post.image %} 
-    <img src="/assets/img/{{post.image}}" width="300" height="250" class="centered-and-cropped grayscale" alt="{{post.title}}"/>
-    {% endif %}
-      <p><span class="post-preview-title">{{ post.title }}</span>, <span class="post-preview-author"> {{ post.author }} </span></p>
-      </div></a> 
-    </p>
-    <hr>
+      <img src="/assets/img/{{post.image}}" width="300" height="250" class="centered-and-cropped grayscale" alt="{{post.title}}"/>
+      {% endif %}
+
+      {% if include.hide_author %} 
+        <p><span class="post-preview-title">{{ post.title }}</span></p>
+      {% else %} 
+        <p><span class="post-preview-title">{{ post.title }}</span>, <span class="post-preview-author"> {{ post.author }} </span></p>
+      {% endif %}
+    </div></a> 
+  </p>
+  <hr>
   {% endfor %}
-{% endif %}
-{% include pagination_links.html %}
+  {% endif %}
+  {% include pagination_links.html %}
