@@ -16,9 +16,9 @@
 {% for post in paginator.posts %}
 <p class="block">
   {% if post.fragment %} 
-  <a href="../../titles/{{post.title | downcase | replace: " ", "_" }}#f{{post.fragment}}"><div>
+  <a href="../../titles/{{post.title | replace: " ", "_" }}#f{{post.fragment}}"><div>
     {% else %} 
-    <a href="../../titles/{{post.title | downcase | replace: " ", "_" }}"><div>
+    <a href="../../titles/{{post.title | replace: " ", "_" }}"><div>
       {% endif %}
       <p class="giveMeEllipsis">{{ post.excerpt | strip_html | strip_newlines }}</p>
       {% if post.image %} 

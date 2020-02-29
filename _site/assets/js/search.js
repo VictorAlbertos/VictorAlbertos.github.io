@@ -19,7 +19,7 @@
           <hr>
           `;
         } else {
-          var url = "../titles/" + item.title.replace(/ /g, '_').toLowerCase()
+          var url = "../titles/" + item.title.replace(/ /g, '_')
           if (item.fragment) {
             url = url + "#f" + item.fragment
           }
