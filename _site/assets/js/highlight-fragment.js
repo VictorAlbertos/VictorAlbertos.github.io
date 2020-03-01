@@ -11,5 +11,4 @@
 	allPs[allPs.length-1].classList.add("remove-margin-bottom")
 
 	element.classList.add("highlight-fragment")
-	
 })();

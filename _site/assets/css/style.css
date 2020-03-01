@@ -29,6 +29,8 @@
 
 hr.divider { margin: .5em; border-width: 1px; }
 
+p { text-align: justify; }
+
 /** _syntax-highlighting.scss Styles for syntax highlighting using Jekyll's configured highlighter. */
 .highlight .hll { background-color: #ffc; }
 
@@ -375,9 +377,9 @@ th { text-align: left; }
 
 tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9f9; }
 
-.giveMeEllipsis { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; /* number of lines to show */ }
+.truncate-text { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; /* number of lines to show */ }
 
-@media only screen and (max-width: 768px) { .giveMeEllipsis { -webkit-line-clamp: 6; /* number of lines to show */ } }
+@media only screen and (max-width: 768px) { .truncate-text { -webkit-line-clamp: 6; /* number of lines to show */ } }
 
 h1.title-post { padding: 0 !important; margin: 0 !important; line-height: 10px; }
 

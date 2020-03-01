@@ -20,9 +20,16 @@
     {% else %} 
     <a href="../../titles/{{post.title | replace: " ", "_" }}"><div>
       {% endif %}
-      <p class="giveMeEllipsis">{{ post.excerpt | strip_html | strip_newlines }}</p>
+    
       {% if post.image %} 
       <img src="/assets/img/{{post.image}}" width="300" height="250" class="centered-and-cropped grayscale" alt="{{post.title}}"/>
+      {% endif %}
+
+
+      {% if post.preview %} 
+      <p>{{ post.preview }}</p>
+      {% else %}
+      <p>{{ post.excerpt | truncate: 400 }}</p>
       {% endif %}
 
       {% if include.hide_author %} 

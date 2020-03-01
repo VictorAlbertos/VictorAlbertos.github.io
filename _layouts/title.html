@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h1 class="title-post"><a href="/titles/{{page.title downcase | replace: " ", "_" }}">{{ page.title }}</a></h1>
+<h1 class="title-post"><a href="/titles/{{page.title | replace: " ", "_" }}">{{ page.title }}</a></h1>
 
 {% assign post = site.posts | where: 'author', page.author | first %}
-<h3 class="title-post"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></h3>
+<h3 class="title-post"><a href="/authors/{{post.categories[1]}}"><em>{{ page.author }}</em></a></h3>
 
 {% assign posts = site.posts | where: 'title', page.title %}
 {% for post in posts %}
