@@ -2,23 +2,34 @@
 layout: default
 ---
 
-<a href="/titles/{{page.title | replace: " ", "_" }}"><span class="title-post">{{ page.title }}</span><span class="date-post"> ({{ page.year }})</span></a>
-
-{% assign post = site.posts | where: 'author', page.author | first %}
-</br>
-<span class="author-post"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></span>
-
-{% assign posts = site.posts | where: 'title', page.title %}
-{% for post in posts %}
-<a class="a_detail" name="f{{post.fragment}}">
-	<hr>
-	<div id="f{{post.fragment}}-target" >{{post.content}}</div>
-</a>
-	
+{% for file_name_author in site.data %}
+	{% for title in file_name_author[1][0].titles %}
+		{% if title.id == page.title_id %}
+			{% assign author = file_name_author[1][0] %}
+		    {% assign title = title %}
+	    {% endif %}
+	{% endfor %}
 {% endfor %}
+
+<a href="/titles/{{title.id}}"><span class="title-post">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
+
+</br>
+<span class="author-post"><a href="../../authors/{{author.id}}">{{ author.name }}</a></span>
+
+{% if title.fragments %}
+	{% for fragment in title.fragments %}
+		<a class="a_detail" name="{{fragment.number}}">
+			<hr>
+			<div id="{{fragment.number}}-target" >{{fragment.text}}</div>
+		</a>
+	{% endfor %}
+{% else %}
+	<hr>
+	{{title.text}}
+{% endif %}
+
 <hr>
 
 <script src="/assets/js/highlight-fragment.js"></script>
-
 
 {{page.content}}

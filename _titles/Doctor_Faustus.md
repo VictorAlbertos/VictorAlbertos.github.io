@@ -1,5 +1,3 @@
 ---
-author: Thomas Mann
-title: Doctor Faustus
-year: 1947
+title_id: doctor_faustus
 ---

@@ -1,5 +1,3 @@
 ---
-author: Victor Albertos
-title: Bichos
-year: 2019
+title_id: bichos
 ---

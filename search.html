@@ -15,22 +15,38 @@ title: Búsqueda
 <script>
 window.store = {
   {% for post in site.posts %}
-  "{{ post.url }}": {
-    {% if post.categories[0] == "image" %}
-      "title": "{{ post.title | xml_escape }}",
-      "author": "{{ post.author | xml_escape }}",
-      "image": "{{ post.image }}"
-    {% else %} 
-      {% assign title = site.titles | where: 'title', post.title | first %}
-      "title": "{{ title.title | xml_escape }}",
-      "author": "{{ title.author | xml_escape }}",
-      "image": "{{ post.image }}",
-      {% if post.preview %}
-      "excerpt": "{{ post.preview | strip_html | strip_newlines }}",
-      {% else %}
-      "excerpt": "{{ post.excerpt | truncate: 400 | strip_html | strip_newlines }}",
+    {% for file_name_author in site.data %}
+      {% if file_name_author[1][0].id == post.categories[1] %}
+      {% assign author = file_name_author[1][0] %}
       {% endif %}
-      "fragment": "{{ post.fragment }}"
+    {% endfor %}
+    {% assign title = author.titles | where: 'id', post.title_id | first %}
+    {% assign fragment = title.fragments | where: 'number', post.fragment | first %}
+
+    {% if post.categories[0] == "image" %}
+    "{{ post.url }}": {
+      "title": "{{ title.name | xml_escape }}",
+      "author": "{{ author.name | xml_escape }}",
+      "image": "{{ title.image }}"
+    {% else %} 
+    "{{ post.url }}": {
+      "title_id": "{{ title.id }}",
+      "title": "{{ title.name | xml_escape }}",
+      "author": "{{ author.name | xml_escape }}",
+      {% if fragment %}
+        {% if fragment.preview %}
+          "excerpt": "{{ fragment.preview | strip_html | strip_newlines }}",
+        {% else %}
+          "excerpt": "{{ fragment.text | strip_html | strip_newlines }}",
+        {% endif %}
+      {% else %}
+        {% if title.preview %}
+          "excerpt": "{{ title.preview | strip_html | strip_newlines }}",
+        {% else %}
+          "excerpt": "{{ title.text | strip_html | strip_newlines }}",
+        {% endif %}
+      {% endif %}
+      "fragment": "{{ fragment.number }}"
     {% endif %} 
   }
   {% unless forloop.last %},{% endunless %}
@@ -39,4 +55,14 @@ window.store = {
 </script>
 <script src="/assets/js/lunr.js"></script>
 <script src="/assets/js/search.js"></script>
+
+{% assign author = site.data.authors | where: 'id', 'maurice_blanchot' | first %}
+{{author.name}}
+
+{% assign title = author.titles | where: 'id', 'thomas_obscuro' | first %}
+{{title.name}}
+
+{% assign fragment = title.fragments | where: 'number', 'f1' | first %}
+{{fragment.preview}}
+
 

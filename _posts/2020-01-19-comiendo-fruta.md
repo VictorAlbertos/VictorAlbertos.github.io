@@ -1,7 +1,4 @@
 ---
-title: Comiendo fruta
-author: Francisco Pons Arnau
-year: 1933
-image: comiendo-fruta.jpg
+title_id: comiendo_fruta
 categories: [image, francisco_pons_arnau]
 ---

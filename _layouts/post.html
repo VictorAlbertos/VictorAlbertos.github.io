@@ -2,25 +2,28 @@
 layout: default
 ---
 
+{% for file_name_author in site.data %}
+	{% for title in file_name_author[1][0].titles %}
+		{% if title.id == page.title_id %}
+			{% assign author = file_name_author[1][0] %}
+		    {% assign title = title %}
+	    {% endif %}
+	{% endfor %}
+{% endfor %}
+
 <!--
 	This is only used by post images
  -->
+{% if author.category == 'image' %} 
+	<span class="title-post center-text">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span>
 
-{% assign post = site.posts | where: 'author', page.author | first %}
+	</br>
+	<hr class="divider">
+	<span class="author-post center-text"><a href="../../../../../../authors/{{author.id}}">{{ author.name }}</a></span>
 
-<a href="/titles/{{page.title | replace: " ", "_" }}"><span class="title-post center-text">{{ page.title }}</span><span class="date-post"> ({{ post.year }})</span></a>
+	<br><br><br>
 
-</br>
-<hr class="divider">
-<span class="author-post center-text"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></span>
-
-<br><br><br>
-
-{% if page.image %} 
-	<img src="/assets/img/{{page.image}}" class="center-image" alt="{{page.title}}"/>
+	<img src="/assets/img/{{title.image}}" class="center-image" alt="{{title.name}}"/>
+	
+	<hr>
 {% endif %}
-
-{{ content }}
-
-<hr>
-<!-- <p>{{ page.date | date_to_string }}</p> -->

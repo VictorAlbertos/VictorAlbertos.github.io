@@ -18,9 +18,9 @@
           <hr>
           `;
         } else {
-          var url = "../titles/" + item.title.replace(/ /g, '_')
+          var url = "../titles/" + item.title_id
           if (item.fragment) {
-            url = url + "#f" + item.fragment
+            url = url + "#" + item.fragment
           }
           appendString += `
             <p>

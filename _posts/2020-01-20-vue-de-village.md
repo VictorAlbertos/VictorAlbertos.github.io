@@ -1,7 +1,5 @@
 ---
 title: Vue de village
-author: Maurice de Vlaminck
-year: 1900
-image: vue-de-village.jpeg
+title_id: vue_de_village
 categories: [image, maurice_vlaminck]
 ---
