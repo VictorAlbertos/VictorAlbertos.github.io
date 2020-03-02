@@ -6,12 +6,15 @@ layout: default
 	This is only used by post images
  -->
 
-<h1 class="center-text">{{page.title}}</h1>
 {% assign post = site.posts | where: 'author', page.author | first %}
-<hr class="divider">
-<h3 class="center-text"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></h3>
 
-<br><br>
+<a href="/titles/{{page.title | replace: " ", "_" }}"><span class="title-post center-text">{{ page.title }}</span><span class="date-post"> ({{ post.year }})</span></a>
+
+</br>
+<hr class="divider">
+<span class="author-post center-text"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></span>
+
+<br><br><br>
 
 {% if page.image %} 
 	<img src="/assets/img/{{page.image}}" class="center-image" alt="{{page.title}}"/>

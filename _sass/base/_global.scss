@@ -87,13 +87,23 @@ tbody tr:nth-child(odd) th {
   }
 }
 
-h1.title-post {
-  padding: 0 !important;
-  margin: 0 !important;
-  line-height: 10px;
+span.title-post {
+  display: inline; 
+  font-size: 2em; 
+  font-weight: bold;
+  font-style: italic;
 }
 
-h3.title-post {
+span.date-post {
+  display: inline; 
+  font-size: 1.65em; 
+  font-weight: bold;
+}
+
+span.author-post {
+  display: inline; 
+  font-size: 1.5em; 
+  font-weight: bold;
   opacity: 0.75;
 }
 

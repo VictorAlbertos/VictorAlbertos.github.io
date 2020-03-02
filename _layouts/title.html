@@ -2,10 +2,11 @@
 layout: default
 ---
 
-<h1 class="title-post"><a href="/titles/{{page.title | replace: " ", "_" }}">{{ page.title }}</a></h1>
+<a href="/titles/{{page.title | replace: " ", "_" }}"><span class="title-post">{{ page.title }}</span><span class="date-post"> ({{ page.year }})</span></a>
 
 {% assign post = site.posts | where: 'author', page.author | first %}
-<h3 class="title-post"><a href="/authors/{{post.categories[1]}}"><em>{{ page.author }}</em></a></h3>
+</br>
+<span class="author-post"><a href="/authors/{{post.categories[1]}}">{{ page.author }}</a></span>
 
 {% assign posts = site.posts | where: 'title', page.title %}
 {% for post in posts %}
@@ -18,3 +19,6 @@ layout: default
 <hr>
 
 <script src="/assets/js/highlight-fragment.js"></script>
+
+
+{{page.content}}

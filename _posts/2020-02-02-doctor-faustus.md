@@ -1,6 +1,6 @@
 ---
-author: Thomas Mann
 title: Doctor Faustus
+author: Thomas Mann
 fragment: 2
 categories: [they, thomas_mann]
 ---

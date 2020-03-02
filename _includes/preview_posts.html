@@ -7,7 +7,6 @@
   <a href="{{ post.url }}"><div class="grid-item">
     <img src="/assets/img/{{post.image}}" width="600px" height="350px" class="centered-and-cropped grayscale" alt="{{post.title}}"/>
     <i>{{ post.title }}</i>, <span> {{ post.author }} </span>
-
   </div>
 </a> 
 {% endfor %}
@@ -24,7 +23,6 @@
       {% if post.image %} 
       <img src="/assets/img/{{post.image}}" width="300" height="250" class="centered-and-cropped grayscale" alt="{{post.title}}"/>
       {% endif %}
-
 
       {% if post.preview %} 
       <p>{{ post.preview }}</p>
