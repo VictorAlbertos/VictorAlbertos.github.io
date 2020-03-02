@@ -11,7 +11,15 @@ layout: default
 	{% endfor %}
 {% endfor %}
 
-<a href="/titles/{{title.id}}"><span class="title-post">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
+{% if title.format-title == 'italic' %}
+  <a href="/titles/{{title.id}}"><span class="title-post-italic">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
+{% elsif title.format-title == 'quotes' %}
+  <a href="/titles/{{title.id}}"><span class="title-post-none">«{{ title.name }}»</span><span class="date-post"> ({{ title.year }})</span></a>
+{% else %}
+  <a href="/titles/{{title.id}}"><span class="title-post-none">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
+{% endif %}
+
+
 
 </br>
 <span class="author-post"><a href="../../authors/{{author.id}}">{{ author.name }}</a></span>
@@ -32,4 +40,7 @@ layout: default
 
 <script src="/assets/js/highlight-fragment.js"></script>
 
-{{page.content}}
+{% if title.reference %}
+	<p>{{title.reference}}</p>
+	<hr>
+{% endif %}

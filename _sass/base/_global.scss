@@ -87,11 +87,17 @@ tbody tr:nth-child(odd) th {
   }
 }
 
-span.title-post {
+span.title-post-italic {
   display: inline; 
   font-size: 1.65em; 
   font-weight: bold;
   font-style: italic;
+}
+
+span.title-post-none {
+  display: inline; 
+  font-size: 1.65em; 
+  font-weight: bold;
 }
 
 span.date-post {
@@ -107,9 +113,13 @@ span.author-post {
   opacity: 0.75;
 }
 
-span.post-preview-title {
+span.post-preview-title-italic {
   font-weight: bold;
   font-style: italic;
+}
+
+span.post-preview-title-none {
+  font-weight: bold;
 }
 
 span.post-preview-author {

@@ -381,13 +381,17 @@ tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th { background-color: #f9f9
 
 @media only screen and (max-width: 768px) { .truncate-text { -webkit-line-clamp: 6; /* number of lines to show */ } }
 
-span.title-post { display: inline; font-size: 1.65em; font-weight: bold; font-style: italic; }
+span.title-post-italic { display: inline; font-size: 1.65em; font-weight: bold; font-style: italic; }
+
+span.title-post-none { display: inline; font-size: 1.65em; font-weight: bold; }
 
 span.date-post { display: inline; font-size: 1.5em; font-weight: bold; }
 
 span.author-post { display: inline; font-size: 1.35em; font-weight: bold; opacity: 0.75; }
 
-span.post-preview-title { font-weight: bold; font-style: italic; }
+span.post-preview-title-italic { font-weight: bold; font-style: italic; }
+
+span.post-preview-title-none { font-weight: bold; }
 
 span.post-preview-author { font-weight: bold; }
 
