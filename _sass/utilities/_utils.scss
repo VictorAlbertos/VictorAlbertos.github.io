@@ -17,7 +17,9 @@
     object-fit: cover;
   }
 
-  .grayscale { filter: grayscale(100%); }
+  .grayscale { 
+    filter: grayscale(100%) contrast(150%); 
+  }
 
 .grid-container {
   display: grid;
