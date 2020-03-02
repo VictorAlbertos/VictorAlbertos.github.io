@@ -13,29 +13,28 @@
 </div>
 {% else %}
 {% for post in paginator.posts %}
+
+{% assign title = site.titles | where: 'title', post.title | first %}
+
 <p class="block">
   {% if post.fragment %} 
-  <a href="../../titles/{{post.title | replace: " ", "_" }}#f{{post.fragment}}"><div>
-    {% else %} 
-    <a href="../../titles/{{post.title | replace: " ", "_" }}"><div>
-      {% endif %}
-    
-      {% if post.image %} 
-      <img src="/assets/img/{{post.image}}" width="300" height="250" class="centered-and-cropped grayscale" alt="{{post.title}}"/>
-      {% endif %}
+    <a href="../../titles/{{title.title | replace: " ", "_" }}#f{{post.fragment}}"><div>
+  {% else %} 
+    <a href="../../titles/{{title.title | replace: " ", "_" }}"><div>
+  {% endif %}
 
-      {% if post.preview %} 
-      <p>{{ post.preview }}</p>
-      {% else %}
-      <p>{{ post.excerpt | truncate: 400 }}</p>
-      {% endif %}
+  {% if post.preview %} 
+  <p>{{ post.preview }}</p>
+  {% else %}
+  <p>{{ post.excerpt | truncate: 400 }}</p>
+  {% endif %}
 
-      {% if include.hide_author %} 
-        <p><span class="post-preview-title">{{ post.title }}</span></p>
-      {% else %} 
-        <p><span class="post-preview-title">{{ post.title }}</span>, <span class="post-preview-author"> {{ post.author }} </span></p>
-      {% endif %}
-    </div></a> 
+  {% if include.hide_author %} 
+    <p><span class="post-preview-title">{{ title.title }}</span></p>
+  {% else %} 
+    <p><span class="post-preview-title">{{ title.title }}</span>, <span class="post-preview-author"> {{ title.author }} </span></p>
+  {% endif %}
+</div></a> 
   </p>
   <hr>
   {% endfor %}

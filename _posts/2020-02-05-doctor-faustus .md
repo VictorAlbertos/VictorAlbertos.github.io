@@ -1,6 +1,5 @@
 ---
 title: Doctor Faustus
-author: Thomas Mann
 fragment: 3
 categories: [they, thomas_mann]
 preview: «Kretzschmar llamaba la atención sobre la debilidad de ciertos pasajes, recomendaba un perfil más acentuado para ciertos temas, una mayor vitalidad para un ritmo demasiado rígido. Señalaba con el dedo tal frase de transición que sólo se aguantaba superficialmente, que carecía de justificación orgánica y que, por consiguiente, comprometía el desenvolvimiento natural de la composición [...]

@@ -1,6 +1,10 @@
 plugins:
   - jekyll-paginate-v2
 
+collections:
+  titles:
+    output: true
+
 pagination:
   enabled: true
   per_page: 20
@@ -17,7 +21,7 @@ defaults:
     values:
       layout: "author"
   - scope:
-      path: "titles/*"
+      type: "titles"
     values:
       layout: "title"
   - scope:

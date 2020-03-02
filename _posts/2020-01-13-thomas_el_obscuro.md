@@ -1,7 +1,5 @@
 ---
-author: Maurice Blanchot
 title: Thomas el obscuro
-year: 1982
 fragment: 1
 categories: [they, maurice_blanchot]
 preview: «No le era posible abandonar su proyecto. Pues, ¿cómo habría podido callarse, ella, cuyo lenguaje estaba varios grados por debajo del silencio? ¿Dejar de estar allí? ¿Dejar de vivir? Otras tantas estratagemas irrisorias que no hubieran conseguido más que precipitar, con su muerte, cerrando todas las salidas, la carrera eterna en el laberinto del que, mientras tenía la perspectiva del tiempo, conservaba la esperanza de salir [...]

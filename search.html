@@ -16,15 +16,22 @@ title: Búsqueda
 window.store = {
   {% for post in site.posts %}
   "{{ post.url }}": {
-    "title": "{{ post.title | xml_escape }}",
-    "author": "{{ post.author | xml_escape }}",
-    "image": "{{ post.image }}",
-    {% if post.preview %}
-    "excerpt": "{{ post.preview | strip_html | strip_newlines }}",
-    {% else %}
-    "excerpt": "{{ post.excerpt | truncate: 400 | strip_html | strip_newlines }}",
-    {% endif %}
-    "fragment": "{{ post.fragment }}"
+    {% if post.categories[0] == "image" %}
+      "title": "{{ post.title | xml_escape }}",
+      "author": "{{ post.author | xml_escape }}",
+      "image": "{{ post.image }}"
+    {% else %} 
+      {% assign title = site.titles | where: 'title', post.title | first %}
+      "title": "{{ title.title | xml_escape }}",
+      "author": "{{ title.author | xml_escape }}",
+      "image": "{{ post.image }}",
+      {% if post.preview %}
+      "excerpt": "{{ post.preview | strip_html | strip_newlines }}",
+      {% else %}
+      "excerpt": "{{ post.excerpt | truncate: 400 | strip_html | strip_newlines }}",
+      {% endif %}
+      "fragment": "{{ post.fragment }}"
+    {% endif %} 
   }
   {% unless forloop.last %},{% endunless %}
   {% endfor %}

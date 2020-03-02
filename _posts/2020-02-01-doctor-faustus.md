@@ -1,6 +1,5 @@
 ---
 title: Doctor Faustus
-author: Thomas Mann
 fragment: 1
 categories: [they, thomas_mann]
 preview: «Su suerte fue, sin embargo, grande, ya que antes de que expirara el plazo permitió Dios, en su bondad infinita, que cayera en manos de la Inquisición, y desde los primeros grados de la cuestión confesó, plenamente arrepentida, su crimen, lo que permiten pensar que no le fue negado el perdón de Dios [...]
