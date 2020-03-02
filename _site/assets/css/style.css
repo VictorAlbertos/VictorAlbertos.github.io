@@ -387,6 +387,8 @@ span.title-post-none { display: inline; font-size: 1.65em; font-weight: bold; }
 
 span.date-post { display: inline; font-size: 1.5em; font-weight: bold; }
 
+span.date-post-preview { display: inline; font-size: .9em; font-weight: bold; }
+
 span.author-post { display: inline; font-size: 1.35em; font-weight: bold; opacity: 0.75; }
 
 span.post-preview-title-italic { font-weight: bold; font-style: italic; }

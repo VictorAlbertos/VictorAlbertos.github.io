@@ -12,7 +12,7 @@
           <p>
             <a href="${results[i].ref}"><div>
             <img src="/assets/img/${item.image}" width="400px" height="350px" class="centered-and-cropped grayscale"/>
-            <p><span class="post-preview-title">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
+            <p><span class="post-preview-title-italic">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
             </div></a> 
           </p>
           <hr>
@@ -26,7 +26,7 @@
             <p>
               <a href="${url}"><div>
               <p>${item.excerpt}</p>
-              <p><span class="post-preview-title">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
+              <p><span class="post-preview-title-italic">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
               </div></a> 
             </p>
             <hr>

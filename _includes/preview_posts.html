@@ -49,19 +49,19 @@
       
       {% if include.hide_author %} 
         {% if title.format-title == 'italic' %}
-          <p><span class="post-preview-title-italic">{{ title.name }}</span></p>
+          <p><span class="post-preview-title-italic">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span></p>
         {% elsif title.format-title == 'quotes' %}
-          <p><span class="post-preview-title-none">«{{title.name }}»</span></p>
+          <p><span class="post-preview-title-none">«{{title.name }}»</span><span class="date-post-preview"> ({{ title.year }})</span></p>
         {% else %}
-          <p><span class="post-preview-title-none">{{ title.name }}</span></p>
+          <p><span class="post-preview-title-none">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span></p>
         {% endif %}
       {% else %} 
         {% if title.format-title == 'italic' %}
-          <p><span class="post-preview-title-italic">{{ title.name }}</span>, <span class="post-preview-author"> {{ author.name }} </span></p>
+          <p><span class="post-preview-title-italic">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>, <span class="post-preview-author"> {{ author.name }} </span></p>
         {% elsif title.format-title == 'quotes' %}
-          <p><span class="post-preview-title-none">«{{ title.name }}»</span>, <span class="post-preview-author"> {{ author.name }} </span></p>
+          <p><span class="post-preview-title-none">«{{ title.name }}»</span><span class="date-post-preview"> ({{ title.year }})</span>, <span class="post-preview-author"> {{ author.name }} </span></p>
         {% else %}
-          <p><span class="post-preview-title-none">{{ title.name }}</span>, <span class="post-preview-author"> {{ author.name }} </span></p>
+          <p><span class="post-preview-title-none">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>, <span class="post-preview-author"> {{ author.name }} </span></p>
         {% endif %}
       {% endif %}
     </div></a> 

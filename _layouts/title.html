@@ -28,7 +28,7 @@ layout: default
 	{% for fragment in title.fragments %}
 		<a class="a_detail" name="{{fragment.number}}">
 			<hr>
-			<div id="{{fragment.number}}-target" >{{fragment.text}}</div>
+			<div id="{{fragment.number}}-target"><p>{{fragment.text}}</p></div>
 		</a>
 	{% endfor %}
 {% else %}

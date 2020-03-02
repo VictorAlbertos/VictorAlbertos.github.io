@@ -30,7 +30,7 @@ window.store = {
       "image": "{{ title.image }}"
     {% else %} 
     "{{ post.url }}": {
-      "title_id": "{{ title.id }}",
+      "title_id": "{{ title.id  | xml_escape}}",
       "title": "{{ title.name | xml_escape }}",
       "author": "{{ author.name | xml_escape }}",
       {% if fragment %}
