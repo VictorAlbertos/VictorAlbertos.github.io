@@ -353,9 +353,9 @@ template { display: none; }
 /** _global.scss Foundational and global aspects of the page. */
 * { -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-html { font-family: "Roboto"; font-size: 21px; line-height: 1.5; }
+html { font-family: "Roboto"; font-size: 19px; line-height: 1.5; }
 
-@media (max-width: 38em) { html { font-size: 18px; } }
+@media (max-width: 38em) { html { font-size: 17px; } }
 
 body { color: #515151; background-color: #ffffff; border-top: 0px solid #000000; }
 
@@ -436,7 +436,7 @@ a[href^="#fn:"], a[href^="#fnref:"] { display: inline-block; margin-left: .1rem;
 .lead { font-size: 1.25rem; font-weight: 300; }
 
 /** _navigation.scss Styles for the main navigation bar on top of the page. */
-.nav-main { font-size: 21px; text-align: center; margin-bottom: 4rem; }
+.nav-main { font-size: 19px; text-align: center; margin-bottom: 4rem; }
 
 @media (max-width: 38em) { .nav-main { margin-bottom: 4rem; } }
 
