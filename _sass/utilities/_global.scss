@@ -293,11 +293,6 @@ span.post-preview-author {
     text-shadow: 1px 1px 1px #aaa;
 }
 
-.container {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .white {
   color: white!important;
   font-size: 1.5em;
@@ -329,6 +324,18 @@ a.black:hover {
   margin-top: 1em;
 }
 
-.container {
-  max-width: 80%
+.container { margin-top: 2rem; margin-bottom: 2rem; }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .container {
+    max-width: 80%
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .container {
+    max-width: 80%
+  }
 }

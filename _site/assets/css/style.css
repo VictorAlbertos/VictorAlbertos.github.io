@@ -115,8 +115,6 @@ span.post-preview-author { font-weight: bold; }
 
 .title { font-family: 'Roboto Slab', serif; text-shadow: 1px 1px 1px #aaa; }
 
-.container { margin-top: 2rem; margin-bottom: 2rem; }
-
 .white { color: white !important; font-size: 1.5em; }
 
 a.white:hover { opacity: 0.85; }
@@ -131,6 +129,10 @@ a.black:hover { opacity: 0.5; }
 
 .fa-margin-top { margin-top: 1em; }
 
-.container { max-width: 80%; }
+.container { margin-top: 2rem; margin-bottom: 2rem; }
+
+@media (min-width: 992px) { .container { max-width: 80%; } }
+
+@media (min-width: 1200px) { .container { max-width: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
