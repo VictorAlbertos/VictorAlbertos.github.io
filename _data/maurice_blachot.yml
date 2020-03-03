@@ -6,6 +6,7 @@
     name: Thomas el obscuro 
     year: 1982
     format-title: italic
+    image: 'thomas-obscuro.jpeg'
     fragments: 
     - number: 'f2'
       publication-date: '2020-01-14'

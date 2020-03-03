@@ -1,6 +1,7 @@
 <!-- This loops through the paginated posts -->
 {% assign category = paginator.posts[0].categories[0] %}
 
+<br>
 {% if category == "image" %}
   <div class="grid-container">
     {% for post in paginator.posts %}
@@ -29,7 +30,6 @@
     {% endfor %}
     {% assign title = author.titles | where: 'id', post.title_id | first %}
     {% assign fragment = title.fragments | where: 'number', post.fragment | first %}
-
     <p class="block">
       {% if fragment %} 
         <a href="../../../titles/{{title.id}}#{{fragment.number}}"><div>
@@ -66,7 +66,7 @@
       {% endif %}
     </div></a> 
       </p>
-      <hr>
+  <hr>
   {% endfor %}
 {% endif %}
 {% include pagination_links.html %}

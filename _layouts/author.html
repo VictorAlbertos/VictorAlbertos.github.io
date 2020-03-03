@@ -5,9 +5,9 @@ layout: default
 {% for file_name_author in site.data %}
     {% if file_name_author[1][0].id == paginator.posts[0].categories[1] %}
 	    {% assign author = file_name_author[1][0] %}
-	    <h2>{{author.name}}</h2>
-		<hr>
     {% endif %}
 {% endfor %}
+
+<h2>{{ author.name }}</h2>
 
 {% include preview_posts.html hide_author="True" %}

@@ -11,11 +11,19 @@ layout: default
 	{% endfor %}
 {% endfor %}
 
+<div class="card" style="width:100%">
+	{% if title.image %}
 
-<div class="card">
-  <img src="/assets/img/desobra-landscape-post.jpeg" class="portrait-post" />
-
-<div class="card-container black-background">
+		{% if title.image-pct-contrast %}
+		<img class="card-img-top" style="filter: grayscale(100%) contrast({{title.image-pct-contrast}}%)"src="/assets/img/{{title.image}}" alt="Card image">
+		{% else %}
+		<img class="card-img-top" style="filter: grayscale(100%) contrast(150%)"src="/assets/img/{{title.image}}" alt="Card image">
+		{% endif %}
+	{% else %}
+		<img class="card-img-top" style="filter: grayscale(100%) contrast(150%)" src="/assets/img/desobra-landscape-post.jpeg" alt="Card image">
+	{% endif %}
+ <div class="card-container black-background">
+ 	<div class="wrapper-black-background-bottom">
 	{% if title.format-title == 'italic' %}
 	  <a href="/titles/{{title.id}}"><span class="title-post-italic">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
 	{% elsif title.format-title == 'quotes' %}
@@ -23,15 +31,37 @@ layout: default
 	{% else %}
 	  <a href="/titles/{{title.id}}"><span class="title-post-none">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
 	{% endif %}
-
 	</br>
 	<a href="../../authors/{{author.id}}"><span class="author-post">{{ author.name }}</span></a>
+	</div>
+
+ 	<div class="float-right wrapper-black-background-right-bottom">
+
+		<div class="row icons-share-cover-image">
+		{% capture twitter_url_to_share %}
+			https://desobra.org/titles/{{title.id}}
+		{% endcapture %}
+		{% capture text_to_share %}
+			{{title.name}} ({{title.year}}), {{author.name}}
+		{% endcapture %}
+        <div><a href="https://twitter.com/share?url={{twitter_url_to_share}}&text={{text_to_share}}" class="fa fa-margin-right white fa-twitter-square fa-lg"></a></div> 
+
+        {% capture facebook_url_to_share %}
+			https://desobra.org/titles/{{title.id}}
+		{% endcapture %}
+        <div><a href="https://www.facebook.com/sharer/sharer.php?u={{facebook_url_to_share}}" class="fa white fa-facebook-square fa-lg"></a></div>
+    </div>
+</div>
 </div>
 
 {% if title.fragments %}
 	{% for fragment in title.fragments %}
 		<a class="a_detail" name="{{fragment.number}}">
-			<div class="card-container" id="{{fragment.number}}-target"><p>{{fragment.text}}</p></div>
+			<div class="card-container" id="{{fragment.number}}-target"><p>{{fragment.text}}</p>
+				<div class="row fa-margin-top"> 					
+			        <div><a onclick="go_to_fragment('{{fragment.number}}')" href="/titles/{{title.id}}#{{fragment.number}}" class="fa black fa-share-square fa-lg"></a></div>
+			    </div>
+			    </div>
 		</a>
 	{% endfor %}
 {% else %}
@@ -45,6 +75,4 @@ layout: default
 {% endif %}
 
 </div>
-
-</br>
-</br>
+</div>

@@ -26,6 +26,7 @@
             <p>
               <a href="${url}"><div>
               <p>${item.excerpt}</p>
+              <br>
               <p><span class="post-preview-title-italic">${item.title}</span>, <span class="post-preview-author"> ${item.author} </span></p>
               </div></a> 
             </p>
