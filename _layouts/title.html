@@ -11,36 +11,40 @@ layout: default
 	{% endfor %}
 {% endfor %}
 
-{% if title.format-title == 'italic' %}
-  <a href="/titles/{{title.id}}"><span class="title-post-italic">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
-{% elsif title.format-title == 'quotes' %}
-  <a href="/titles/{{title.id}}"><span class="title-post-none">«{{ title.name }}»</span><span class="date-post"> ({{ title.year }})</span></a>
-{% else %}
-  <a href="/titles/{{title.id}}"><span class="title-post-none">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
-{% endif %}
 
+<div class="card">
+  <img src="/assets/img/desobra-landscape-post.jpeg" class="portrait-post" />
 
+<div class="card-container black-background">
+	{% if title.format-title == 'italic' %}
+	  <a href="/titles/{{title.id}}"><span class="title-post-italic">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
+	{% elsif title.format-title == 'quotes' %}
+	  <a href="/titles/{{title.id}}"><span class="title-post-none">«{{ title.name }}»</span><span class="date-post"> ({{ title.year }})</span></a>
+	{% else %}
+	  <a href="/titles/{{title.id}}"><span class="title-post-none">{{ title.name }}</span><span class="date-post"> ({{ title.year }})</span></a>
+	{% endif %}
 
-</br>
-<span class="author-post"><a href="../../authors/{{author.id}}">{{ author.name }}</a></span>
+	</br>
+	<a href="../../authors/{{author.id}}"><span class="author-post">{{ author.name }}</span></a>
+</div>
 
 {% if title.fragments %}
 	{% for fragment in title.fragments %}
 		<a class="a_detail" name="{{fragment.number}}">
-			<hr>
-			<div id="{{fragment.number}}-target"><p>{{fragment.text}}</p></div>
+			<div class="card-container" id="{{fragment.number}}-target"><p>{{fragment.text}}</p></div>
 		</a>
 	{% endfor %}
 {% else %}
-	<hr>
-	{{title.text}}
+	<div class="card-container"><p>{{title.text}}</p></div>
 {% endif %}
-
-<hr>
 
 <script src="/assets/js/highlight-fragment.js"></script>
 
 {% if title.reference %}
-	<p>{{title.reference}}</p>
-	<hr>
+	<div class="card-container-footer"><p>{{title.reference}}</p></div>
 {% endif %}
+
+</div>
+
+</br>
+</br>
