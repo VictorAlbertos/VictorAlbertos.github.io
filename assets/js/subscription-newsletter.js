@@ -1,6 +1,12 @@
+  $(document).on('show.bs.modal', '#submit-modal', function (e) {
+    var tag = document.createElement("script");
+    tag.src = "//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js";
+    document.getElementsByTagName("head")[0].appendChild(tag);
+  });
+
   function validate() {
-  	$("#btn-submit").click(function(e){
-      $('#submit-modal').modal('hide')
+  	$("#btn-submit").click(function(e) {
+        setTimeout(function(){ location.reload();}, 2000);
     });
 
     var valid = checkEmail($("#email"));
