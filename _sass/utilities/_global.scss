@@ -78,7 +78,7 @@ p {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .card-container {
@@ -92,12 +92,6 @@ p {
   .card-container {
     padding: 1rem;
   }
-}
-
-.card-container-footer {
-  padding: 2rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -118,6 +112,7 @@ p {
 .wrapper-black-background-bottom {
   bottom: 1rem;
   position: absolute;
+  margin-right: 5em;
 }
 
 .wrapper-black-background-right-bottom {
@@ -128,7 +123,7 @@ p {
   object-fit: cover;
   width: 100%;
   height:20rem; 
-  border-radius: 1px 1px 0 0;
+  border-radius: 4px 4px 0 0;
   margin: 0 0 0;
 }
 
@@ -172,7 +167,7 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 table {
@@ -338,4 +333,8 @@ a.black:hover {
   .container {
     max-width: 80%
   }
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;
 }

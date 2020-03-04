@@ -43,23 +43,21 @@ hr.divider { margin: .5em; border-width: 1px; }
 
 p { text-align: justify; margin-bottom: 0 !important; }
 
-.card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); transition: 0.3s; border-radius: 2px; }
+.card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); transition: 0.3s; border-radius: 4px; }
 
 .card-container { padding: 2rem; padding-top: 1.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid #fafafa; }
 
 @media only screen and (max-width: 768px) { .card-container { padding: 1rem; } }
 
-.card-container-footer { padding: 2rem; padding-top: 1.5rem; padding-bottom: 1.5rem; }
-
 @media only screen and (max-width: 768px) { .card-container-footer { padding: 1rem; } }
 
 .black-background { background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)); padding-top: 1rem; padding-bottom: 1rem; position: absolute; width: 100%; height: 20rem; }
 
-.wrapper-black-background-bottom { bottom: 1rem; position: absolute; }
+.wrapper-black-background-bottom { bottom: 1rem; position: absolute; margin-right: 5em; }
 
 .wrapper-black-background-right-bottom { margin-top: 16.25rem; }
 
-.card-img-top { object-fit: cover; width: 100%; height: 20rem; border-radius: 1px 1px 0 0; margin: 0 0 0; }
+.card-img-top { object-fit: cover; width: 100%; height: 20rem; border-radius: 4px 4px 0 0; margin: 0 0 0; }
 
 html { font-family: "Roboto"; font-size: 20px; line-height: 1.5; }
 
@@ -75,7 +73,7 @@ a strong { color: inherit; }
 
 footer { text-align: center; text-transform: lowercase; margin-bottom: 2rem; }
 
-img { display: block; max-width: 100%; margin: 0 0 1rem; border-radius: 5px; }
+img { display: block; max-width: 100%; margin: 0 0 1rem; border-radius: 4px; }
 
 table { margin-bottom: 1rem; width: 100%; font-size: 85%; border: 1px solid #e5e5e5; border-collapse: collapse; }
 
@@ -134,5 +132,7 @@ a.black:hover { opacity: 0.5; }
 @media (min-width: 992px) { .container { max-width: 80%; } }
 
 @media (min-width: 1200px) { .container { max-width: 80%; } }
+
+.navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; }
 
 /*# sourceMappingURL=style.css.map */
