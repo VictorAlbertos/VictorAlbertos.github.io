@@ -64,12 +64,15 @@ def generate_title_page(author):
         return
 
     titles = author['titles']
-
     for title in titles:
-        id_title = title['id']
-        contents = f'---\ntitle_id: {id_title}\n---'
-        with open(f'{path_titles}/{id_title}.md', "w") as text_file:
-            text_file.write(contents)
+        fragments = title['fragments'] if "fragments" in title else ['fragments']
+        any_fragment_released = any("publication-date" in fragment for fragment in fragments)
+
+        if "publication-date" in title or any_fragment_released:
+            id_title = title['id']
+            contents = f'---\ntitle_id: {id_title}\n---'
+            with open(f'{path_titles}/{id_title}.md', "w") as text_file:
+                text_file.write(contents)
 
 
 authors = load_authors_json()
