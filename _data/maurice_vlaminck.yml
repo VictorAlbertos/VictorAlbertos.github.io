@@ -2,8 +2,8 @@
   name: Maurice de Vlaminck
   category: image
   titles:
-  - id: vue_de_village
-    name: Vue de village 
-    publication-date: '2020-01-20'
-    year: 1900
-    image: 'vue-de-village.jpeg'
+    - id: vue_de_village
+      name: Vue de village
+      publication-date: '2020-01-20'
+      year: 1900
+      image: 'vue-de-village.jpeg'

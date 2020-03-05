@@ -2,8 +2,8 @@
   name: Francisco Pons Arnau
   category: image
   titles:
-  - id: comiendo_fruta
-    name: Comiendo fruta
-    publication-date: '2020-01-19'
-    year: 1933
-    image: comiendo-fruta.jpg
+    - id: comiendo_fruta
+      name: Comiendo fruta
+      publication-date: '2020-01-19'
+      year: 1933
+      image: comiendo-fruta.jpg
