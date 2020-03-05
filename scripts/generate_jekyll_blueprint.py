@@ -46,7 +46,15 @@ path_posts = '_posts'
 
 clear_previous_generated_folder(path_authors)
 clear_previous_generated_folder(path_titles)
-#clear_previous_generated_folder(path_posts)
+
+
+# clear_previous_generated_folder(path_posts)
+
+
+def is_title_ready_to_be_published(title):
+    fragments = title['fragments'] if "fragments" in title else ['fragments']
+    any_fragment_released = any("publication-date" in fragment for fragment in fragments)
+    return "publication-date" in title or any_fragment_released
 
 
 def generate_author(author):
@@ -67,17 +75,21 @@ def generate_title_page(author):
 
     titles = author['titles']
     for title in titles:
-        fragments = title['fragments'] if "fragments" in title else ['fragments']
-        any_fragment_released = any("publication-date" in fragment for fragment in fragments)
-
-        if "publication-date" in title or any_fragment_released:
+        if is_title_ready_to_be_published(title):
             id_title = title['id']
             contents = f'---\ntitle_id: {id_title}\n---'
             with open(f'{path_titles}/{id_title}.md', "w") as text_file:
                 text_file.write(contents)
 
 
+def generate_post(author):
+    titles = author['titles']
+    for title in titles:
+        fragments = title['fragments'] if "fragments" in title else ['fragments']
+
+
 authors = load_authors_json()
 for author in authors:
     generate_author(author)
     generate_title_page(author)
+    #generate_post(author)
