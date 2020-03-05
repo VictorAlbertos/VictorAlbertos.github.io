@@ -19,7 +19,7 @@ $(document).on('show.bs.modal', '#submit-modal', function (e) {
   	$("#btn-submit").click(function(e) {
         setTimeout(function(){ 
           window.location.search += '&welcome-message-subscribe=True';
-        }, 2000);
+        }, 500);
     });
 
     var valid = checkEmail($("#email"));
