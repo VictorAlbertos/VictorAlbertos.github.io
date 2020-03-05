@@ -15,7 +15,7 @@
          {% endfor %}
       {% if title %}
       <meta property="og:image" content="https://desobra.org/assets/img/{{title.image}}" />
-      <meta property="og:title" content="{{title.name}}" />
+      <meta property="og:title" content="{{title.name}} ({{title.year}}), {{author.name}}" />
       <meta property="og:url" content="https://desobra.org/titles/{{title.id}}" />
       {% endif %}
       <title>Desobra</title>
