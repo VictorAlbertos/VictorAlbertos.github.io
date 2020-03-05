@@ -52,11 +52,11 @@ clear_previous_generated_folder(path_titles)
 def generate_author(author):
     id_author = author['id']
     os.mkdir(f'{path_authors}/{id_author}')
-    contents = f"""---
+    contents = f'''---
 pagination:
   enabled: true
-  category: """ + id_author + """
----"""
+  category: {id_author}
+---'''
     with open(f'{path_authors}/{id_author}/paginated.html', "w") as text_file:
         text_file.write(contents)
 
