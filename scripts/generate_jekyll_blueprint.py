@@ -1,37 +1,8 @@
-# 			---
-#
-#
-#
-#
-#
-#
-#
-# generate:post
-# if category == image
-# 	---
-# 	title: Vue de village
-# 	title_id: vue_de_village
-# 	categories: [image, maurice_vlaminck]
-# 	---
-#
-#
-#
-#
-# if category != image
-# 	generate_title
-
 import yaml
 import os
 from os import listdir
 from os.path import isfile, join
 import shutil
-
-
-def load_authors_json():
-    root_path = '_data'
-    file_names = [f for f in listdir(root_path) if isfile(join(root_path, f)) and f != ".DS_Store"]
-    contents = [open(f'{root_path}/{file_name}', 'r').read() for file_name in file_names]
-    return [yaml.load(content)[0] for content in contents]
 
 
 def clear_previous_generated_folder(path):
@@ -40,19 +11,18 @@ def clear_previous_generated_folder(path):
     os.mkdir(path)
 
 
+root_data = '_data'
 path_authors = 'authors'
 path_titles = '_titles'
 path_posts = '_posts'
 
 clear_previous_generated_folder(path_authors)
 clear_previous_generated_folder(path_titles)
-
-
-# clear_previous_generated_folder(path_posts)
+clear_previous_generated_folder(path_posts)
 
 
 def is_title_ready_to_be_published(title):
-    fragments = title['fragments'] if "fragments" in title else ['fragments']
+    fragments = title['fragments'] if "fragments" in title else []
     any_fragment_released = any("publication-date" in fragment for fragment in fragments)
     return "publication-date" in title or any_fragment_released
 
@@ -69,7 +39,7 @@ pagination:
         text_file.write(contents)
 
 
-def generate_title_page(author):
+def generate_title_pages(author):
     if author['category'] == 'image':
         return
 
@@ -82,14 +52,46 @@ def generate_title_page(author):
                 text_file.write(contents)
 
 
-def generate_post(author):
+def generate_posts(author):
+    author_id = author['id']
+    author_category = author['category']
     titles = author['titles']
+
     for title in titles:
-        fragments = title['fragments'] if "fragments" in title else ['fragments']
+        if not is_title_ready_to_be_published(title):
+            continue
+
+        id_title = title['id']
+        fragments = title['fragments'] if "fragments" in title else []
+
+        if not fragments:
+            contents = f'''---
+title_id: {id_title}
+categories: [{author_category}, {author_id}]
+---'''
+            file_post_name = path_posts + '/' + title['publication-date'] + '-' + id_title + '.md'
+            with open(file_post_name, "w") as text_file:
+                text_file.write(contents)
+        else:
+            for fragment in fragments:
+                if "publication-date" not in fragment:
+                    continue
+                fragment_number = fragment['number']
+                contents = f'''---
+title_id: {id_title}
+fragment: {fragment_number}
+categories: [{author_category}, {author_id}]
+---'''
+                file_post_name = path_posts + '/' + fragment['publication-date'] + '-' + id_title + '.md'
+                with open(file_post_name, "w") as text_file:
+                    text_file.write(contents)
 
 
-authors = load_authors_json()
+file_names = [f for f in listdir(root_data) if isfile(join(root_data, f)) and f != ".DS_Store"]
+contents = [open(f'{root_data}/{file_name}', 'r').read() for file_name in file_names]
+authors = [yaml.load(content)[0] for content in contents]
+
 for author in authors:
     generate_author(author)
-    generate_title_page(author)
-    #generate_post(author)
+    generate_title_pages(author)
+    generate_posts(author)

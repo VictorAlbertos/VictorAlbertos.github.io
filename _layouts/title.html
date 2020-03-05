@@ -56,6 +56,7 @@ layout: default
 
 {% if title.fragments %}
 	{% for fragment in title.fragments %}
+		{% if fragment.publication-date %}
 		<a class="a_detail" name="{{fragment.number}}">
 			<div class="card-container" id="{{fragment.number}}-target"><p>{{fragment.text}}</p>
 				<div class="row fa-margin-top"> 					
@@ -63,6 +64,7 @@ layout: default
 			    </div>
 			    </div>
 		</a>
+		{% endif %}
 	{% endfor %}
 {% else %}
 	<div class="card-container"><p>{{title.text}}</p></div>
