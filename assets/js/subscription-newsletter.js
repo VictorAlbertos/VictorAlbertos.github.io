@@ -17,8 +17,9 @@ $(document).on('show.bs.modal', '#submit-modal', function (e) {
 
   function validate() {
   	$("#btn-submit").click(function(e) {
-        window.location.search += '&welcome-message-subscribe=True';
-        setTimeout(function(){ location.reload();}, 2000);
+        setTimeout(function(){ 
+          window.location.search += '&welcome-message-subscribe=True';
+        }, 2000);
     });
 
     var valid = checkEmail($("#email"));
