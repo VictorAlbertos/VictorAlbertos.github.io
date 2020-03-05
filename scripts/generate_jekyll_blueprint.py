@@ -34,15 +34,17 @@ def load_authors_json():
     return [yaml.load(content)[0] for content in contents]
 
 
-# generate_author:
-# 	folder_author_name:
-# 		paginated.html
-# 			---
-# 			pagination:
-# 			  enabled: true
-# 			  category: author_id
+def clear_previous_generated_folder(path):
+    if os.path.isdir(path):
+        shutil.rmtree(path)
+    os.mkdir(path)
+
 
 path_authors = 'authors'
+path_titles = '_titles'
+
+clear_previous_generated_folder(path_authors)
+clear_previous_generated_folder(path_titles)
 
 
 def generate_author(author):
@@ -57,10 +59,20 @@ pagination:
         text_file.write(contents)
 
 
-if os.path.isdir(path_authors):
-    shutil.rmtree(path_authors)
-os.mkdir(path_authors)
+def generate_title_page(author):
+    if author['category'] == 'image':
+        return
+
+    titles = author['titles']
+
+    for title in titles:
+        id_title = title['id']
+        contents = f'---\ntitle_id: {id_title}\n---'
+        with open(f'{path_titles}/{id_title}.md', "w") as text_file:
+            text_file.write(contents)
+
 
 authors = load_authors_json()
 for author in authors:
     generate_author(author)
+    generate_title_page(author)
