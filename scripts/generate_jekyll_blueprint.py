@@ -42,9 +42,11 @@ def clear_previous_generated_folder(path):
 
 path_authors = 'authors'
 path_titles = '_titles'
+path_posts = '_posts'
 
 clear_previous_generated_folder(path_authors)
 clear_previous_generated_folder(path_titles)
+#clear_previous_generated_folder(path_posts)
 
 
 def generate_author(author):
