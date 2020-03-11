@@ -3,7 +3,6 @@
   image:
     name: 'virginia_woolf.jpg'
     contrast: 1.2
-  image-reference: 'Julia Margaret Cameron.'
   category: they
   titles:
     - id: como_deberia_leerse_un_libro
@@ -12,7 +11,7 @@
       format-title: italic
       image:
         name: 'the_rivulet_laita_in_quimperle_frits_thaulow.jpg'
-        color: 0.3
+        color: 1
         contrast: 1.5
       image-reference: '<i> The rivulet Laita in Quimperlé</i>, Frits Thaulow.'
       fragments:
