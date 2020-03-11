@@ -1,0 +1,15 @@
+- id: john_berger
+  name: John Berger
+  category: they
+  image:
+    name: 'john_berger.jpg'
+  titles:
+    - id: y_nuestros_rostros_mi_vida_breves_como_fotos
+      name: Y nuestros rostros, mi vida, breves como fotos
+      year: 1984
+      format-title: italic
+      reference: '«Una vez en un poema».'
+      fragments: 
+        - number: 'f1'
+        preview: '«La poesía puede hablar de inmortalidad porque se abandona al lenguaje en la creencia de que el lenguaje abraza toda experiencia, pasada, presente y futura».'
+        text: '«El que un poema use las mismas palabras que el informe de una multinacional no es más significativo que el hecho de que un faro y una cárcel puedan estar construidos con piedras de la misma cantera, unidas con la misma argamasa. Todo depende de la relación entre las palabras. Y la suma total de todas esas relaciones posibles depende de la manera en la que el escritor se relaciona con el lenguaje, no como vocabulario, no como sintaxis, ni siquiera como estructura, sino como un principio y una presencia.</br></br>El poeta sitúa el lenguaje fuera del alcance del tiempo; o, más exactamente, el poeta se aproxima al lenguaje como si fuera un lugar, un punto de encuentro en donde el tiempo no tiene finalidad, en donde el propio tiempo queda absorbido y dominado.</br></br>La poesía habla, con frecuencia, de su propia inmortalidad, y esta reivindicación es mucho más trascendente que la del genio de un poeta determinado perteneciente a una historia cultural determinada. No debe confundirse aquí la inmortalidad con la fama póstuma. La poesía puede hablar de inmortalidad porque se abandona al lenguaje en la creencia de que el lenguaje abraza toda experiencia, pasada, presente y futura.</br></br>A una promesa que afecta al presente y al pasado tanto como al futuro mejor la llamaríamos certeza».'

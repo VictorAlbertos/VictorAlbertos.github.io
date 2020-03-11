@@ -1,0 +1,16 @@
+- id: thomas_bernhard
+  name: Thomas Bernhard
+  category: they
+  image: 
+    name: 'bernhard_2.jpg'
+  titles:
+    - id: goethe_se_muere
+      name: Goethe se muere
+      year: 2010
+      format-title: italic
+      reference: '«Ardía. Relato de viaje para un amigo de otro tiempo».'
+      fragments: 
+                - number: 'f2'
+        text: '«No se puede ayudar a la gente en nuestro mundo, que está lleno de hipocresía desde hace ya siglos. Al mundo como a la gente no se los puede ayudar, porque ambos son por completo hipocresía».'
+        - number: 'f1'
+        text: '«[…] rehúso desde hace años todos los libros de contenido universitario, evito la filosofía, cuando puedo, la literatura, cuando puedo, en general toda lectura, cuando puedo, por miedo de que precisamente esa lectura me vuelva realmente loco y demente y finalmente me mate […]».'

@@ -1,0 +1,16 @@
+- id: witold_gombrowicz
+  name: Witold Gombrowicz
+  category: they
+  image: 
+    name: 'witold_gombrowicz.jpg'
+  titles:
+    - id: entrevista
+      name: Curso de filosofía en seis horas y cuarto
+      year: 1995
+      format-title: italic
+      reference: '«Lección cuarta: Schopenhauer».'
+      fragments: 
+        - number: 'f2'
+        text: '«[...] atribuyo la máxima importancia a la <i>antinomia en el arte</i>. Un artista debe ser esto y lo contrario. Loco, desordenado, pero también disciplinado, frío, riguroso. El arte no es nunca una sola cosa, sino que siempre se halla compensado por su contrario».'
+        - number: 'f1'
+        text: '«Siempre he considerado que la filosofía no debe ser intelectual, sino algo que arranque de nuestra sensibilidad».'
