@@ -1,0 +1,19 @@
+- id: julio_ramon_ribeyro
+  name: Julio Ramón Ribeyro
+  image:
+      name: 'ribeyro.jpg'
+      color: 0
+  category: they
+  titles:
+    - id: la_tentacion_del_fracaso
+      name: La tentación del fracaso. Diario personal (1950-1978)
+      year: 1992
+      image:
+        name: 'ribeyro_baldomero_pestana.jpg'
+        color: 0.00
+        contrast: 1.5
+        reference: '«<i> Julio Ramón Ribeyro</i>, Baldomero Pastana.'
+      format-title: italic
+      preview: '«[...] Guardamos todos un libro, tal vez un gran libro, pero que en el tumulto de nuestra vida interior rara vez emerge o lo hace tan rápidamente que no tenemos tiempo de arponearlo».'
+      - number: 'f1'
+      fragments: '«Leyendo hace poco a Cervantes pasó por mí un soplo que no tuve tiempo de captar (¿por qué? Alguien me interrumpió, sonó el teléfono, no sé) desgraciadamente, pues recuerdo que me sentí impulsado a comenzar algo… Luego todo se disolvió. Guardamos todos un libro, tal vez un gran libro, pero que en el tumulto de nuestra vida interior rara vez emerge o lo hace tan rápidamente que no tenemos tiempo de arponearlo».'
