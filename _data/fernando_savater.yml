@@ -4,7 +4,7 @@
   image: 
     name: 'fernando_savater.jpg'
   titles:
-    - id: entrevista
+    - id: entrevista_fernando_savater
       name: Entrevista
       year: 1984
       format-title: none

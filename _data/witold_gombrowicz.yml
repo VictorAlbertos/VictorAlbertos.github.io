@@ -4,7 +4,7 @@
   image: 
     name: 'witold_gombrowicz.jpg'
   titles:
-    - id: entrevista
+    - id: curso_de_filosofia_en_seis_horas_y_cuarto
       name: Curso de filosofía en seis horas y cuarto
       year: 1995
       format-title: italic

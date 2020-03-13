@@ -18,16 +18,23 @@ root_data = '_data'
 path_authors = 'authors'
 path_titles = '_titles'
 path_posts = '_posts'
+dummy_date_for_draw_posts = '1970-01-01'
 
 clear_previous_generated_folder(path_authors)
 clear_previous_generated_folder(path_titles)
 clear_previous_generated_folder(path_posts)
 
 
-def is_title_ready_to_be_published(title):
+def is_published(title):
     fragments = title['fragments'] if "fragments" in title else []
     any_fragment_released = any("publication-date" in fragment for fragment in fragments)
     return "publication-date" in title or any_fragment_released
+
+
+def is_not_published(title):
+    fragments = title['fragments'] if "fragments" in title else []
+    any_fragment_released = any(not "publication-date" in fragment for fragment in fragments)
+    return "publication-date" not in title or any_fragment_released
 
 
 def generate_author(author):
@@ -55,15 +62,19 @@ def generate_title_pages(author):
 
     titles = author['titles']
     for title in titles:
-        if is_title_ready_to_be_published(title):
+        if is_published(title):
             id_title = title['id']
             contents = '---\ntitle_id: ' + id_title + '\n---'
             with io.open(path_titles + '/' + id_title + '.md', mode='w', encoding='utf-8') as text_file:
                 text_file.write(contents.encode('utf-8').decode('utf-8'))
 
 
-def generate_post(title, author_category, author_id, only_first_fragment=False):
-    if is_title_ready_to_be_published(title):
+def generate_post(title, author_category, author_id, only_no_published=False, only_first_fragment=False):
+    if only_no_published:
+        valid = is_not_published(title)
+    else:
+        valid = is_published(title)
+    if valid:
         id_title = title['id']
         fragments = title['fragments'] if "fragments" in title else []
 
@@ -72,8 +83,12 @@ def generate_post(title, author_category, author_id, only_first_fragment=False):
 title_id: """ + id_title + """
 categories: [""" + author_category + """, """ + author_id + """]
 ---"""
-            file_post_name = path_posts + '/' + title[
-                'publication-date'] + '-' + author_category + '-' + id_title + '.md'
+            if 'publication-date' in title:
+                file_post_name = path_posts + '/' + title[
+                    'publication-date'] + '-' + author_category + '-' + id_title + '.md'
+            else:
+                file_post_name = path_posts + '/' + dummy_date_for_draw_posts + '-' + author_category + '-' + id_title + '.md'
+
             with io.open(file_post_name, mode='w', encoding='utf-8') as text_file:
                 text_file.write(contents.encode('utf-8').decode('utf-8'))
         else:
@@ -83,7 +98,12 @@ categories: [""" + author_category + """, """ + author_id + """]
             else:
                 _fragments = fragments
             for fragment in _fragments:
-                if "publication-date" not in fragment:
+                if only_no_published:
+                    invalid = "publication-date" in fragment
+                else:
+                    invalid = "publication-date" not in fragment
+
+                if invalid:
                     continue
                 fragment_number = fragment['number']
                 contents = """---
@@ -91,20 +111,15 @@ title_id: """ + id_title + """
 fragment: """ + fragment_number + """
 categories: [""" + author_category + """, """ + author_id + """]
 ---"""
-                file_post_name = path_posts + '/' + fragment[
-                    'publication-date'] + '-' + author_category + '-' + id_title + '.md'
+                if "publication-date" in fragment:
+                    file_post_name = path_posts + '/' + fragment[
+                        'publication-date'] + '-' + author_category + '-' + fragment['number'] + '-' + id_title + '.md'
+                else:
+                    file_post_name = path_posts + '/' + dummy_date_for_draw_posts + '-' + author_category + '-' + id_title + '-' + \
+                                     fragment['number'] + '.md'
 
                 with io.open(file_post_name, mode='w', encoding='utf-8') as text_file:
                     text_file.write(contents.encode('utf-8').decode('utf-8'))
-
-
-def generate_posts(author):
-    author_id = author['id']
-    author_category = author['category']
-    titles = author['titles']
-
-    for title in titles:
-        generate_post(title, author_category, author_id)
 
 
 def roundrobin(*iterables):
@@ -128,7 +143,14 @@ authors = [yaml.load(content)[0] for content in contents]
 for author in authors:
     generate_author(author)
     generate_title_pages(author)
-    generate_posts(author)
+
+    author_id = author['id']
+    author_category = author['category']
+    titles = author['titles']
+
+    for title in titles:
+        generate_post(title, author_category, author_id)
+        generate_post(title, 'draw', author_id, only_no_published=True)
 
 
 def f7(seq):
