@@ -24,7 +24,7 @@
     {% if post.categories[0] == "home" and include.hide_author %}
         {% continue %}
     {% endif %}
-    {% if post.categories[0] == "draw" %}
+    {% if post.categories[0] == "draw" and page.title_page != "draw" %}
         {% continue %}
     {% endif %}
 
