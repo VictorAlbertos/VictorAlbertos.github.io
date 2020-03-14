@@ -9,7 +9,9 @@
       year: 1995
       format-title: italic
       reference: '«Lección cuarta: Schopenhauer».'
-      fragments: 
+      fragments:
+        - number: 'f3'
+          text: '«Schopenhauer detestaba a Hegel. Decía siempre: ¡ese zopenco de Hegel! Y, para desafiarle, fijó la hora de sus cursos en la Universidad de Berlín a la misma que los de éste, con el resultado de que la sala de Hegel estaba siempre llena y, la suya, siempre vacía…</br></br>Pero Hegel y Schopenhauer tenían argumentos para mostrar que un genio no puede tener éxito, puesto que sobrepasa a su tiempo. Por esta razón el genio resulta incomprensible y no sirve para nadie».'
         - number: 'f2'
           text: '«[...] atribuyo la máxima importancia a la <i>antinomia en el arte</i>. Un artista debe ser esto y lo contrario. Loco, desordenado, pero también disciplinado, frío, riguroso. El arte no es nunca una sola cosa, sino que siempre se halla compensado por su contrario».'
         - number: 'f1'

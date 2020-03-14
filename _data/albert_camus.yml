@@ -1,0 +1,15 @@
+- id: albert_camus
+  name: Albert Camus
+  category: they
+  image:
+    name: 'albert_camus.jpg'
+  titles:
+    - id: el_mito_de_sisifo
+      name: El el mito de Sísifo
+      year: 1942
+      format-title: italic
+      fragments:             
+        - number: 'f2'
+          text: '«[…] cuando el pensamiento reflexiona sobre sí mismo, lo que descubre, en primer lugar, es una contradicción».'  
+        - number: 'f1'
+          text: '«Todas las grandes acciones y todos los grandes pensamientos tienen un principio ridículo».'
