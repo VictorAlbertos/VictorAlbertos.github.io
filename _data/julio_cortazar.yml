@@ -1,0 +1,26 @@
+- id: julio_cortazar
+  name: Julio Cortázar
+  category: they
+  image:
+    name: 'cortazar.jpg'
+  titles:
+    - id: papeles_inesperados
+      name: Papeles inesperados
+      year: 2009
+      format-title: italic
+      reference: '«Relato con un fondo de agua» (1941).'
+      fragments:
+      - number: 'f2'
+      text: '«Y cuando miré a Lucien, pensando en el sueño, tuve la impresión… ¿cómo explicártelo?… tuve la sensación de que él también estaba dentro del sueño, dentro de mi pensamiento, formando parte de una atroz realidad fuera de los cuadros normales de la vida; me pareció que el sueño iba a recomenzar allí… No, no era eso; me pareció como si el sueño hubiera sido la profecía, la presciencia de algo que iba a ocurrir allí, justamente en ese sitio donde yo no había estado jamás en la vigilia; en ese sitio que encontrábamos después de una marcha sin sentido pero oscuramente necesaria».' 
+      - number: 'f1'
+      text: '«No hablábamos; pero todo hablaba desde fuera, todo parecía impulsarnos a avanzar, avanzar; y yo no podía olvidarme del sueño, ahora que esa ruta en la noche empezaba a parecerse tanto a aquel sueño de tiempos pasados… Cierto que no volaba sobre el río con las piernas encogidas; cierto que ahora Lucien estaba conmigo; pero de una manera inexplicable esa noche era la noche del sueño y por eso, cuando después de un recodo de la orilla me encontré súbitamente en el mismo escenario donde había soñado la horrible escena, apenas me sorprendí. Fue más bien como un reconocimiento, entiendes; como llegar a un sitio donde jamás se ha estado pero que se conoce por fotografías o por conversaciones».'  
+    - id: final_del_juego
+      name: Final del juego
+      year: 1964
+      format-title: italic
+      reference: '«Relato con fondo de agua».'
+      fragments:
+      - number: 'f2'
+      text: '«Y cuando miré a Lucien, pensando en el sueño, tuve la impresión… ¿cómo explicártelo?… tuve la sensación de que él también estaba dentro del sueño, dentro de mi pensamiento, formando parte de una atroz realidad fuera de los cuadros normales de la vida; me pareció que el sueño iba a recomenzar allí… No, no era eso; me pareció como si el sueño hubiera sido la profecía, la presciencia de algo que iba a ocurrir allí, justamente en ese sitio donde yo no había estado jamás en la vigilia; en ese sitio que encontrábamos después de una marcha sin sentido pero oscuramente necesaria».' 
+      - number: 'f1'
+      text: '«Nos mirabas un poco desde fuera, y ya entonces aprendí a admirar en vos las cualidades de los gatos. Uno habla con vos y es como si al mismo tiempo estuviera solo, y a lo mejor es por eso que uno habla con vos como yo ahora. Pero entonces estaban los otros, y jugábamos a tomarnos en serio. Sabés, lo terrible de ese momento de la juventud es que en una hora oscura y sin nombre todo deja de ser serio para ceder a la sucia máscara de seriedad que hay que ponerse en la cara, y yo ahora soy el doctor fulano, y vos el ingeniero mengano, bruscamente nos hemos quedado atrás, empezamos a vernos de otro modo, aunque por un tiempo persistamos en los rituales, en los juegos comunes, en las cenas de camaradería que tiran sus últimos salvavidas en medio de la dispersión y el abandono, y todo es tan horriblemente natural, Mauricio, y a algunos les duele más que a otros, los hay como vos que van pasando por sus edades sin sentirlo, que encuentran normal un álbum donde uno se ve con pantalones cortos, con un sombrero de paja o el uniforme de conscripto…».'
