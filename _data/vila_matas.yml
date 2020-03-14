@@ -7,15 +7,14 @@
     - id: apartarse_de_uno_mismo
       name: Apartarse de uno mismo
       year: 2019
+      publication-date: '2020-02-14'
       format-title: quotes
       reference: 'Prólogo a <i> La tentación del fracaso. Diario personal (1950-1978) </i> (1992), Julio Ramón Ribeyro.'
       fragments:
         - number: 'f2'
-          publication-date: '2020-02-14'
           preview: '«Parece una pérdida de tiempo esa amargura absurda de Ribeyro por llegar a creerse que no estaba a la altura de esas novelas de narradores sumamente omniscientes que algunos lectores de hoy percibimos ya un tanto monstruosas en todos los sentidos [...]'
           text: '«Parece una pérdida de tiempo esa amargura absurda de Ribeyro por llegar a creerse que no estaba a la altura de esas novelas de narradores sumamente omniscientes que algunos lectores de hoy percibimos ya un tanto monstruosas en todos los sentidos. De algún modo, Roberto Bolaño acabó con ellas y de paso, por caminos vagabundos, fulminó el mito de la exuberancia del <i> Boom </i> de la literatura latinoamericana al llevar la exuberancia a sus últimos extremos en <i> Los detectives salvajes </i> y en <i> 2666 </i>.</br></br>Aquella amargura de Ribeyro la veo hoy como un simple y muy deliberado fingimiento de un complejo de inferioridad. Un complejo que no tenía, ya que creo que en el fondo adoraba la comodidad de vivir como un marginal de la literatura, con las ventajas que esto le ofrecía: alejado de pompas banales, poder dedicarse plenamente a la literatura.</br></br>Y es que, a fin de cuentas, Ribeyro sabía que en el fondo no era problema alguno que sus colegas del <i> Boom </i> se mostraran tan pujantes y que más bien todo era cuestión de tiempo, porque al final todo pasa y acaban quedando siempre los mismos: su majestad el fragmento, su alteza el cuento».'
         - number: 'f1'
-          publication-date: '2020-02-13'
           preview: '«Siempre un insecto de alguna clase —un hermano y un teléfono también pueden serlo— acaba estropeándolo todo, permitiéndonos así poder echarle la culpa de que no hayamos escrito o leído algo que supere al <i> Quijote</i>. Sólo una vez, y en cualquier caso a lo largo de dos escuetas aunque fulgurantes décimas de segundo, accedí a ver con claridad la totalidad de un libro que estaba destinado a escribir y que comprendí que era tan bueno que superaría al <i> Quijote</i> [...]'
           text: '«Siempre un insecto de alguna clase —un hermano y un teléfono también pueden serlo— acaba estropeándolo todo, permitiéndonos así poder echarle la culpa de que no hayamos escrito o leído algo que supere al <i> Quijote</i>. Sólo una vez, y en cualquier caso a lo largo de dos escuetas aunque fulgurantes décimas de segundo, accedí a ver con claridad la totalidad de un libro que estaba destinado a escribir y que comprendí que era tan bueno que superaría al <i> Quijote</i>. No es que me entrara miedo de dedicarme a la tarea de escribirlo, sino la más profunda de las perezas, quizás porque me vi prisionero para siempre de mi potencial obra maestra, lo que con el tiempo me facilitó muchas cosas, pues me llevó a descubrir que aquélla no era obligatoriamente, como tanto había creído, mi máxima aspiración en la vida. ¿Cuál era pues? ¿Tener buena salud, una posición económica estable, creer en el amor? Poco propenso a confesar mi intimidad —soy aficionado a leer diarios literarios, pero no me siento diarista—, todavía hoy, cuando los amigos me hacen la pregunta, sigo respondiendo —cargado quizás aún de la perplejidad que me causara aquel descubrimiento— que tan sólo aspiro, con perdón, a la vida del moscardón».'
     - id: paris_no_se_acaba_nunca
@@ -23,8 +22,4 @@
       year: 2003
       format-title: italic
       publication-date: '2020-01-15'
-      image:
-        name: 
-        color: 
-        contrast:
       text: «Una mañana de invierno, paseaba con Arrieta por el Jardin du Luxembourg cuando en una alameda secundaria divisamos un pájaro negro y solitario, casi inmóvil, leyendo el periódico. Era Samuel Beckett. Vestido de riguroso negro de la cabeza a los pies, estaba allí en una silla, muy quieto, parecía desesperado, daba miedo. Y hasta casi parecía mentira que fuera él, que fuera Beckett. Nunca había previsto que pudiera encontrármelo. Sabía que no era un clásico muerto, sino alguien que vivía en París, pero siempre le había imaginado como una oscura presencia que sobrevolaba la ciudad, nunca como alguien al que uno se encuentra leyendo desesperado un periódico en un viejo parque frío y solitario. De vez en cuando pasaba página, y lo hacía con una especie de enojo tan grande y una energía tan intensa que si el Jardin du Luxembourg entero hubiera temblado no nos habría extrañado nada. Al llegar a la última página, se quedó entre absorto y ausente. Daba más miedo que antes. “Es el único que ha tenido el valor de mostrar que nuestra desesperación es tan grande que ni palabras tenemos para expresarla”, dijo Arrieta».'
