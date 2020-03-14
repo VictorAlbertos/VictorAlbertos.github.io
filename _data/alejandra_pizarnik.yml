@@ -4,7 +4,7 @@
   image: 
     name: 'alejandra_pizarnik.jpg'
   titles:
-    - id: diarios
+    - id: alejandra_pizarnik_diarios
       name: Diarios
       year: 2003
       format-title: italic

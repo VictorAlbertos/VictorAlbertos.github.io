@@ -26,15 +26,11 @@ clear_previous_generated_folder(path_posts)
 
 
 def is_published(title):
-    fragments = title['fragments'] if "fragments" in title else []
-    any_fragment_released = any("publication-date" in fragment for fragment in fragments)
-    return "publication-date" in title or any_fragment_released
+    return "publication-date" in title
 
 
 def is_not_published(title):
-    fragments = title['fragments'] if "fragments" in title else []
-    any_fragment_released = any(not "publication-date" in fragment for fragment in fragments)
-    return "publication-date" not in title or any_fragment_released
+    return "publication-date" not in title
 
 
 def is_social_network_candidate(title):
@@ -105,16 +101,19 @@ categories: [""" + author_category + """, """ + author_id + """]
         else:
             if only_first_fragment:
                 _fragments = fragments[0:1]
-                _fragments[0]['publication-date'] = title['publication-date']
+                if 'publication-date' in title:
+                    _fragments[0]['publication-date'] = title['publication-date']
+                else:
+                    _fragments[0]['publication-date'] = dummy_date_for_draw_posts
             else:
                 _fragments = fragments
             for fragment in _fragments:
                 if only_no_published:
-                    invalid = "publication-date" in fragment
+                    invalid = "publication-date" in title
                 elif only_social_network_candidate:
                     invalid = "social-network-candidate" not in fragment
                 else:
-                    invalid = "publication-date" not in fragment
+                    invalid = "publication-date" not in title
 
                 if invalid:
                     continue
@@ -162,8 +161,8 @@ for author in authors:
     titles = author['titles']
 
     for title in titles:
-        generate_post(title, author_category, author_id)
-        generate_post(title, 'draw', author_id, only_no_published=True)
+        generate_post(title, author_category, author_id, only_first_fragment=True)
+        generate_post(title, 'draw', author_id, only_no_published=True, only_first_fragment=True)
         generate_post(title, 'social-network-candidate', author_id, only_social_network_candidate=True)
 
 
