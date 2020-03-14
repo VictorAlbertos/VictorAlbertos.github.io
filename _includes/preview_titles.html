@@ -27,6 +27,9 @@
     {% if post.categories[0] == "draw" and page.title_page != "draw" %}
         {% continue %}
     {% endif %}
+    {% if post.categories[0] == "social-network-candidate" and page.title_page != "social-network-candidate" %}
+        {% continue %}
+    {% endif %}
 
     {% for file_name_author in site.data %}
     {% if file_name_author[1][0].id == post.categories[1] %}

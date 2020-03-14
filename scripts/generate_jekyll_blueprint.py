@@ -37,6 +37,12 @@ def is_not_published(title):
     return "publication-date" not in title or any_fragment_released
 
 
+def is_social_network_candidate(title):
+    fragments = title['fragments'] if "fragments" in title else []
+    any_fragment_released = any("social-network-candidate" in fragment for fragment in fragments)
+    return "social-network-candidate" in title or any_fragment_released
+
+
 def generate_author(author):
     id_author = author['id']
     author_name = author['name']
@@ -69,9 +75,14 @@ def generate_title_pages(author):
                 text_file.write(contents.encode('utf-8').decode('utf-8'))
 
 
-def generate_post(title, author_category, author_id, only_no_published=False, only_first_fragment=False):
+def generate_post(title, author_category, author_id,
+                  only_social_network_candidate=False,
+                  only_no_published=False,
+                  only_first_fragment=False):
     if only_no_published:
         valid = is_not_published(title)
+    elif only_social_network_candidate:
+        valid = is_social_network_candidate(title)
     else:
         valid = is_published(title)
     if valid:
@@ -100,6 +111,8 @@ categories: [""" + author_category + """, """ + author_id + """]
             for fragment in _fragments:
                 if only_no_published:
                     invalid = "publication-date" in fragment
+                elif only_social_network_candidate:
+                    invalid = "social-network-candidate" not in fragment
                 else:
                     invalid = "publication-date" not in fragment
 
@@ -151,6 +164,7 @@ for author in authors:
     for title in titles:
         generate_post(title, author_category, author_id)
         generate_post(title, 'draw', author_id, only_no_published=True)
+        generate_post(title, 'social-network-candidate', author_id, only_social_network_candidate=True)
 
 
 def f7(seq):
