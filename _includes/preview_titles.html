@@ -11,24 +11,24 @@
 
     {% else %}
     <div class="no-sticky-region">
-    <img class="card-img-top"
-         src="/assets/img/{{page.page_image}}" alt="Card image">
-    <div class="card-container black-background">
-        <div class="wrapper-black-background-bottom">
-            <span class="title-post-none">{{page.title_page_full}}</span>
+        <img class="card-img-top"
+             src="/assets/img/{{page.page_image}}" alt="Card image">
+        <div class="card-container black-background">
+            <div class="wrapper-black-background-bottom">
+                <span class="title-post-none">{{page.title_page_full}}</span>
+            </div>
         </div>
-    </div>
     </div>
     {% endif %}
     {% for post in paginator.posts %}
     {% if post.categories[0] == "home" and include.hide_author %}
-        {% continue %}
+    {% continue %}
     {% endif %}
     {% if post.categories[0] == "draw" and page.title_page != "draw" %}
-        {% continue %}
+    {% continue %}
     {% endif %}
     {% if post.categories[0] == "social-network-candidate" and page.title_page != "social-network-candidate" %}
-        {% continue %}
+    {% continue %}
     {% endif %}
 
     {% for file_name_author in site.data %}
@@ -38,6 +38,15 @@
     {% endfor %}
     {% assign title = author.titles | where: 'id', post.title_id | first %}
     {% assign fragment = title.fragments | where: 'number', post.fragment | first %}
+
+    {% if page.title_page == "draw" %}
+    <div class="card-container-preview-title">
+        <p class="preview-text">
+            <span class="post-preview-title-none">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>
+        </p>
+    </div>
+    {% continue %}
+    {% endif %}
 
     <p class="block">
         {% if fragment %}
@@ -59,24 +68,30 @@
                 {% endif %}
                 {% if include.hide_author %}
                 {% if title.format-title == 'italic' %}
-                <p class="preview-text"><span class="post-preview-title-italic">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>
+                <p class="preview-text"><span class="post-preview-title-italic">{{ title.name }}</span><span
+                        class="date-post-preview"> ({{ title.year }})</span>
                 </p>
                 {% elsif title.format-title == 'quotes' %}
-                <p class="preview-text"><span class="post-preview-title-none">«{{title.name }}»</span><span class="date-post-preview"> ({{ title.year }})</span>
+                <p class="preview-text"><span class="post-preview-title-none">«{{title.name }}»</span><span
+                        class="date-post-preview"> ({{ title.year }})</span>
                 </p>
                 {% else %}
-                <p class="preview-text"><span class="post-preview-title-none">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>
+                <p class="preview-text"><span class="post-preview-title-none">{{ title.name }}</span><span
+                        class="date-post-preview"> ({{ title.year }})</span>
                 </p>
                 {% endif %}
                 {% else %}
                 {% if title.format-title == 'italic' %}
-                <p class="preview-text"><span class="post-preview-title-italic">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>,
+                <p class="preview-text"><span class="post-preview-title-italic">{{ title.name }}</span><span
+                        class="date-post-preview"> ({{ title.year }})</span>,
                     <span class="post-preview-author"> {{ author.name }}.</span></p>
                 {% elsif title.format-title == 'quotes' %}
-                <p class="preview-text"><span class="post-preview-title-none">«{{ title.name }}»</span><span class="date-post-preview"> ({{ title.year }})</span>,
+                <p class="preview-text"><span class="post-preview-title-none">«{{ title.name }}»</span><span
+                        class="date-post-preview"> ({{ title.year }})</span>,
                     <span class="post-preview-author"> {{ author.name }}.</span></p>
                 {% else %}
-                <p class="preview-text"><span class="post-preview-title-none">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>,
+                <p class="preview-text"><span class="post-preview-title-none">{{ title.name }}</span><span
+                        class="date-post-preview"> ({{ title.year }})</span>,
                     <span class="post-preview-author"> {{ author.name }}.</span></p>
                 {% endif %}
                 {% endif %}
