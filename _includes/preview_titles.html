@@ -30,7 +30,9 @@
     {% if post.categories[0] == "social-network-candidate" and page.title_page != "social-network-candidate" %}
     {% continue %}
     {% endif %}
-
+    {% if post.categories[0] == "they" and page.title_page != "Polvos" %}
+    {% continue %}
+    {% endif %}
     {% for file_name_author in site.data %}
     {% if file_name_author[1][0].id == post.categories[1] %}
     {% assign author = file_name_author[1][0] %}
@@ -40,12 +42,12 @@
     {% assign fragment = title.fragments | where: 'number', post.fragment | first %}
 
     {% if page.title_page == "draw" %}
-    <div class="card-container-preview-title">
-        <p class="preview-text">
-            <span class="post-preview-title-none">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>
-        </p>
-    </div>
-    {% continue %}
+        <div class="card-container-preview-title">
+            <p class="preview-text">
+                <span class="post-preview-title-none">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>
+            </p>
+        </div>
+        {% continue %}
     {% endif %}
 
     <p class="block">
