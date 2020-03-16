@@ -57,7 +57,7 @@
                 <div>{% if fragment.preview %}
     <p>
 
-        {{ fragment.preview }}</p>{% else %}<p>{{ fragment.text | truncate: 400 }}</p>{% endif %}
+        {{ fragment.preview }}</p>{% else %}<p>{{ fragment.text | truncate: 500 }}</p>{% endif %}
     {% else %}
     <a href="../../../titles/{{title.id}}">
         <div class="card-container-preview-title">
@@ -65,7 +65,7 @@
                 {% if title.preview %}
                 <p>{{ title.preview }}</p>
                 {% else %}
-                <p>{{ title.text | truncate: 400 }}</p>
+                <p>{{ title.text | truncate: 500 }}</p>
                 {% endif %}
                 {% endif %}
                 {% if include.hide_author %}

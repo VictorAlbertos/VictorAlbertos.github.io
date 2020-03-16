@@ -1,14 +1,22 @@
 - id: samuel_beckett
   name: Samuel Beckett
   category: they
-  image: 
+  image:
     name: 'beckett.jpg'
   titles:
     - id: el_fin
       name: El fin
       year: 1946
       format-title: italic
-      fragments: 
+      fragments:
         - number: 'f1'
           preview: '«Me rascaba de abajo arriba, con cuatro uñas: Me hurgaba en los pelos, para calmarme. Ayudaba a pasar el tiempo, el tiempo pasaba cuando me rascaba. El verdadero rascado es superior al meneo, en mi opinión, y puede durar mucho, hasta los cincuenta, e incluso mucho después, pero acaba por convertirse en una simple costumbre. [...]'
           text: '«Acabé procurándome una lata más grande, una especie de gran lata, y la coloqué sobre la acera, a mis pies. Pero las gentes que dan una limosna no les agrada tirarla, ese gesto tiene algo de desprecio que repugna a los sensibles. Sin contar con que deben apuntar. Quieren dar, pero no les gusta que la moneda se escape dando vueltas bajo los pies de los transeúntes, o bajo las ruedas de los vehículos, donde cualquiera puede cogerla. En resumen: no dan. Los hay evidentemente que se agachan, pero en general a la gente que da una limosna no le agrada que ello le obligue a agacharse. Lo que realmente prefieren es ver al mendigo de lejos, preparar el penique, soltarlo en plena marcha y oír el <i>Dios se lo pague</i> debilitado por el alejamiento. Yo no decía eso, yo no he sido nunca muy creyente, ni nada que se le parezca, pero lanzaba de todos modos un ruido, con la boca. Acabé procurándome una especie de tablilla que me sujetaba con cordel al cuello y a la cintura. Sobresalía precisamente a la altura justa, la del bolsillo, y su borde estaba lo suficientemente apartado de mi persona para poder depositar el óbolo sin peligro. [...] Me desabrochaba, discretamente, para rascarme. Me rascaba de abajo arriba, con cuatro uñas: Me hurgaba en los pelos, para calmarme. Ayudaba a pasar el tiempo, el tiempo pasaba cuando me rascaba. El verdadero rascado es superior al meneo, en mi opinión, y puede durar mucho, hasta los cincuenta, e incluso mucho después, pero acaba por convertirse en una simple costumbre. Para rascarme no tenía bastante con las dos manos. Tenía en todas partes, en mis partes, en los pelos hasta el ombligo, bajo los brazos, en el culo, placas de eczema y de psoriasis que podía poner al rojo con sólo pensar en ellas. Era en el culo donde más satisfacción obtenía. Introducía el índice, hasta el metacarpo. Si después debía defecar, me hacía un daño de perros. Pero apenas defecaba ya. De vez en cuando pasaba un avión, poco rápidamente me parecía. Me sucedía a menudo, al acabar la jornada, encontrar los bajos del pantalón mojados. Debían ser los perros. Yo ya apenas meaba. Si por azar me entraban ganas, las calmaba introduciendo un trapito en la bragueta».'
+    - id: watt
+      name: Watt
+      year: 1977
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          text: '«Se detiene un autobús frente a tres repugnantes ancianos que lo observan sentados en un banco público. Arranca el autobús. Mira —dice uno de ellos— se han dejado un montón de trapos. No —dice el segundo—, eso es un cubo de basura caído. En absoluto —dice el tercero—, se trata de un paquete de periódicos viejos que alguien ha tirado ahí. En ese momento el montón de escombros avanza hasta ellos y les pide sitio en el banco con enorme grosería. Es Watt».'
