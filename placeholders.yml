@@ -1,0 +1,15 @@
+- id:
+  name:
+  category: they
+  image:
+    name: ''
+  titles:
+    - id:
+      name:
+      year:
+      format-title:
+      fragments:
+        - number: ''
+          social-network-candidate:
+          preview: ''
+          text: ''

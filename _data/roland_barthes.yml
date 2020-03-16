@@ -1,9 +1,18 @@
 - id: roland_barthes
   name: Roland Barthes
   category: they
-  image: 
+  image:
     name: 'roland_barthes.jpg'
   titles:
+    - id: la_muerte_del_autor
+      name: La muerte del autor
+      year: 1987
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          preview: '«La lingüística proporciona a la destrucción del Autor un instrumento analítico precioso, al mostrar que la enunciación en su totalidad es un proceso vacío que funciona a la perfección sin que sea necesario rellenarlo con las personas de sus interlocutores: lingüísticamente, el autor nunca es nada más que el que escribe, del mismo modo que "yo" no es otra cosa sino el que dice "yo": el lenguaje conoce un “sujeto”, no una “persona”, y ese sujeto, vacío excepto en la propia enunciación, que es la que lo define, es suficiente para conseguir que el lenguaje se “mantenga en pie”, es decir, parar llegar a agotarlo por completo. [..]'
+          text: '«La lingüística proporciona a la destrucción del Autor un instrumento analítico precioso, al mostrar que la enunciación en su totalidad es un proceso vacío que funciona a la perfección sin que sea necesario rellenarlo con las personas de sus interlocutores: lingüísticamente, el autor nunca es nada más que el que escribe, del mismo modo que "yo" no es otra cosa sino el que dice "yo": el lenguaje conoce un “sujeto”, no una “persona”, y ese sujeto, vacío excepto en la propia enunciación, que es la que lo define, es suficiente para conseguir que el lenguaje se “mantenga en pie”, es decir, parar llegar a agotarlo por completo.</br></br>Una vez alejado el Autor, se vuelve inúitil la pretensión de “descifrar” un texto. Darle a un texto un Autor es imponerle un seguro, proveerlo de un significado último, cerrar la escritura. Por eso mismo, la literatura (sería mejor decir siempre la escritura) al rehusar la asignación al texto (y al mundo como texto) de un secreto, es decir, un sentido último, se entrega a una actividad que se podría calificar de revolucionaría en sentido propio, pues rehusar la detención del sentido es, en definitiva, rechazar a Dios y a sus hipóstasis, la razón, la ciencia, la ley». '
     - id: el_susurro_del_lenguaje
       name: El susurro del lenguaje. Más allá de la palabra y de la escritura
       year: 1984

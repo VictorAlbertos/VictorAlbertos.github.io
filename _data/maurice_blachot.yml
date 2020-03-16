@@ -5,6 +5,28 @@
     contrast: 1.5
   category: they
   titles:
+    - id: la_escritura_del_desastre
+      name: La escritura del desastre
+      year: 1980
+      format-title: italic
+      fragments:
+        - number: 'f5'
+          social-network-candidate:
+          preview: '«(¿Una escena primitiva?). Vosotros que vivís más tarde, próximos a un corazón que ya no late, suponed, suponedlo: el niño —¿tiene siete años, ocho años quizá?— está de pie, corriendo la cortina y mirando a través del cristal de una ventana. Lo que ve: el jardín, los árboles de invierno, el muro de una casa; mientras ve, sin duda al modo como lo hace un niño, su espacio de juego, el hastío lo embarga y lentamente levanta la mirada hacia el cielo ordinario, con las nubes, la luz gris, el día apagado y sin lontananza. [...]'
+          text: '«(¿Una escena primitiva?). Vosotros que vivís más tarde, próximos a un corazón que ya no late, suponed, suponedlo: el niño —¿tiene siete años, ocho años quizá?— está de pie, corriendo la cortina y mirando a través del cristal de una ventana. Lo que ve: el jardín, los árboles de invierno, el muro de una casa; mientras ve, sin duda al modo como lo hace un niño, su espacio de juego, el hastío lo embarga y lentamente levanta la mirada hacia el cielo ordinario, con las nubes, la luz gris, el día apagado y sin lontananza.</br></br>Lo que pasa después: el cielo, el mismo cielo, de repente abierto, absolutamente negro y absolutamente vacío, revelando (como a través del cristal roto) una ausencia tal que todo está ahí desde siempre y para siempre perdido, hasta el punto de que ahí se afirma y se disipa el saber vertiginoso de que nada es lo que hay y en primer lugar nada más allá. Lo inesperado de esta escena (su rasgo interminable) es el sentimiento que enseguida invade al niño, la alegría asoladora de lo que solo podrá dar testimonio con sus lágrimas. Pensamos que es una tristeza de niño, intentamos consolarlo. Él no dice nada. Vivirá en adelante en el secreto. Ya no llorará».'
+        - number: 'f4'
+          social-network-candidate:
+          text: '«Hay una suerte de ocaso de ascendencia entre pensar y morir: cuanto más pensamos, en la ausencia de pensamiento (determinado), tanto más nos elevamos, de peldaño en peldaño, hacia el precipicio, la caída en picado, la expiración empezando por la cabeza. Pensar no es sino ascensión u ocaso, pero no hay pensamiento determinado para detenerse y volverse hacia uno mismo — de ahí su vertigo que es no obstante igualdad, como morir es siempre igual, siempre tal (letal)».'
+        - number: 'f3'
+          social-network-candidate:
+          preview: '«No perdones. El perdón acusa antas de perdonar; al acusar, al afirmar la falta, la vuelve irremisible, asesta el golpe hasta la culpabilidad; de ese modo, todo se vuelve irreparable, dejando de ser posibles don y perdón. [...]'
+          text: '«No perdones. El perdón acusa antas de perdonar; al acusar, al afirmar la falta, la vuelve irremisible, asesta el golpe hasta la culpabilidad; de ese modo, todo se vuelve irreparable, dejando de ser posibles don y perdón.</br></br>No perdones sino a la inocencia.</br></br>Perdóname por perdonarte».'
+        - number: 'f2'
+          social-network-candidate:
+          text: '«Llamo desastre a aquello que no tiene lo último como límite: aquello que arrastra a lo último en el desastre».'
+        - number: 'f1'
+          social-network-candidate:
+          text: '«Leyendo a Roland Barthes lo que no dice pero sugiere, imagino que para Werther el amor—pasión no es sino un rodeo para morir. Después de la lectura de Werther, ya no ha habido más enamorados sino más suicidados. Y Goethe ha descargado sobre Werther la tentación de morir, no su pasión; escribiendo, no en modo alguno para no morir, sino mediante el movimiento de una muerte que ya no le pertenecía. “Eso solo puede terminar mal”».'
     - id: thomas_el_obscuro
       name: Thomas el obscuro
       year: 1982

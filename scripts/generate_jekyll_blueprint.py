@@ -125,10 +125,10 @@ categories: [""" + author_category + """, """ + author_id + """]
 ---"""
                 if "publication-date" in fragment:
                     file_post_name = path_posts + '/' + fragment[
-                        'publication-date'] + '-' + author_category + '-' + id_title + '-' + fragment['number'] + '.md'
+                        'publication-date'] + '-' + author_category + '-' + fragment['number'] + '-' + id_title + '.md'
                 else:
-                    file_post_name = path_posts + '/' + dummy_date_for_draw_posts + '-' + author_category + '-' + id_title + \
-                                     fragment['number'] + '-' + '.md'
+                    file_post_name = path_posts + '/' + dummy_date_for_draw_posts + '-' + author_category + '-' + \
+                                     fragment['number'] + '-' + id_title + '.md'
 
                 with io.open(file_post_name, mode='w', encoding='utf-8') as text_file:
                     text_file.write(contents.encode('utf-8').decode('utf-8'))
