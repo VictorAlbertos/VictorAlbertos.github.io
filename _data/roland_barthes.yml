@@ -4,6 +4,14 @@
   image:
     name: 'roland_barthes.jpg'
   titles:
+    - id: diario_de_duelo
+      name: Diario de duelo
+      year: 1979
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          text: '«Sufro del miedo de lo que ya ha tenido lugar».'
     - id: la_muerte_del_autor
       name: La muerte del autor
       year: 1987
@@ -28,3 +36,12 @@
         - number: 'f1'
           preview: '«Los signos de una auténtica pasión son siempre un tanto incongruentes [...]'
           text: '«Los signos de una auténtica pasión son siempre un tanto incongruentes [...]. En el amor a un país extranjero hay una especie de racismo al revés: uno se queda encantado por la diferencia, se aburre de lo Mismo, exalta lo Otro; la pasión es maniquea […]. Stendhal tiene esa rara pasión, la pasión por lo otro, o, para decirlo con más sutileza: la pasión por el otro que está en él mismo».'
+    - id: fragmentos_de_un_discurso_amoroso
+      name: Fragmentos de un discurso amoroso
+      year: 1977
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          preview: '«Todo partió de este principio: no se debía reducir lo amoroso a un simple sujeto sintomático, sino más bien hacer entender lo que hay en su voz de inactual, es decir de intratable. De ahí la elección de un método “dramático”, que renuncia a los ejemplos y descansa sobre la sola acción de un lenguaje primero. [...]'
+          text: '«Todo partió de este principio: no se debía reducir lo amoroso a un simple sujeto sintomático, sino más bien hacer entender lo que hay en su voz de inactual, es decir de intratable. De ahí la elección de un método “dramático”, que renuncia a los ejemplos y descansa sobre la sola acción de un lenguaje primero. Se ha sustituido pues la descripción del discurso amoroso por su simulación, y se le ha restituido a este discurso su persona fundamental, que es el yo, de manera de poner en escena una enunciación, no un análisis. Es un retrato, si se quiere, lo aquí propuesto; pero este retrato no es psicológico, es estructural: da a leer un lugar de palabra: el lugar de alguien que habla en sí mismo, amorosamente, frente a otro (el objeto amado), que no habla».'

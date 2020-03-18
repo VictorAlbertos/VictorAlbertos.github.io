@@ -5,6 +5,65 @@
     contrast: 1.5
   category: they
   titles:
+    - id: la_conversacion_infinita
+      name: La conversación infinita
+      year: 1969
+      format-title: italic
+      fragments:
+        - number: 'f2'
+          social-network-candidate:
+          text: '«Pero ¿por qué dos hablas para decir una misma cosa? — Porque quien la dice es siempre el otro».'
+        - number: 'f1'
+          social-network-candidate:
+          preview: 'Sucede que alguien esté muy cerca de nosotros, cerca no: las murallas han caído; a veces, siempre muy cerca, pero sin relación, las murallas han caído, las que separan, las que sirven también para transmitir señales, el lenguaje de las prisiones. Hay entonces que levantar una pared, pedir un poco de indiferencia, esta tranquila distancia con la que se equilibran las vidas. Deseo ingenuo que se forma después de haberse realizado. [...]'
+          text: '«Sucede que alguien esté muy cerca de nosotros, cerca no: las murallas han caído; a veces, siempre muy cerca, pero sin relación, las murallas han caído, las que separan, las que sirven también para transmitir señales, el lenguaje de las prisiones. Hay entonces que levantar una pared, pedir un poco de indiferencia, esta tranquila distancia con la que se equilibran las vidas. Deseo ingenuo que se forma después de haberse realizado. Pero, de tal sorprendente cercanía conservamos la impresión de que ha habido un breve momento de suerte, merced al favor, no de la mirada que ha podido intercambiarse, sino como de un movimiento que nos habría precedido a ambos, justo antes del encuentro, parece que en ese instante él era verdaderamente nuestro camarada en un espacio infinito e infinitamente desierto donde, por un maravilloso azar, él había precisamente surgido a nuestro lado; eso era así, ello iba a ser así, eso era inexplicable, seguro y maravilloso. Pero ¿quién era él? ¿Quizá solamente el desierto?, ¿el desierto convertido en nuestro compañero? Eso sigue siendo maravilloso, maravillosamente desolado, y más tarde de nuevo el camarada desapareció, no hay más que desierto, pero éste, en su seca verdad y su árida presencia, nos es de repente próximo, familiar, amigo. Proximidad que al mismo tiempo nos dice: "el desierto crece"».'
+    - id: la_espera_el_olvido
+      name: La espera el olvido
+      year: 1962
+      format-title: italic
+      fragments:
+        - number: 'f3'
+          social-network-candidate:
+          text: '«Él nunca sabría lo que él sabía. Eso era la soledad».'
+        - number: 'f2'
+          social-network-candidate:
+          preview: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?” [...]'
+          text: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?”</br></br>Lo que él presiente es que ella espera que la lleve lo suficientemente lejos como para que el recuerdo recuerde en ella y pueda expresarse. Eso es lo que no dejan de evocar en todo momento.</br></br>LEn secreto a la vista de todos.</br></br>LComo si el dolor tuviera el pensamiento como espacio».'
+        - number: 'f1'
+          social-network-candidate:
+          preview: '«¿Me olvidará usted?». — «Sí, la olvidaré». — «¿Cómo estará seguro de haberme olvidado?». — «Cuando recuerde a otra». — «Pero es aún de mí de quien se acordará; me es preciso más». — «Tendrá más: cuando no me acuerde de mí». [...]'
+          text: '«¿Me olvidará usted?». — «Sí, la olvidaré». — «¿Cómo estará seguro de haberme olvidado?». — «Cuando recuerde a otra». — «Pero es aún de mí de quien se acordará; me es preciso más». — «Tendrá más: cuando no me acuerde de mí». Ella reflexionó acerca de esta idea que parecía complacerle. «Olvidados juntos. ¿Y quién entonces nos olvidará? ¿Quién estará seguro de nosotros en el olvido?». — «Los demás, ¡todos los demás!». — «Pero ellos no cuentan. Me río de ser olvidada por los demás. Por usted es por quien quiero ser olvidada, únicamente por usted». — «Pues bien, en el momento en que me habrás olvidado». — «Pero, decía ella tristemente, siento efectivamente que ya te he olvidado».'
+    - id: la_sentencia_de_muerte
+      name: La sentencia de muerte
+      year: 1948
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          preview: '«Cuando se empieza con las "razones", pronto se pierde pie por poco honesto que uno sea, pues las razones son siempre demasiado numerosas cuando una sola bastaría. [...]'
+          text: '«Cuando se empieza con las "razones", pronto se pierde pie por poco honesto que uno sea, pues las razones son siempre demasiado numerosas cuando una sola bastaría. Yo también, al escucharla, descubrí cuánto me ofendía aquel matrimonio, no por mí, claro está, ni siquiera por aquel Simón muerto que no me recordaba nada; pero, tenía el presentimiento de que una traición invisible se estaba fraguando, uno de esos actos desgarradores de los que nadie sabe nada, que empiezan en la oscuridad y terminan en el silencio, y contra los cuales la desgracia ignorada no puede defenderse».'
+    - id: el_instante_de_mi_muerte
+      name: El instante de mi muerte
+      year: 1994
+      format-title: italic
+      fragments:
+        - number: 'f3'
+          social-network-candidate:
+          text: '«Permanecía del momento en que el fusilamiento no era más que una espera, el sentimiento de ligereza que yo no sabría traducir: ¿liberado de la vida?, ¿el infinito que se abre? Ni felicidad, ni infelicidad. Ni la ausencia de temor, quizás ya el paso más allá. Yo sé, imagino que este sentimiento cambió lo que le quedaba de existencia. Como si la muerte fuera de él no pudiese desde entonces más que chocar con la muerte en él. “Estoy vivo. No, estás muerto”».'
+        - number: 'f2'
+          social-network-candidate:
+          preview: '«Sé —lo sé— que aquél al que ya apuntaban los alemanes, no esperando más que la orden final, experimentó entonces un sentimiento de ligereza extraordinaria, una especie de beatitud (nada feliz, sin embargo) ¿alegría soberana? ¿El encuentro de la muerte con la muerte? [...]'
+          text: '«Sé —lo sé— que aquél al que ya apuntaban los alemanes, no esperando más que la orden final, experimentó entonces un sentimiento de ligereza extraordinaria, una especie de beatitud (nada feliz, sin embargo) ¿alegría soberana? ¿El encuentro de la muerte con la muerte?</br></br>En su lugar, no trataré de analizar ese sentimiento de ligereza. Quizás él era súbitamente invencible. Muerto—inmortal. Quizás el éxtasis. Más bien el sentimiento de compasión por la humanidad, la dicha de no ser inmortal ni eterno. Desde entonces, él estuvo ligado a la muerte, por una amistad subrepticia».'
+        - number: 'f1'
+          text: '«Qué importa. Tan sólo permanece el sentimiento de ligereza que es la muerte misma o, para decirlo con más precisión, el instante de mi muerte desde entonces siempre pendiente».'
+    - id: la_locura_de_la_Luz
+      name: La locura de la Luz
+      year: 1973
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          text: '«¿Soy egoísta? No tengo sentimientos más que para algunos, piedad para nadie, raramente tengo ganas de agradar, raramente ganas de que se me agrade y yo, para mí que poco menos que insensible, sólo sufro por ellos, de tal manera que su menor aprieto me provoca un mal infinito aunque, no obstante, si es necesario, los sacrifico deliberadamente, les suprimo todo sentimiento dichoso (llego a matarlos)».'
     - id: la_escritura_del_desastre
       name: La escritura del desastre
       year: 1980

@@ -5,11 +5,24 @@
     name: 'albert_camus.jpg'
   titles:
     - id: el_mito_de_sisifo
-      name: El el mito de Sísifo
+      name: El mito de Sísifo
       year: 1942
       format-title: italic
       fragments:
+        - number: 'f5'
+          social-network-candidate:
+          preview: '«¿Qué imagen más espantosa se puede desear que la de un hombre a quien traiciona su cuerpo y que, por no haber muerto a tiempo, consuma la comedia esperando el fin cara a cara con ese dios al que no adora, sirviéndole como ha servido a la vida, arrodillado ante el vacío, con los brazos tendidos hacia un cielo sin elocuencia y que, según él sabe, tampoco tiene profundidad? [...]'
+          text: '«¿Qué imagen más espantosa se puede desear que la de un hombre a quien traiciona su cuerpo y que, por no haber muerto a tiempo, consuma la comedia esperando el fin cara a cara con ese dios al que no adora, sirviéndole como ha servido a la vida, arrodillado ante el vacío, con los brazos tendidos hacia un cielo sin elocuencia y que, según él sabe, tampoco tiene profundidad?  Veo a Don Juan en una celda de esos monasterios españoles perdidos en una colina. Y si mira algo, no es a los fantasmas de los amores huidos, sino, quizá, por una aspillera ardiente, a alguna llanura silenciosa de España, tierra magnífica y sin alma en la que se reconoce. Sí, hay que detenerse en esta imagen melancólica y resplandeciente. El fin último, esperado pero nunca deseado, es despreciable».'
+        - number: 'f4'
+          social-network-candidate:
+          preview: '«La grandeza ha cambiado de campo. Está en la protesta y en el sacrificio sin porvenir. Pero no es por complacencia en la derrota. La victoria sería deseable. Pero sólo hay una victoria y es eterna. Es la que no conseguiré nunca. Con eso es con lo que tropiezo y me atasco. Una revolución se realiza siempre contra los dioses, comenzando por la de Prometeo, el primero de los conquistadores modernos. [...]'
+          text: '«La grandeza ha cambiado de campo. Está en la protesta y en el sacrificio sin porvenir. Pero no es por complacencia en la derrota. La victoria sería deseable. Pero sólo hay una victoria y es eterna. Es la que no conseguiré nunca. Con eso es con lo que tropiezo y me atasco. Una revolución se realiza siempre contra los dioses, comenzando por la de Prometeo, el primero de los conquistadores modernos. Es una reivindicación del hombre contra su destino: la reivindicación del pobre no es sino un pretexto. Pero no puedo captar este espíritu sino en su acto histórico y ahí es donde me reúno con él. No se crea, sin embargo, que me complazco en ello: frente a la contradicción esencial defiendo mi contradicción humana. Instalo mi lucidez en medio de lo que la niega. Exalto al hombre ante lo que lo aplasta y mi libertad, mi rebelión y mi pasión se unen en esa tensión, esa clarividencia y esa repetición desmesurada».'
+        - number: 'f3'
+          social-network-candidate:
+          preview: '«Me tomo la libertad de llamar aquí suicidio filosófico a la actitud existencial. Pero esto no implica un juicio. Es una manera cómoda de designar el movimiento por el cual un pensamiento se niega a sí mismo y tiende a superarse a sí mismo en lo que constituye su negación. La negación es el Dios de los existencialistas. [...]'
+          text: '«Me tomo la libertad de llamar aquí suicidio filosófico a la actitud existencial. Pero esto no implica un juicio. Es una manera cómoda de designar el movimiento por el cual un pensamiento se niega a sí mismo y tiende a superarse a sí mismo en lo que constituye su negación. La negación es el Dios de los existencialistas. Exactamente, ese dios sólo se sostiene gracias a la negación de la razón humana. Pero lo mismo que los suicidios, los dioses cambian con los hombres. Hay muchas maneras de saltar, pero lo esencial es saltar. Estas negaciones redentoras, estas contradicciones finales que niegan el obstáculo que no se ha saltado todavía, pueden nacer tanto (tal es la paradoja a que tiende este razonamiento) de cierta inspiración religiosa como del orden racional. Aspiran siempre a lo eterno, y en eso solamente es en lo que dan el salto.</br></br>Precisemos una vez más: de lo que se trata aquí no es de la afirmación de Dios, sino de la lógica que conduce a Él».'
         - number: 'f2'
+          social-network-candidate:
           text: '«[…] cuando el pensamiento reflexiona sobre sí mismo, lo que descubre, en primer lugar, es una contradicción».'
         - number: 'f1'
           text: '«Todas las grandes acciones y todos los grandes pensamientos tienen un principio ridículo».'
