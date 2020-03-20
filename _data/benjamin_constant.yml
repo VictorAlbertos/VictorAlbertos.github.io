@@ -1,0 +1,32 @@
+- id: benjamin_constant
+  name: Benjamin Constant
+  category: they
+  image:
+    name: 'benjamin_constant.jpg'
+  titles:
+    - id: adolphe
+      name: Adolphe
+      year: 1816
+      format-title: italic
+      fragments:
+        - number: 'f7'
+          social-network-candidate:
+          text: '«Desde el momento en que existe un secreto entre dos corazones que se aman, desde el momento en que uno de ellos ha podido resolverse a ocultarle al otro una sola idea, el encanto se rompe, la felicidad se destruye. La ira, la injusticia, la distracción misma, pueden ser reparadas, pero el disimulo introduce en el amor un elemento extraño que lo desnaturaliza y lo marchita a sus propios ojos».'
+        - number: 'f6'
+          social-network-candidate:
+          text: '«Sentía que ella era mejor que yo; me despreciaba por ser indigno de ella. Es una horrible desgracia no ser amado cuando se ama, pero no lo es menos ser amado con pasión cuando ya no se ama. Esa vida que yo acababa de exponer por Ellénore, la habría dado mil veces por que ella fuera feliz sin mí».'
+        - number: 'f5'
+          preview: '«Paseaba mi mirada por el horizonte grisáceo cuyos límites no llegaba a distinguir, y que por eso mismo me daba, de algún modo, la sensación de inmensidad. No había experimentado nada parecido desde hacía mucho tiempo; incesantemente absorto en reflexiones siempre personales, la vista siempre fija en mi situación, me había vuelto extraño a toda idea general; solo me ocupaba de Ellénore y de mí; de Ellénore, que me inspiraba una piedad mezclada con cansancio; de mí, hacia quien ya no tenía ninguna estima. [...]»'
+          text: '«Paseaba mi mirada por el horizonte grisáceo cuyos límites no llegaba a distinguir, y que por eso mismo me daba, de algún modo, la sensación de inmensidad. No había experimentado nada parecido desde hacía mucho tiempo; incesantemente absorto en reflexiones siempre personales, la vista siempre fija en mi situación, me había vuelto extraño a toda idea general; solo me ocupaba de Ellénore y de mí; de Ellénore, que me inspiraba una piedad mezclada con cansancio; de mí, hacia quien ya no tenía ninguna estima. Me había achicado, por así decirlo, en una nueva clase de egoísmo, un egoísmo sin valentía, descontento y humillado; me supe de buen ánimo por renacer a pensamientos de otro orden y por reencontrarme con la facultad de olvidarme de mí mismo para entregarme a meditaciones desinteresadas: mi alma parecía levantarse de una larga y vergonzosa degradación».'
+        - number: 'f4'
+          social-network-candidate:
+          text: '«La verdad salía a la luz por todas partes, y para hacerme entender adopté las expresiones más duras y despiadadas. Solo me detenía cuando veía a Ellénore llena de lágrimas, y sus mismas lágrimas no eran sino una lava ardiente que, cayendo gota a gota sobre mi corazón, me arrancaba gritos sin poderme arrancar una rectificación».'
+        - number: 'f3'
+          social-network-candidate:
+          text: '«No me sorprende que el hombre tenga necesidad de religión; lo que me asombra es que se crea lo bastante fuerte, lo bastante resguardado frente a la desgracia, para atreverse a rechazar una; debería, creo yo, verse llevado, en su debilidad, a invocarlas todas. En la espesa noche que nos rodea, ¿podríamos rehusar un resplandor? En medio del torrente que nos arrastra, ¿podríamos dejar de aceptar una rama?».'
+        - number: 'f2'
+          social-network-candidate:
+          preview: '«La gran cuestión en esta vida es el dolor que se causa, y la metafísica más ingeniosa no justifica al hombre que ha desgarrado el corazón que lo amaba. [...]»'
+          text: '«La gran cuestión en esta vida es el dolor que se causa, y la metafísica más ingeniosa no justifica al hombre que ha desgarrado el corazón que lo amaba. Por otra parte, odio esa fatuidad de un espíritu que cree justificar lo que está explicando; odio esa vanidad que se ocupa de sí misma contando el daño que ha hecho, que pretende despertar compasión al describirse, y que, sobrevolando indestructible entre las ruinas, se analiza en lugar de arrepentirse. Odio esa debilidad que siempre les echa a los demás la culpa de su propia impotencia, y que no ve que el daño no está a su alrededor, sino en ella misma».'
+        - number: 'f1'
+          text: '«Yo sabía en el fondo de mi alma que sus lágrimas no habrían podido ser desobedecidas».'

@@ -12,7 +12,7 @@
       fragments:
         - number: 'f1'
           social-network-candidate:
-          text: 'La amistad, esa relación sin dependencia, sin episodio, y donde, no obstante, cabe toda la sencillez de la vida, pasa por el reconocimiento de la extrañeza común que no nos permite hablar de nuestros amigos, sino sólo hablarles, no hacer de ellos un tema de conversación (o de artículos), sino el movimiento del convenio de que, hablándonos, reservan, incluso en la mayor familiaridad, la distancia infinita, esa separación fundamental a partir de la cual lo que separa se convierte en relación.'
+          text: '«La amistad, esa relación sin dependencia, sin episodio, y donde, no obstante, cabe toda la sencillez de la vida, pasa por el reconocimiento de la extrañeza común que no nos permite hablar de nuestros amigos, sino sólo hablarles, no hacer de ellos un tema de conversación (o de artículos), sino el movimiento del convenio de que, hablándonos, reservan, incluso en la mayor familiaridad, la distancia infinita, esa separación fundamental a partir de la cual lo que separa se convierte en relación».'
     - id: de_kafka_a_kafka
       name: De Kafka a Kafka
       year: 1981

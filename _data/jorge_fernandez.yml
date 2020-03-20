@@ -1,0 +1,37 @@
+- id: jorge_fernandez
+  name: Jorge Fernández
+  category: they
+  image:
+    name: 'jorge_fernandez.jpg'
+    color: 0
+  titles:
+    - id: filosofia_zombi
+      name: Filosofía zombi
+      year: 2011
+      format-title: italic
+      fragments:
+        - number: 'f9'
+          social-network-candidate:
+          preview: '«Por horror ha de entenderse una representación que nos sobrepasa, que ciega todos los canales de raciocinio, que excede por su saturación o pulcritud la capacidad de ver, que desborda aquello que culturalmente somos capaces de contemplar, para lo cual no tenemos un lenguaje. [...]»'
+          text: '«Por horror ha de entenderse una representación que nos sobrepasa, que ciega todos los canales de raciocinio, que excede por su saturación o pulcritud la capacidad de ver, que desborda aquello que culturalmente somos capaces de contemplar, para lo cual no tenemos un lenguaje. Se trata de un simulacro de la vida que no tiene correspondencia con discurso alguno, ni siquiera con los lenguajes de la retórica de la imagen que manejamos habitualmente. Entonces, el horror rebasa la gramática de nuestros códigos visuales: no podemos ver la muerte de nuestros seres queridos o nuestra propia muerte sin horrorizarnos, como sucede en el zombi, que es ya de antemano la representación horrenda de nuestra mortandad, lo no-viviente que señalaba Debord y que irremediablemente nos habita».'
+        - number: 'f8'
+          text: '«El zombi nunca es sólo el otro temible del que hay que huir, es el yo, es mi yo reflejado, el doble oscuro, un carcomido dopplegänger o un infecto Narciso que reflejan mis propios temores, de los que no podré escapar nunca, porque no puedo frenar la infección, el maleficio, la plaga que me habita».'
+        - number: 'f7'
+          social-network-candidate:
+          text: '«El zombi no es un yo. No es un sujeto. Ese estado de transición entre la vida y la muerte, esa muerte eternamente prolongada del zombi, fuera del tiempo y del espacio, se posibilita gracias a la pérdida de la identidad y al aborrecimiento del binarismo entre lo mismo y lo otro. El cuerpo del zombi no puede ser nunca uno, porque cada órgano, literalmente, hace un cuerpo total, y sin esa imagen especular que reduzca la existencia a la identidad biológica del cuerpo, tal y como proponía Lacan, el sujeto no acaba de constituirse».'
+          preview: '«El zombi no es un yo. No es un sujeto. Ese estado de transición entre la vida y la muerte, esa muerte eternamente prolongada del zombi, fuera del tiempo y del espacio, se posibilita gracias a la pérdida de la identidad y al aborrecimiento del binarismo entre lo mismo y lo otro. [...]»'
+        - number: 'f6'
+          social-network-candidate:
+          text: '«Todo lo que transgrede, decía Foucault, ilumina claramente lo transgredido, el poso de lo cercano, para ofrecernos la verdad positiva de lo que permanecía oculto, esto es, lo absurdo, lo tosco de la experiencia de vivir, la ausencia de relato a la que no podemos enfrentarnos sin caer en la locura o, como vio Blanchot, en el aburrimiento: nuestro tedio no es otra cosa que lo cotidiano que se hace manifiesto».'
+        - number: 'f5'
+          social-network-candidate:
+          text: '«El discurso que legitima el original frente a la copia se revierte, y son ahora los sucesivos simulacros los que rompen con el privilegio de la mismidad, del ser, del modelo, y se despliegan sin dependencia alguna con el original. Klossowski (2004) llega más lejos al afirmar que el arte, en tanto que creación de simulacros (copias de las prácticas legitimadas para describir lo real), deshabilita los discursos de poder, desarma sus estrategias, parodia sus leyes, anula las construcciones de signos que nos concedían la seguridad de habitar en un determinado mundo, bajo unas reglas, mediante códigos prefigurados, oscuras políticas de lo verdadero. El arte sería una suspensión lúdica del principio de realidad».'
+          preview: '«El discurso que legitima el original frente a la copia se revierte, y son ahora los sucesivos simulacros los que rompen con el privilegio de la mismidad, del ser, del modelo, y se despliegan sin dependencia alguna con el original. [...]»'
+        - number: 'f4'
+          text: '«Una escritura despotenciada, entonces, que pretende no tanto acaparar un poder, certificar la verdad o prescindir de las mentiras que se solapan sobre tal o cual asunto, sino que utiliza ambas como materiales para su trazado. No fijar, sino navegar entre las identidades y las diferencias, lanzar las palabras y construir las correspondencias imposibles, los juegos de lenguaje más rebuscados, y destruirlos para comenzar la partida. El zombi es la metáfora cero, la zona cero del lenguaje».'
+        - number: 'f3'
+          text: '«El discurso de la ley es aquel que permite dar captación plena del fenómeno que se niega. La ley, al fin y al cabo, no es otra cosa que un relato, y es el efecto de su narración lo que da carta de ciudadanía al hecho prohibido. Con la falta de narración de estos cadáveres andantes la humanidad queda literalmente desprotegida».'
+        - number: 'f2'
+          text: '«[...] las «máscaras de la vida», la espectacularidad del zombi como aquello que nos sobrepasa de nosotros mismos, como aquello que soy y que, sin embargo, es más que yo, una representación que me desborda y que supera la propia narración que he tejido en torno a mí».'
+        - number: 'f1'
+          text: '«Una filosofía zombi, por tanto, acepta el reto: pensar el desgarro. Pensar esos jirones de presencia, las purulentas malformaciones de lo real, lo que no llega al nombre, los ramales de cuerpos, espacios o texturas, que se ven abocados a una desmesura irrepresentable. Zombi es esa extraña palabra para lo que no tiene nexo, identidad, fisonomía, cuerpo. Pensar el zombi es también pensar lo impensable».'
