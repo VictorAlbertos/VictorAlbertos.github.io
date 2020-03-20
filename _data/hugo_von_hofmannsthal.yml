@@ -1,0 +1,20 @@
+- id: hugo_von_hofmannsthal
+  name: Hugo Von Hofmannsthal
+  category: they
+  image:
+    name: 'hugo_von_hofmannsthal.jpg'
+  titles:
+    - id: la_carta_de_lord_chandos
+      name: La Carta de Lord Chandos
+      year: 1981
+      format-title: italic
+      fragments:
+        - number: 'f3'
+          social-network-candidate:
+          text: '«La lengua, en que tal vez me estaría dado no sólo escribir sino también pensar, no es ni el latín, ni el inglés, ni el italiano, ni el español, sino una lengua de cuyas palabras no conozco ni un sola, una lengua en la que me hablan las cosas mudas y en la que quizá un día, en la tumba, rendiré cuentas ante un juez desconocido».'
+        - number: 'f2'
+          social-network-candidate:
+          text: '«Pues mi dichoso e innominado sentimiento surgirá para mí antes de un solitario y lejano fuego de pastores que de la visión del cielo estrellado; antes del canto de un último grillo próximo a la muerte cuando el viento de otoño arrastra nubes invernales sobre los campos desiertos, que del majestuoso fragor del órgano».'
+        - number: 'f1'
+          social-network-candidate:
+          text: '«Ya no lograba aprehenderlas con la mirada simplificadora de la costumbre. Todo se me desintegraba en partes, las partes otra vez en partes, y nada se dejaba ya abarcar con un concepto. Las palabras aisladas flotaban alrededor de mí; cuajaban en ojos que me miraban fijamente y de los que no puedo apartar la vista: son remolinos a los que me da vértigo asomarme, que giran sin cesar y a través de los cuales se llega al vacío».'

@@ -1,0 +1,26 @@
+- id: walter_benjamin
+  name: Walter Benjamin
+  category: they
+  image:
+    name: 'walter_benjamin.jpg'
+  titles:
+    - id: calle_de_sentido_unico
+      name: Calle de sentido único
+      year: 1928
+      format-title: italic
+      fragments:
+        - number: 'f5'
+          social-network-candidate:
+          text: '«En estos días nadie debe empeñarse en lo que "sabe hacer". La fuerza estriba en la improvisación. Todos los golpes decisivos se darán con la mano izquierda».'
+        - number: 'f4'
+          social-network-candidate:
+          text: '«Lo que tiene en mente tiene tan poco que ver con el asunto mismo como el sueño del narcotizado con la intervención quirúrgica».'
+        - number: 'f3'
+          social-network-candidate:
+          text: '«Cuando se nos muere una persona muy allegada, en las evoluciones de los meses siguientes hay algo de lo que creemos observar que —por mucho que nos hubiera gustado compartirlo con ella— solo se ha podido desplegar gracias a su ausencia. Acabamos por saludarla en un idioma que ella ya no entiende».'
+        - number: 'f2'
+          social-network-candidate:
+          text: '«Un portón se abre al comienzo de un largo camino que conduce cuesta abajo a casa de..., a quien yo visitaba todas las tardes. Desde que ella se mudó, la abertura del arco del portón quedó ante mí como el pabellón de una oreja que ha perdido el oído».'
+        - number: 'f1'
+          social-network-candidate:
+          text: '«No hay nada más pobre que una verdad expresada tal como se ha pensado. En tal caso, ponerla por escrito ni equivale siquiera a una mala fotografía».'

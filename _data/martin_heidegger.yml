@@ -1,0 +1,14 @@
+- id: martin_heidegger
+  name: Martin Heidegger
+  category: they
+  image:
+    name: 'martin_heidegger.jpg'
+  titles:
+    - id: de_camino_al_habla
+      name: De camino al habla
+      year: 1959
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          text: '«Inmenso es el silencio en la piedra.</br></br>La piedra es el macizo cobijo del dolor. La roca recoge en su pétreo cobijo el apaciguamiento en el que el dolor sosiega hacia lo esencial. El dolor permanece en silencio a fuerza de azul. Ante el azul del animal se retira la ternura».'

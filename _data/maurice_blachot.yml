@@ -5,6 +5,23 @@
     contrast: 1.5
   category: they
   titles:
+    - id: la_amistad
+      name: La amistad
+      year: 1971
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          text: 'La amistad, esa relación sin dependencia, sin episodio, y donde, no obstante, cabe toda la sencillez de la vida, pasa por el reconocimiento de la extrañeza común que no nos permite hablar de nuestros amigos, sino sólo hablarles, no hacer de ellos un tema de conversación (o de artículos), sino el movimiento del convenio de que, hablándonos, reservan, incluso en la mayor familiaridad, la distancia infinita, esa separación fundamental a partir de la cual lo que separa se convierte en relación.'
+    - id: de_kafka_a_kafka
+      name: De Kafka a Kafka
+      year: 1981
+      format-title: italic
+      fragments:
+        - number: 'f1'
+          social-network-candidate:
+          preview: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto. [...]»'
+          text: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto.</br></br>Y también son los que torturan del modo más trágico la esperanza, no porque la esperanza esté condenada, sino porque no logra ser condenada. Por completa que sea la catástrofe, subsiste un margen ínfimo del que no se sabe si reserva la esperanza o al contrario la descarta para siempre.</br></br>No basta con que el mismo Dios se someta a su propia sentencia y sucumba con ella en el hundimiento más sórdido, en un estrépito inaudito de chatarra y órganos, aún hay que esperar su resurrección y el retorno de su justicia incomprensible que nos condena para siempre al espanto y el consuelo».'
     - id: la_conversacion_infinita
       name: La conversación infinita
       year: 1969
