@@ -34,6 +34,21 @@ for author in authors:
                 title['image']['keep_original'] = True
             images_titles.append(title['image'])
 
+source = root_img_originals + '/authors/'
+files = os.listdir(source)
+for f in files:
+    shutil.move(source + f, root_img_originals)
+
+source = root_img_originals + '/titles/'
+files = os.listdir(source)
+for f in files:
+    shutil.move(source + f, root_img_originals)
+
+source = root_img_originals + '/punctum/'
+files = os.listdir(source)
+for f in files:
+    shutil.move(source + f, root_img_originals)
+
 all_images = images_authors + images_titles
 all_images_names = [f for f in listdir(root_img_originals) if
                     isfile(join(root_img_originals, f)) and f != ".DS_Store"]
