@@ -8,11 +8,10 @@
       name: Doctor Faustus
       year: 1947
       format-title: italic
-      publication-date: '2020-03-14'
+      publication-date: '2020-01-14'
       image:
         name: 'doctor-faustus.png'
         contrast: 2
-      image-pct-contrast: '110'
       fragments:
         - number: 'f12'
           preview: '«Fue a la muerte por su propia voluntad, declarando expresamente que, aun pudiendo evitarla, prefería resueltamente la hoguera, con tal de escapar así al poder del diablo. Hasta tal punto, bajo el peso de sus horribles pecados, la vida se había convertido para ella en un objeto de repulsión [...]'

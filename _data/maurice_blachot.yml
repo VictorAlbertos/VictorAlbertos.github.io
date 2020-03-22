@@ -38,6 +38,11 @@
       name: La espera el olvido
       year: 1962
       format-title: italic
+      publication-date: '2020-01-16'
+      image:
+        name: 'la_espera_el_olvido.jpeg'
+        color: 0.4
+        contrast: 2
       fragments:
         - number: 'f3'
           social-network-candidate:
@@ -45,7 +50,7 @@
         - number: 'f2'
           social-network-candidate:
           preview: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?” [...]'
-          text: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?”</br></br>Lo que él presiente es que ella espera que la lleve lo suficientemente lejos como para que el recuerdo recuerde en ella y pueda expresarse. Eso es lo que no dejan de evocar en todo momento.</br></br>LEn secreto a la vista de todos.</br></br>LComo si el dolor tuviera el pensamiento como espacio».'
+          text: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?”</br></br>Lo que él presiente es que ella espera que la lleve lo suficientemente lejos como para que el recuerdo recuerde en ella y pueda expresarse. Eso es lo que no dejan de evocar en todo momento.</br></br>En secreto a la vista de todos.</br></br>Como si el dolor tuviera el pensamiento como espacio».'
         - number: 'f1'
           social-network-candidate:
           preview: '«¿Me olvidará usted?». — «Sí, la olvidaré». — «¿Cómo estará seguro de haberme olvidado?». — «Cuando recuerde a otra». — «Pero es aún de mí de quien se acordará; me es preciso más». — «Tendrá más: cuando no me acuerde de mí». [...]'
@@ -107,7 +112,6 @@
       name: Thomas el obscuro
       year: 1982
       format-title: italic
-      publication-date: '2020-01-14'
       image:
         name: 'thomas-obscuro.jpeg'
         color: 0.3
