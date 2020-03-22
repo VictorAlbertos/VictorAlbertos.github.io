@@ -5,6 +5,22 @@
     color: 0
   category: they
   titles:
+    - id: la_ordalia
+      name: La Ordalía
+      year: 1975
+      format-title: italic
+      fragments:
+        - number: 'f4'
+          social-network-candidate:
+          text: '«Todos los fuegos tienen un solo sentido, se dijo, esperar; se enciende un fuego, llega el visitante. Y es a veces la palabra, es un amigo, es la muerte».'
+        - number: 'f3'
+          social-network-candidate:
+          text: '«Ana se parecía a Casandra. Bajo la movilidad de los rasgos que expresaban su pasión diferente, la identidad original permanecía intacta, y era toda la parte muerta del rostro, la corteza negra, lo que bajo la sonrisa es ídolo. Ana se parecía a Casandra. Juan conocía este parecido, lo practicaba, sabía lo que implicaba su profundidad».'
+        - number: 'f2'
+          text: '«Se reía por el placer febril de enseñar la morada de los años profundos. Había imaginado a menudo regresos parecidos en el olor de la tierra brumosa y esa soledad hecha de árboles. Significaban que el tiempo se reanudaba desde su manantial. Que una repetición duplicaba el sentido de esos lugares que tanto había querido. Que su destino, en el tiempo más rápido, se hacía puro y simple como la poesía».'
+        - number: 'f1'
+          social-network-candidate:
+          text: '«Todo se precipita, y va hacia su propia perdición, dijo Ana. Pero no es un cambio de verdad. Me conozco a muerte, Gervasio, un día me encontrarás muerta. Dirás: ‘Ana, hoy estás diferente. Y qué frías tienes las manos, y por qué no sonríes?’ Estaré muerta, sin sorpresa, sin cambio».'
     - id: el_territorio_interior
       name: El territorio interior
       year:
