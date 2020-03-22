@@ -43,6 +43,7 @@
         name: 'la_espera_el_olvido.jpeg'
         color: 0.4
         contrast: 2
+        reference: '<i>El olvido</i>, Andrés Ramírez G.'
       fragments:
         - number: 'f3'
           social-network-candidate:
