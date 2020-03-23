@@ -8,7 +8,6 @@
 
         </div>
     </span>
-
     {% else %}
     <div class="no-sticky-region">
         <img class="card-img-top"
@@ -21,24 +20,14 @@
     </div>
     {% endif %}
     {% for post in paginator.posts %}
-    {% if post.categories[0] == "home" and include.hide_author %}
-    {% continue %}
-    {% endif %}
-    {% if post.categories[0] == "draw" and page.title_page != "draw" %}
-    {% continue %}
-    {% endif %}
-    {% if post.categories[0] == "social-network-candidate" and page.title_page != "social-network-candidate" %}
-    {% continue %}
-    {% endif %}
-    {% if post.categories[0] == "they" and page.title_page != "Polvos" %}
-    {% continue %}
-    {% endif %}
     {% for file_name_author in site.data %}
-    {% if file_name_author[1][0].id == post.categories[1] %}
     {% assign author = file_name_author[1][0] %}
+    {% assign title = author.titles | where: 'id', post.title_id | first %}
+    {% if title %}
+    {% break %}
     {% endif %}
     {% endfor %}
-    {% assign title = author.titles | where: 'id', post.title_id | first %}
+
     {% assign fragment = title.fragments | where: 'number', post.fragment | first %}
 
     {% if page.title_page == "draw" %}

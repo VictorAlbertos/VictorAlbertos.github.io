@@ -2,19 +2,19 @@
 layout: default
 ---
 
+
 {% for file_name_author in site.data %}
-	{% for title in file_name_author[1][0].titles %}
-		{% if title.id == page.title_id %}
-			{% assign author = file_name_author[1][0] %}
-		    {% assign title = title %}
-	    {% endif %}
-	{% endfor %}
+{% assign author = file_name_author[1][0] %}
+{% assign title = author.titles | where: 'id', page.title_id | first %}
+{% if title %}
+{% break %}
+{% endif %}
 {% endfor %}
 
 <!--
 	This is only used by post images
  -->
-{% if author.category == 'image' %} 
+{% if author.category == 'punctum' %}
     <script src="/assets/js/redirect-to-punctum-on-close.js"></script>
 
 	<div id="lightgallery">

@@ -86,10 +86,17 @@ def generate_post(title, author_category, author_id,
         fragments = title['fragments'] if "fragments" in title else []
 
         if not fragments:
-            contents = """---
+            if author_id:
+                contents = """---
 title_id: """ + id_title + """
 categories: [""" + author_category + """, """ + author_id + """]
 ---"""
+            else:
+                contents = """---
+title_id: """ + id_title + """
+categories: [""" + author_category + """]
+---"""
+
             if 'publication-date' in title:
                 file_post_name = path_posts + '/' + title[
                     'publication-date'] + '-' + author_category + '-' + id_title + '.md'
@@ -118,10 +125,18 @@ categories: [""" + author_category + """, """ + author_id + """]
                 if invalid:
                     continue
                 fragment_number = fragment['number']
-                contents = """---
+
+                if author_id:
+                    contents = """---
 title_id: """ + id_title + """
 fragment: """ + fragment_number + """
 categories: [""" + author_category + """, """ + author_id + """]
+---"""
+                else:
+                    contents = """---
+title_id: """ + id_title + """
+fragment: """ + fragment_number + """
+categories: [""" + author_category + """]
 ---"""
                 if "publication-date" in fragment:
                     file_post_name = path_posts + '/' + fragment[
@@ -162,9 +177,9 @@ for author in authors:
 
     for title in titles:
         generate_post(title, 'author', author_id, only_first_fragment=False)
-        generate_post(title, author_category, author_id, only_first_fragment=True)
-        generate_post(title, 'draw', author_id, only_no_published=True, only_first_fragment=True)
-        generate_post(title, 'social-network-candidate', author_id, only_social_network_candidate=True)
+        generate_post(title, author_category, None, only_first_fragment=True)
+        generate_post(title, 'draw', None, only_no_published=True, only_first_fragment=True)
+        generate_post(title, 'social-network-candidate', None, only_social_network_candidate=True)
 
 
 def f7(seq):
@@ -181,12 +196,18 @@ our_titles = [f for f in listdir(path_posts) if "-we-" in f]
 our_titles.sort(reverse=True)
 our_titles = list(f7([f.split("-")[-1].replace('.md', '') for f in our_titles]))
 
+punctum = [f for f in listdir(path_posts) if "-punctum-" in f]
+punctum.sort(reverse=True)
+punctum = list(f7([f.split("-")[-1].replace('.md', '') for f in punctum]))
+
 all_home_titles = []
 
 for i in range(len(they_titles)):
     all_home_titles.append(they_titles[i])
     if i < len(our_titles):
         all_home_titles.append(our_titles[i])
+    if i < len(punctum):
+        all_home_titles.append(punctum[i])
 
 d = datetime.today()
 
@@ -196,4 +217,4 @@ for home_title in all_home_titles:
             if title['id'] == home_title:
                 title['publication-date'] = d.strftime('%Y-%m-%d')
                 d = d - timedelta(days=1)
-                generate_post(title, 'home', author['id'], only_first_fragment=True)
+                generate_post(title, 'home', None, only_first_fragment=True)

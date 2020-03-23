@@ -1,6 +1,6 @@
 - id: sample_1
   name: Sample 1 Autor
-  category: image
+  category: punctum
   titles:
     - id: sample_1_imagen
       name: Sample 1 Imagen
