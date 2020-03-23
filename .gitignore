@@ -5,6 +5,6 @@
 _site
 _posts
 _titles
-authors
+.authors/
 Gemfile.lock
 assets/img/
