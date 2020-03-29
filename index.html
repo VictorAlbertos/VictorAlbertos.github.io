@@ -1,10 +1,30 @@
 ---
-title_page_full: Desobra
-title_page: Desobra
-page_image: desobra.png
-pagination: 
-  enabled: true
-  category: home
+pagination:
+    enabled: true
+    category: home
 ---
 
-{% include resolve_content_preview.html %}
+<div class="grid" data-masonry='{ "itemSelector": ".grid-item-adj"}'>
+
+    {% for post in paginator.posts %}
+    {% for file_name_author in site.data %}
+    {% assign author = file_name_author[1][0] %}
+    {% assign title = author.titles | where: 'id', post.title_id | first %}
+
+
+    {% if title %}
+    {% break %}
+    {% endif %}
+    {% endfor %}
+
+    {% if title.preview or title.text or title.fragments %}
+    <div class="grid-item-adj">
+        {% include preview_title.html title=title author=author%}
+    </div>
+    {% else %}
+    <div class="grid-item-adj">
+        {% include preview_image.html title=title author=author%}
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

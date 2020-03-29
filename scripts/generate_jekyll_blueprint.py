@@ -206,6 +206,10 @@ for i in range(len(they_titles)):
     all_home_titles.append(they_titles[i])
     if i < len(our_titles):
         all_home_titles.append(our_titles[i])
+    #if i < len(punctum):
+        #all_home_titles.append(punctum[i])
+
+for i in range(len(they_titles)):
     if i < len(punctum):
         all_home_titles.append(punctum[i])
 
