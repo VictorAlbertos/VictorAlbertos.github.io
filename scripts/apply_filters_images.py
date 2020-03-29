@@ -69,11 +69,3 @@ for image_name in all_images_names:
             original.save(root_assets_images + '/original_' + image_name)
 
 Image.open(root_img_originals + '/' + 'favicon.ico').save(root_assets_images + '/' + 'favicon.ico')
-
-lodos = Image.open(root_img_originals + '/' + 'lodos.png')
-lodos = ImageEnhance.Color(lodos).enhance(0.2)
-lodos = ImageEnhance.Contrast(lodos).enhance(1.5)
-lodos.save(root_assets_images + '/' + 'lodos.png')
-
-Image.open(root_img_originals + '/' + 'polvos.png').save(root_assets_images + '/' + 'polvos.png')
-Image.open(root_img_originals + '/' + 'desobra.png').save(root_assets_images + '/' + 'desobra.png')

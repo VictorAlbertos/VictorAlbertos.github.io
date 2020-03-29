@@ -1,97 +1,92 @@
-<div class="card" style="width:100%">
-    {% if include.hide_author %}
-    <span class="placeholder-top">
-        <img class="avatar"
-             src="/assets/img/{{page.title_author_image}}" alt="Card image">
-        <span class="title-with-avatar">{{page.title_page_full}}</span>
-        <div class="wrapper-black-background-bottom">
-
-        </div>
-    </span>
-    {% else %}
-    <div class="no-sticky-region">
-        <img class="card-img-top"
-             src="/assets/img/{{page.page_image}}" alt="Card image">
-        <div class="card-container black-background">
-            <div class="wrapper-black-background-bottom">
-                <span class="title-post-none">{{page.title_page_full}}</span>
-            </div>
-        </div>
-    </div>
-    {% endif %}
+<div class="grid" data-masonry='{ "itemSelector": ".grid-item-adj"}'>
     {% for post in paginator.posts %}
     {% for file_name_author in site.data %}
     {% assign author = file_name_author[1][0] %}
     {% assign title = author.titles | where: 'id', post.title_id | first %}
+
     {% if title %}
     {% break %}
     {% endif %}
     {% endfor %}
 
-    {% assign fragment = title.fragments | where: 'number', post.fragment | first %}
-
-    {% if page.title_page == "draw" %}
-        <div class="card-container-preview-title">
-            <p class="preview-text">
-                <span class="post-preview-title-none">{{ title.name }}</span><span class="date-post-preview"> ({{ title.year }})</span>
-            </p>
-        </div>
-        {% continue %}
-    {% endif %}
-
-    <p class="block">
+    {% if title.preview or title.text or title.fragments %}
+    <div class="grid-item-adj">
+        {% assign fragment = title.fragments[0] %}
         {% if fragment %}
-        <a href="../../../titles/{{title.id}}#{{fragment.number}}">
-            <div class="card-container-preview-title">
-                <div>{% if fragment.preview %}
-    <p>
+        <a href="../../../titles/{{title.id}}#{{fragment.number}}" class="card ">{% else %}<a
+                href="../../../titles/{{title.id}}" class="card ">{% endif %}
+            <div class="card-image"
+                 style="border-radius: .175rem .175rem 0 0; background-image: url(/assets/img/{{title.image.name}}); background-position: center center; background-repeat: no-repeat; background-size: 30rem auto;">
+                <div class="black-background-preview div-padding-preview-header">
 
-        {{ fragment.preview }}</p>{% else %}<p>{{ fragment.text | truncate: 500 }}</p>{% endif %}
-    {% else %}
-    <a href="../../../titles/{{title.id}}">
-        <div class="card-container-preview-title">
-            <div>
-                {% if title.preview %}
+                    {% if title.format-title == 'italic' %}
+                    <span class="title-post-italic">{{ title.name }}</span><span
+                        class="date-post"> ({{ title.year }})</span>
+                    {% elsif title.format-title == 'quotes' %}
+                    <span class="title-post-none">«{{ title.name }}»</span><span
+                        class="date-post"> ({{ title.year }})</span>
+                    {% else %}
+                    <span class="title-post-none">{{ title.name }}</span><span
+                        class="date-post"> ({{ title.year }})</span>
+                    {% endif %}
+                    <br>
+                    <span class="author-post">{{ author.name }}</span>
+                </div>
+
+            </div>
+
+            <div class="div-padding-preview-body">
+                {% if fragment.preview %}
+                <p>{{ fragment.preview }}</p>
+                {% elsif fragment.text %}
+                <p>{{ fragment.text | truncate: 500 }}</p>
+                {% elsif title.preview %}
                 <p>{{ title.preview }}</p>
-                {% else %}
-                <p>{{ title.text | truncate: 500 }}</p>
-                {% endif %}
-                {% endif %}
-                {% if include.hide_author %}
-                {% if title.format-title == 'italic' %}
-                <p class="preview-text"><span class="post-preview-title-italic">{{ title.name }}</span><span
-                        class="date-post-preview"> ({{ title.year }})</span>
-                </p>
-                {% elsif title.format-title == 'quotes' %}
-                <p class="preview-text"><span class="post-preview-title-none">«{{title.name }}»</span><span
-                        class="date-post-preview"> ({{ title.year }})</span>
-                </p>
-                {% else %}
-                <p class="preview-text"><span class="post-preview-title-none">{{ title.name }}</span><span
-                        class="date-post-preview"> ({{ title.year }})</span>
-                </p>
-                {% endif %}
-                {% else %}
-                {% if title.format-title == 'italic' %}
-                <p class="preview-text"><span class="post-preview-title-italic">{{ title.name }}</span><span
-                        class="date-post-preview"> ({{ title.year }})</span>,
-                    <span class="post-preview-author"> {{ author.name }}.</span></p>
-                {% elsif title.format-title == 'quotes' %}
-                <p class="preview-text"><span class="post-preview-title-none">«{{ title.name }}»</span><span
-                        class="date-post-preview"> ({{ title.year }})</span>,
-                    <span class="post-preview-author"> {{ author.name }}.</span></p>
-                {% else %}
-                <p class="preview-text"><span class="post-preview-title-none">{{ title.name }}</span><span
-                        class="date-post-preview"> ({{ title.year }})</span>,
-                    <span class="post-preview-author"> {{ author.name }}.</span></p>
-                {% endif %}
+                {% elsif title.text %}
+                <p> {{ title.text | truncate: 500 }}</p>
                 {% endif %}
             </div>
-    </a>
-</div>
-{% endfor %}
-{% if paginator.total_pages > 1 %}
-<div class="card-container">{% include pagination_links.html %}</div>
-{% endif %}
-</div>
+        </a>
+    </div>
+    {% endif %}
+    {% endfor %}
 
+
+    <div id="lightgallery">
+        {% for post in paginator.posts %}
+        {% for file_name_author in site.data %}
+        {% assign author = file_name_author[1][0] %}
+        {% assign title = author.titles | where: 'id', post.title_id | first %}
+
+        {% if title %}
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% if title.preview or title.text or title.fragments %}
+        {% else %}
+        <a href="/assets/img/original_{{title.image.name}}"
+           data-sub-html="<i>{{ title.name }}</i> ({{ title.year }}), <span> {{ author.name }} </span>">
+            <div class="grid-item-adj">
+
+                <img src="/assets/img/{{title.image.name}}" width="1500px" height="300px" class="centered-and-cropped"
+                     alt="{{title.name}}"/>
+                <div class="punctum-actions-container">
+                    <div class="prevent-parent-click"><span
+                            class="title-punctum"><i>{{ title.name }}</i> ({{ title.year }})</span>
+                        &nbsp;<i url="{{post.url}}" class="fa punctum-icon fa-share-square"></i>
+                        &nbsp;<i url="{{post.url}}" class="fa punctum-icon fa-facebook-square"></i>
+                        &nbsp;<i url="{{post.url}}" class="fa punctum-icon fa-twitter-square"></i>
+                    </div>
+                </div>
+
+            </div>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% if paginator.total_pages > 1 %}
+<br>
+{% include pagination_links.html %}
+{% endif %}
