@@ -30,7 +30,7 @@ for author in authors:
 
     for title in author['titles']:
         if "image" in title:
-            if author['category'] == 'image':
+            if author['category'] == 'punctum':
                 title['image']['keep_original'] = True
             images_titles.append(title['image'])
 
