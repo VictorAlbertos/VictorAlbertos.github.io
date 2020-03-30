@@ -209,9 +209,8 @@ for i in range(len(they_titles)):
     #if i < len(punctum):
         #all_home_titles.append(punctum[i])
 
-for i in range(len(they_titles)):
-    if i < len(punctum):
-        all_home_titles.append(punctum[i])
+for i in range(len(punctum)):
+    all_home_titles.append(punctum[i])
 
 d = datetime.today()
 
