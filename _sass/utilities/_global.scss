@@ -495,7 +495,7 @@ a.black:hover {
 }
 
 .div-padding-preview-header {
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
@@ -507,13 +507,64 @@ a.black:hover {
 }
 
 
-@media (max-width: 699px) {
+@media (max-width: 899px) {
     .grid-item-adj { width: 100%; }
 }
-@media (min-width: 700px) {
+@media (min-width: 900px) {
     .grid-item-adj { width: 50%; }
 }
 
 .grid-item-adj {
  padding: 1rem;
+}
+
+.center-crop {
+    object-fit: cover;
+}
+
+
+span.preview-title-post-italic {
+  display: inline;
+  font-size: 1.25em;
+  font-style: italic;
+  color: white;
+}
+
+span.preview-title-post-none {
+  display: inline;
+  font-size: 1.25em;
+  color: white;
+}
+
+span.preview-title-author {
+  display: block;
+  font-size: 1.15em;
+  color: white;
+}
+
+
+span.date-preview-title-post {
+  display: inline;
+  font-size: 1.15em;
+  color: white;
+}
+
+span.title-image-post {
+  display: inline;
+  font-size: 1.25em;
+  color: black;
+  font-style: italic;
+}
+
+span.date-image-post {
+  display: inline;
+  font-size: 1.15em;
+  color: black;
+}
+
+span.author-image-post {
+  display: block;
+  font-size: 1.15em;
+  color: black;
+  margin-bottom: 1rem;
 }

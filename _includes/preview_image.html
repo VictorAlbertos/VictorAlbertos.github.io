@@ -1,0 +1,18 @@
+<div class="grid-item-adj">
+    <a class="card div-padding-preview-body" href="/assets/img/original_{{title.image.name}}">
+        <div>
+            <span class="title-image-post">{{ title.name }}</span>
+            <span class="date-image-post"> ({{ title.year }})</span>
+            <span class="author-image-post">{{ author.name }}</span>
+        </div>
+        <img src="/assets/img/{{title.image.name}}" width="1500px" height="300px" class="center-crop"
+             alt="{{title.name}}"/>
+        <div class="punctum-actions-container float-right">
+            <div class="prevent-parent-click float-right">
+                &nbsp;<i url="{{post.url}}" class="fa punctum-icon fa-share-square"></i>
+                &nbsp;<i url="{{post.url}}" class="fa punctum-icon fa-facebook-square"></i>
+                &nbsp;<i url="{{post.url}}" class="fa punctum-icon fa-twitter-square"></i>
+            </div>
+        </div>
+    </a>
+</div>

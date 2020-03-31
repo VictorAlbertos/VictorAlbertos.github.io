@@ -14,6 +14,7 @@
       reference: 'Entrada fechada el viernes 1 de febrero de 1963 a las 13 h.'
       fragments:
         - number: 'f6'
+          preview: '«Suicidarse es perder la noción de la fatalidad y del destino. No tener más miedo de lo que todavía puede venir a hacerme doler y sufrir. Suicidarse es reconocer que lo peor está ocurriendo <i>ahora</i>. El suicidio es el rechazo rotundo del presente. [...]».'
           text: '«Suicidarse es perder la noción de la fatalidad y del destino. No tener más miedo de lo que todavía puede venir a hacerme doler y sufrir. Suicidarse es reconocer que lo peor está ocurriendo <i>ahora</i>. El suicidio es el rechazo rotundo del presente. Por eso pocos neuróticos ansiosos se suicidan, están siempre a la espera de un mal mayor. Suicidarse implica la máxima atención y lucidez, decirse “esta soy yo, ahora, aquí”. Y saber, también, que no se debe esperar más. Suicidarse es cerrar una puerta, la de la sala de espera.</br></br>Leo <i>Madame Bovary</i>».'
           reference: 'Entrada fechada el lunes 18 de marzo de 1963.'
         - number: 'f5'

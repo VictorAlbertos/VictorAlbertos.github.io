@@ -1,0 +1,35 @@
+<div class="grid-item-adj">
+    {% assign fragment = title.fragments[0] %}
+    {% if fragment %}
+    <a href="../../../titles/{{title.id}}#{{fragment.number}}" class="card ">{% else %}<a
+            href="../../../titles/{{title.id}}" class="card">{% endif %}
+        <div class="card-image"
+             style="border-radius: .175rem .175rem 0 0; background-image: url(/assets/img/{{title.image.name}}); background-position: center center; background-repeat: no-repeat; background-size: 30rem auto;">
+            <div class="black-background-preview div-padding-preview-header">
+
+                {% if title.format-title == 'italic' %}
+                <span class="preview-title-post-italic">{{ title.name }}</span>
+                {% elsif title.format-title == 'quotes' %}
+                <span class="preview-title-post-none">«{{ title.name }}»</span>
+                {% else %}
+                <span class="preview-title-post-none">{{ title.name }}</span>
+                {% endif %}
+                <span class="date-preview-title-post"> ({{ title.year }})</span>
+                <span class="preview-title-author">{{ author.name }}</span>
+            </div>
+
+        </div>
+
+        <div class="div-padding-preview-body">
+            {% if fragment.preview %}
+            <p>{{ fragment.preview }}</p>
+            {% elsif fragment.text %}
+            <p>{{ fragment.text | truncate: 500 }}</p>
+            {% elsif title.preview %}
+            <p>{{ title.preview }}</p>
+            {% elsif title.text %}
+            <p> {{ title.text | truncate: 500 }}</p>
+            {% endif %}
+        </div>
+    </a>
+</div>

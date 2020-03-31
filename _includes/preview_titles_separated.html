@@ -11,10 +11,27 @@
 
     {% if title.preview or title.text or title.fragments %}
     {% include preview_title.html title=title author=author %}
-    {% else %}
-    {% include preview_image.html title=title author=author %}
     {% endif %}
     {% endfor %}
+
+
+    <div id="lightgallery">
+        {% for post in paginator.posts %}
+        {% for file_name_author in site.data %}
+        {% assign author = file_name_author[1][0] %}
+        {% assign title = author.titles | where: 'id', post.title_id | first %}
+
+        {% if title %}
+        {% break %}
+        {% endif %}
+        {% endfor %}
+
+        {% if title.preview or title.text or title.fragments %}
+        {% else %}
+        {% include preview_image.html title=title author=author %}
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>
 {% if paginator.total_pages > 1 %}
 <br>
