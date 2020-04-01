@@ -1,5 +1,7 @@
-<div class="grid-item-adj">
-    <a class="card div-padding-preview-body" href="/assets/img/original_{{title.image.name}}">
+<a class="card grid-item-adj add-margin-bottom"
+   data-sub-html="<i>{{ title.name }}</i> ({{ title.year }}), <span> {{ author.name }} </span>"
+   href="/assets/img/original_{{title.image.name}}">
+    <div class="div-margin-preview-body">
         <div>
             <span class="title-image-post">{{ title.name }}</span>
             <span class="date-image-post"> ({{ title.year }})</span>
@@ -14,5 +16,5 @@
                 &nbsp;<i url="{{post.url}}" class="fa punctum-icon fa-twitter-square"></i>
             </div>
         </div>
-    </a>
-</div>
+    </div>
+</a>

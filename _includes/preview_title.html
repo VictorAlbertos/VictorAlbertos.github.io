@@ -1,8 +1,8 @@
-<div class="grid-item-adj">
+<div class="grid-item-adj add-margin-bottom">
     {% assign fragment = title.fragments[0] %}
     {% if fragment %}
     <a href="../../../titles/{{title.id}}#{{fragment.number}}" class="card ">{% else %}<a
-            href="../../../titles/{{title.id}}" class="card">{% endif %}
+            href="../../../titles/{{title.id}}" class="card ">{% endif %}
         <div class="card-image"
              style="border-radius: .175rem .175rem 0 0; background-image: url(/assets/img/{{title.image.name}}); background-position: center center; background-repeat: no-repeat; background-size: 30rem auto;">
             <div class="black-background-preview div-padding-preview-header">

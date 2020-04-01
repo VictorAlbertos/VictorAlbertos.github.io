@@ -506,16 +506,15 @@ a.black:hover {
   padding: 1rem;
 }
 
+.div-margin-preview-body {
+  margin: 1rem;
+}
 
 @media (max-width: 899px) {
-    .grid-item-adj { width: 100%; }
+    .grid-item-adj { width: calc(100% - 20px); }
 }
 @media (min-width: 900px) {
-    .grid-item-adj { width: 50%; }
-}
-
-.grid-item-adj {
- padding: 1rem;
+    .grid-item-adj { width: calc(50% - 20px); }
 }
 
 .center-crop {
@@ -566,5 +565,9 @@ span.author-image-post {
   display: block;
   font-size: 1.15em;
   color: black;
+  margin-bottom: 1rem;
+}
+
+.add-margin-bottom {
   margin-bottom: 1rem;
 }
