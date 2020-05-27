@@ -8,6 +8,13 @@
       name: El mito de Sísifo
       year: 1942
       format-title: italic
+      publication-date: '2020-05-25'
+      reference: 'Traducción de Luis Echávarri.'
+      image:
+        name: 'el_mito_de_sisifo.jpeg'
+        color: 0.3
+        contrast: 1.5
+        reference: '<i>Sisyphus</i> (1548), Tiziano Vecellio.'
       fragments:
         - number: 'f5'
           social-network-candidate:
