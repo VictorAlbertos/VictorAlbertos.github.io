@@ -12,7 +12,6 @@
       image:
         name: 'la_carta_de_lord_chandos.png'
         color: 0.15
-        contrast: 1.5
       fragments:
         - number: 'f3'
           social-network-candidate:
