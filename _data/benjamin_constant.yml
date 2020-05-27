@@ -8,6 +8,13 @@
       name: Adolphe
       year: 1816
       format-title: italic
+      reference: 'Traducción de Juan José Quevedo Soubriet.'
+      publication-date: '2020-05-22'
+      image:
+        name: 'adolphe.jpeg'
+        color: 0.3
+        contrast: 1.5
+        reference: 'Un cartel de reclutamiento bolchevique exhortando a los trabajadores a unirse al Ejército Rojo, 1920'
       fragments:
         - number: 'f7'
           social-network-candidate:
