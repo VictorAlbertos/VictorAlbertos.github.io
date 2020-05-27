@@ -8,11 +8,11 @@
       name: Fracasar mejor
       year: 2007
       format-title: quotes
-      reference:
-       '«Publicado en The Guardian el 13 de enero de 2007.'
-      fragments:             
+      reference: '«Publicado en The Guardian el 13 de enero de 2007.'
+      publication-date: '2020-05-04'
+      fragments:
         - number: 'f8'
-          text: '«La mala escritura no hace nada, no cambia nada, no educa ninguna emoción, no reconecta ningún circuito interior. Cerramos las tapas de esa novela con la misma confianza metafísica en la universalidad de nuestro intermediario con que las abrimos. Pero la gran escritura fuerza a lector a que se someta a su visión».'  
+          text: '«La mala escritura no hace nada, no cambia nada, no educa ninguna emoción, no reconecta ningún circuito interior. Cerramos las tapas de esa novela con la misma confianza metafísica en la universalidad de nuestro intermediario con que las abrimos. Pero la gran escritura fuerza a lector a que se someta a su visión».'
         - number: 'f7'
           text: '«La verdad de la ficción es una cuestión de perspectiva, no de autobiografía. Es lo que no puedes evitar decir si escribes bien. Es la marca de agua que corre por todo lo que haces. Es el lenguaje como revelación de una conciencia».'
         - number: 'f6'

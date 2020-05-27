@@ -17,23 +17,6 @@
           social-network-candidate:
           preview: '«[...] Todo escritor dirá entonces: loco no puedo, sano no querría, sólo soy siendo neurótico. [...]».'
           text: '«La neurosis es un mal menor: no en relación a la "salud" sino en relación a ese "imposible" del que hablaba Bataille ("La neurosis es la miedosa aprehensión de un fondo imposible", etc); pero ese mal menor es el único que permite escribir (y leer). Se acaba por lo tanto en esta paradoja: los textos como los de Bataille —o de otros— que han sido escritos contra la neurosis, desde el seno mismo de la locura, tienen en ellos, si quieren ser leidos, ese poco de neurosis necesario para seducir a sus lectores: estos textos terribles son después de todo textos coquetos.</br></br>Todo escritor dirá entonces: loco no puedo, sano no querría, sólo soy siendo neurótico.</br></br>El texto que usted escribe debe probarme que me desea. Esa prueba existe: es la escritura. La escritura es esto: la ciencia de los goces del lenguaje, su kamasutra (de esta ciencia no hay más que un tratado: la escritura misma)».'
-    - id: diario_de_duelo
-      name: Diario de duelo
-      year: 1979
-      format-title: italic
-      fragments:
-        - number: 'f1'
-          social-network-candidate:
-          text: '«Sufro del miedo de lo que ya ha tenido lugar».'
-    - id: la_muerte_del_autor
-      name: La muerte del autor
-      year: 1987
-      format-title: italic
-      fragments:
-        - number: 'f1'
-          social-network-candidate:
-          preview: '«La lingüística proporciona a la destrucción del Autor un instrumento analítico precioso, al mostrar que la enunciación en su totalidad es un proceso vacío que funciona a la perfección sin que sea necesario rellenarlo con las personas de sus interlocutores: lingüísticamente, el autor nunca es nada más que el que escribe, del mismo modo que "yo" no es otra cosa sino el que dice "yo": el lenguaje conoce un “sujeto”, no una “persona”, y ese sujeto, vacío excepto en la propia enunciación, que es la que lo define, es suficiente para conseguir que el lenguaje se “mantenga en pie”, es decir, parar llegar a agotarlo por completo. [..]».'
-          text: '«La lingüística proporciona a la destrucción del Autor un instrumento analítico precioso, al mostrar que la enunciación en su totalidad es un proceso vacío que funciona a la perfección sin que sea necesario rellenarlo con las personas de sus interlocutores: lingüísticamente, el autor nunca es nada más que el que escribe, del mismo modo que "yo" no es otra cosa sino el que dice "yo": el lenguaje conoce un “sujeto”, no una “persona”, y ese sujeto, vacío excepto en la propia enunciación, que es la que lo define, es suficiente para conseguir que el lenguaje se “mantenga en pie”, es decir, parar llegar a agotarlo por completo.</br></br>Una vez alejado el Autor, se vuelve inúitil la pretensión de “descifrar” un texto. Darle a un texto un Autor es imponerle un seguro, proveerlo de un significado último, cerrar la escritura. Por eso mismo, la literatura (sería mejor decir siempre la escritura) al rehusar la asignación al texto (y al mundo como texto) de un secreto, es decir, un sentido último, se entrega a una actividad que se podría calificar de revolucionaría en sentido propio, pues rehusar la detención del sentido es, en definitiva, rechazar a Dios y a sus hipóstasis, la razón, la ciencia, la ley». '
     - id: el_susurro_del_lenguaje
       name: El susurro del lenguaje. Más allá de la palabra y de la escritura
       year: 1984
@@ -49,12 +32,3 @@
         - number: 'f1'
           preview: '«Los signos de una auténtica pasión son siempre un tanto incongruentes [...]».'
           text: '«Los signos de una auténtica pasión son siempre un tanto incongruentes [...]. En el amor a un país extranjero hay una especie de racismo al revés: uno se queda encantado por la diferencia, se aburre de lo Mismo, exalta lo Otro; la pasión es maniquea […]. Stendhal tiene esa rara pasión, la pasión por lo otro, o, para decirlo con más sutileza: la pasión por el otro que está en él mismo».'
-    - id: fragmentos_de_un_discurso_amoroso
-      name: Fragmentos de un discurso amoroso
-      year: 1977
-      format-title: italic
-      fragments:
-        - number: 'f1'
-          social-network-candidate:
-          preview: '«Todo partió de este principio: no se debía reducir lo amoroso a un simple sujeto sintomático, sino más bien hacer entender lo que hay en su voz de inactual, es decir de intratable. De ahí la elección de un método “dramático”, que renuncia a los ejemplos y descansa sobre la sola acción de un lenguaje primero. [...]».'
-          text: '«Todo partió de este principio: no se debía reducir lo amoroso a un simple sujeto sintomático, sino más bien hacer entender lo que hay en su voz de inactual, es decir de intratable. De ahí la elección de un método “dramático”, que renuncia a los ejemplos y descansa sobre la sola acción de un lenguaje primero. Se ha sustituido pues la descripción del discurso amoroso por su simulación, y se le ha restituido a este discurso su persona fundamental, que es el yo, de manera de poner en escena una enunciación, no un análisis. Es un retrato, si se quiere, lo aquí propuesto; pero este retrato no es psicológico, es estructural: da a leer un lugar de palabra: el lugar de alguien que habla en sí mismo, amorosamente, frente a otro (el objeto amado), que no habla».'

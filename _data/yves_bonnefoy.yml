@@ -9,6 +9,7 @@
       name: La Ordalía
       year: 1975
       format-title: italic
+      publication-date: '2020-05-16'
       fragments:
         - number: 'f4'
           social-network-candidate:
@@ -25,6 +26,7 @@
       name: El territorio interior
       year:
       format-title: italic
+      publication-date: '2020-05-23'
       fragments:
         - number: 'f2'
           social-network-candidate:
@@ -37,6 +39,7 @@
       name: Relatos en sueños
       year: 1938
       format-title: italic
+      publication-date: '2020-05-03'
       fragments:
         - number: 'f3'
           social-network-candidate:
