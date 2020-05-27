@@ -9,6 +9,9 @@
       name: Filosofía zombi
       year: 2011
       format-title: italic
+      publication-date: '2020-05-13'
+      image:
+        name: 'filosofia_zombie.jpeg'
       fragments:
         - number: 'f9'
           social-network-candidate:
