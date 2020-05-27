@@ -8,6 +8,10 @@
       name: Trópico de Capricornio
       year: 1938
       format-title: italic
+      image:
+        name: 'tropico_de_capricornio.png'
+        color: 0.3
+        contrast: 1.5
       fragments:
         - number: 'f3'
           social-network-candidate:

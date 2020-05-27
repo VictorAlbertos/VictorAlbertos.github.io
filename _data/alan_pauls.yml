@@ -8,6 +8,7 @@
     - id: matias_falco_entrevista_alan_pauls
       name: Entrevista
       year: 2018
+      publication-date: '2020-05-13'
       image:
         name: 'goc.jpeg'
         color: 0.05
