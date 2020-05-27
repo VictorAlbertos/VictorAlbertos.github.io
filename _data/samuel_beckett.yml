@@ -8,6 +8,9 @@
       name: Watt
       year: 1977
       format-title: italic
+      publication-date: '2020-05-24'
+      image:
+        name: 'watt.png'
       fragments:
         - number: 'f1'
           social-network-candidate:
