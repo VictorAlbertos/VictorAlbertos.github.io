@@ -8,6 +8,12 @@
       name: El intruso
       year: 2000
       format-title: italic
+      publication-date: '2020-05-07'
+      reference: 'Traducción de Margarita Martínez.'
+      image:
+        name: 'el_intruso.jpeg'
+        color: 0.4
+        reference: '<i>Three Studies of George Dyer (1966)</i>, Francis Bacon.'
       fragments:
         - number: 'f2'
           social-network-candidate:
