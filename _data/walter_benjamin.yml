@@ -8,6 +8,10 @@
       name: Calle de sentido único
       year: 1928
       format-title: italic
+      publication-date: '2020-05-06'
+      reference: 'Traducción de Jorge Navarro Pérez.'
+      image:
+        name: 'calle_sentido_unico.jpeg'
       fragments:
         - number: 'f5'
           social-network-candidate:
