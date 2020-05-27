@@ -8,10 +8,12 @@
       name: Trópico de Capricornio
       year: 1938
       format-title: italic
+      publication-date: '2020-05-03'
       image:
-        name: 'tropico_de_capricornio.png'
-        color: 0.3
+        name: 'tropico_de_capricornio.jpeg'
+        color: 0.15
         contrast: 1.5
+        reference: '<i>Redhead in bed</i> (1950), Jim Schaeffing.'
       fragments:
         - number: 'f3'
           social-network-candidate:
