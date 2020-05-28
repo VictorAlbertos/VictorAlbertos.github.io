@@ -114,11 +114,12 @@
       year: 1982
       format-title: italic
       publication-date: '2020-05-27'
+      reference: Traducción de Manuel Arranz Lázaro.
       image:
         name: 'thomas-obscuro.jpeg'
         color: 0.3
         contrast: 1.5
-        reference: '<i>Intitulada</i> (2011), Patricia March.'
+        reference: 'Intitulada (2011), Patricia March.'
       fragments:
         - number: 'f2'
           preview: '«Pronto la noche le pareció más sombría, más terrible que cualquier otra noche, como si brotara realmente de una herida del pensamiento que ya no podía pensarse, del pensamiento tomado irónicamente como objeto por algo distinto al pensamiento [...]».'
