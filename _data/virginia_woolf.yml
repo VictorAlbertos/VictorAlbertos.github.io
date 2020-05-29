@@ -14,7 +14,7 @@
         name: 'the_rivulet_laita_in_quimperle_frits_thaulow.jpg'
         color: 1
         contrast: 1.5
-      image-reference: '<i> The rivulet Laita in Quimperlé</i>, Frits Thaulow.'
+        reference: '<i>The rivulet Laita in Quimperlé</i>, Frits Thaulow.'
       publication-date: '2020-05-23'
       fragments:
         - number: 'f8'
