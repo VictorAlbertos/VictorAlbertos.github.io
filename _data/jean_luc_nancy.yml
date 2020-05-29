@@ -13,7 +13,7 @@
       image:
         name: 'el_intruso.jpeg'
         color: 0.4
-        reference: '<i>Three Studies of George Dyer (1966)</i>, Francis Bacon.'
+        reference: '<i>Three Studies of George Dyer</i> (1966), Francis Bacon.'
       fragments:
         - number: 'f2'
           social-network-candidate:
