@@ -7,7 +7,6 @@
   titles:
     - id: goc
       name: García o cualquier otro
-      year: 2020
       format-title: italic
       fragments:
         - number: 'f2'
@@ -19,7 +18,6 @@
       <br><br>Volver a tirar la bicicleta al suelo me pareció redundante. Con la intención de imprimir nuevos matices a mi desprecio me saqué el pene fuera. Pero decidí que esto no era suficiente motivo para apretar mis riñones. Me bajé los pantalones y me puse en cuclillas sobre la bicicleta y deposité todo con una sonrisa que pretendía ser el mapa de la geografía que se iba creando a mis pies (más tarde un niño se entretuvo jugando con ello, primero con un palo, luego con un dedo, la mano no tardó en llegar, pero su madre lo detuvo antes de alcanzar el clímax de su patología. Lástima)».'
     - id: bichos
       name: Bichos
-      year: 2019
       format-title: italic
       publication-date: '2020-01-15'
       image:

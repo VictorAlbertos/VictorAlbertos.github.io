@@ -7,7 +7,6 @@
   titles:
     - id: como_deberia_leerse_un_libro
       name: Cómo debería leerse un libro
-      year: 1926
       format-title: italic
       reference: 'Traducción de Ángela Pérez.'
       image:

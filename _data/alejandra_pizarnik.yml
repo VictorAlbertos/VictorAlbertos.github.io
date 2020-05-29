@@ -6,7 +6,6 @@
   titles:
     - id: alejandra_pizarnik_diarios
       name: Diarios
-      year: 2003
       image:
         name: 'alejandra_pizarnik.jpg'
       publication-date: '2020-01-15'

@@ -7,7 +7,6 @@
   titles:
     - id: la_amistad
       name: La amistad
-      year: 1971
       format-title: italic
       fragments:
         - number: 'f1'
@@ -15,7 +14,6 @@
           text: '«La amistad, esa relación sin dependencia, sin episodio, y donde, no obstante, cabe toda la sencillez de la vida, pasa por el reconocimiento de la extrañeza común que no nos permite hablar de nuestros amigos, sino sólo hablarles, no hacer de ellos un tema de conversación (o de artículos), sino el movimiento del convenio de que, hablándonos, reservan, incluso en la mayor familiaridad, la distancia infinita, esa separación fundamental a partir de la cual lo que separa se convierte en relación».'
     - id: de_kafka_a_kafka
       name: De Kafka a Kafka
-      year: 1981
       format-title: italic
       fragments:
         - number: 'f1'
@@ -24,7 +22,6 @@
           text: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto.</br></br>Y también son los que torturan del modo más trágico la esperanza, no porque la esperanza esté condenada, sino porque no logra ser condenada. Por completa que sea la catástrofe, subsiste un margen ínfimo del que no se sabe si reserva la esperanza o al contrario la descarta para siempre.</br></br>No basta con que el mismo Dios se someta a su propia sentencia y sucumba con ella en el hundimiento más sórdido, en un estrépito inaudito de chatarra y órganos, aún hay que esperar su resurrección y el retorno de su justicia incomprensible que nos condena para siempre al espanto y el consuelo».'
     - id: la_conversacion_infinita
       name: La conversación infinita
-      year: 1969
       format-title: italic
       fragments:
         - number: 'f2'
@@ -36,7 +33,6 @@
           text: '«Sucede que alguien esté muy cerca de nosotros, cerca no: las murallas han caído; a veces, siempre muy cerca, pero sin relación, las murallas han caído, las que separan, las que sirven también para transmitir señales, el lenguaje de las prisiones. Hay entonces que levantar una pared, pedir un poco de indiferencia, esta tranquila distancia con la que se equilibran las vidas. Deseo ingenuo que se forma después de haberse realizado. Pero, de tal sorprendente cercanía conservamos la impresión de que ha habido un breve momento de suerte, merced al favor, no de la mirada que ha podido intercambiarse, sino como de un movimiento que nos habría precedido a ambos, justo antes del encuentro, parece que en ese instante él era verdaderamente nuestro camarada en un espacio infinito e infinitamente desierto donde, por un maravilloso azar, él había precisamente surgido a nuestro lado; eso era así, ello iba a ser así, eso era inexplicable, seguro y maravilloso. Pero ¿quién era él? ¿Quizá solamente el desierto?, ¿el desierto convertido en nuestro compañero? Eso sigue siendo maravilloso, maravillosamente desolado, y más tarde de nuevo el camarada desapareció, no hay más que desierto, pero éste, en su seca verdad y su árida presencia, nos es de repente próximo, familiar, amigo. Proximidad que al mismo tiempo nos dice: "el desierto crece"».'
     - id: la_espera_el_olvido
       name: La espera el olvido
-      year: 1962
       format-title: italic
       publication-date: '2020-01-16'
       image:
@@ -58,7 +54,6 @@
           text: '«¿Me olvidará usted?». — «Sí, la olvidaré». — «¿Cómo estará seguro de haberme olvidado?». — «Cuando recuerde a otra». — «Pero es aún de mí de quien se acordará; me es preciso más». — «Tendrá más: cuando no me acuerde de mí». Ella reflexionó acerca de esta idea que parecía complacerle. «Olvidados juntos. ¿Y quién entonces nos olvidará? ¿Quién estará seguro de nosotros en el olvido?». — «Los demás, ¡todos los demás!». — «Pero ellos no cuentan. Me río de ser olvidada por los demás. Por usted es por quien quiero ser olvidada, únicamente por usted». — «Pues bien, en el momento en que me habrás olvidado». — «Pero, decía ella tristemente, siento efectivamente que ya te he olvidado».'
     - id: la_sentencia_de_muerte
       name: La sentencia de muerte
-      year: 1948
       format-title: italic
       fragments:
         - number: 'f1'
@@ -67,7 +62,6 @@
           text: '«Cuando se empieza con las "razones", pronto se pierde pie por poco honesto que uno sea, pues las razones son siempre demasiado numerosas cuando una sola bastaría. Yo también, al escucharla, descubrí cuánto me ofendía aquel matrimonio, no por mí, claro está, ni siquiera por aquel Simón muerto que no me recordaba nada; pero, tenía el presentimiento de que una traición invisible se estaba fraguando, uno de esos actos desgarradores de los que nadie sabe nada, que empiezan en la oscuridad y terminan en el silencio, y contra los cuales la desgracia ignorada no puede defenderse».'
     - id: el_instante_de_mi_muerte
       name: El instante de mi muerte
-      year: 1994
       format-title: italic
       fragments:
         - number: 'f3'
@@ -79,9 +73,8 @@
           text: '«Sé —lo sé— que aquél al que ya apuntaban los alemanes, no esperando más que la orden final, experimentó entonces un sentimiento de ligereza extraordinaria, una especie de beatitud (nada feliz, sin embargo) ¿alegría soberana? ¿El encuentro de la muerte con la muerte?</br></br>En su lugar, no trataré de analizar ese sentimiento de ligereza. Quizás él era súbitamente invencible. Muerto—inmortal. Quizás el éxtasis. Más bien el sentimiento de compasión por la humanidad, la dicha de no ser inmortal ni eterno. Desde entonces, él estuvo ligado a la muerte, por una amistad subrepticia».'
         - number: 'f1'
           text: '«Qué importa. Tan sólo permanece el sentimiento de ligereza que es la muerte misma o, para decirlo con más precisión, el instante de mi muerte desde entonces siempre pendiente».'
-    - id: la_locura_de_la_Luz
-      name: La locura de la Luz
-      year: 1973
+    - id: la_locura_de_la_luz
+      name: La locura de la luz
       format-title: italic
       fragments:
         - number: 'f1'
@@ -89,7 +82,6 @@
           text: '«¿Soy egoísta? No tengo sentimientos más que para algunos, piedad para nadie, raramente tengo ganas de agradar, raramente ganas de que se me agrade y yo, para mí que poco menos que insensible, sólo sufro por ellos, de tal manera que su menor aprieto me provoca un mal infinito aunque, no obstante, si es necesario, los sacrifico deliberadamente, les suprimo todo sentimiento dichoso (llego a matarlos)».'
     - id: la_escritura_del_desastre
       name: La escritura del desastre
-      year: 1980
       format-title: italic
       fragments:
         - number: 'f5'
@@ -111,7 +103,6 @@
           text: '«Leyendo a Roland Barthes lo que no dice pero sugiere, imagino que para Werther el amor—pasión no es sino un rodeo para morir. Después de la lectura de Werther, ya no ha habido más enamorados sino más suicidados. Y Goethe ha descargado sobre Werther la tentación de morir, no su pasión; escribiendo, no en modo alguno para no morir, sino mediante el movimiento de una muerte que ya no le pertenecía. “Eso solo puede terminar mal”».'
     - id: thomas_el_oscuro
       name: Thomas el oscuro
-      year: 1982
       format-title: italic
       publication-date: '2020-05-27'
       reference: Traducción de Manuel Arranz.

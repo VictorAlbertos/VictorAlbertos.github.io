@@ -6,7 +6,6 @@
   titles:
     - id: doctor_faustus
       name: Doctor Faustus
-      year: 1947
       format-title: italic
       publication-date: '2020-01-14'
       image:
