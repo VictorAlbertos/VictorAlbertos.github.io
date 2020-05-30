@@ -9,10 +9,21 @@
       name: La amistad
       format-title: italic
       publication-date: '2020-05-15'
+      reference: J. A. Doval.
       fragments:
+        - number: 'f4'
+          social-network-candidate:
+          text: '«<i>¿Cómo aceptar hablar de este amigo? Ni para alabanza ni en interés de alguna verdad. Los rasgos de su carácter, las formas de su existencia, los episodios de su vida, incluso de acuerdo con la búsqueda de la que se sintió responsable hasta la irresponsabilidad, no pertenecen a nadie. No hay testigos. Los más cercanos no dicen más que lo que les fue cercano, no lo lejano que se afirmó en esa proximidad, y lo lejano cesa en el momento en que cesa la presencia. En vano pretendemos mantener, con nuestras palabras, con nuestros escritos, lo que se ausenta; en vano le ofrecemos el señuelo de nuestros recuerdos y una cierta figura nueva; la dicha de permanecer en la luz, la vida prolongada con una apariencia verídica. No pretendemos más que llenar un vacío, no soportamos el dolor: la afirmación de ese vacío. ¿Quién consentiría en aceptar su insignificancia, tan desmesurada que no tenemos memoria capaz de contenerla y necesitaríamos deslizarnos en el olvido para llevarla, el tiempo de ese deslizamiento, hasta el enigma que representa? Todo lo que decimos no tiende sino a ocultar la única afirmación: que todo debe desaparecer y que no podemos permanecer fieles más que velando por este movimiento que desaparece, al que algo en nosotros, algo que rechaza todo recuerdo, pertenece desde ahora</i>».'
+        - number: 'f3'
+          social-network-candidate:
+          text: '«<i>Durante tanto tiempo como exista el que nos es próximo y, con él, el pensamiento en que se afirma, su pensamiento se abre a nosotros, pero preservado por esa relación misma, y lo que lo preserva no es sólo la movilidad de la vida (sería poco), es lo que en ella introduce de imprevisible la extrañeza del fin. Y este movimiento imprevisible y siempre oculto en su inminencia infinita —el de morir quizá— no viene de que el término no puede estar dado por adelantado, sino de que no constituye nunca un acontecimiento que sucede, incluso cuando ocurre, nunca una realidad capaz de ser captada: inaprehensible y manteniendo hasta el final en lo inaprehensible a aquel que le está destinado. Es ese imprevisible el que habla cuando él habla, eso lo que oculta y reserva su pensamiento en vida, lo separa y lo libera de todas confiscación, tanto la de fuera como la de dentro</i>».'
+        - number: 'f2'
+          social-network-candidate:
+          text: '«<i>Debemos renunciar a conocer a aquellos a quienes algo esencial nos une; quiero decir, debemos aceptarlos en la relación con lo desconocido en que nos aceptan, a nosotros también, en nuestro alejamiento. La amistad, esa relación sin dependencia, sin episodio, y donde, no obstante, cabe toda la sencillez de la vida, pasa por el reconocimiento de la extrañeza común que no nos permite hablar de nuestros amigos, sino sólo hablarles, no hacer de ellos un tema de conversación (o de artículos), sino el movimiento del acuerdo del que, hablándonos, reservan, incluso en la mayor familiaridad, la distancia infinita, esa separación fundamental a partir de la cual lo que separa se convierte en relación</i>».'
         - number: 'f1'
           social-network-candidate:
-          text: '«La amistad, esa relación sin dependencia, sin episodio, y donde, no obstante, cabe toda la sencillez de la vida, pasa por el reconocimiento de la extrañeza común que no nos permite hablar de nuestros amigos, sino sólo hablarles, no hacer de ellos un tema de conversación (o de artículos), sino el movimiento del convenio de que, hablándonos, reservan, incluso en la mayor familiaridad, la distancia infinita, esa separación fundamental a partir de la cual lo que separa se convierte en relación».'
+          text: '«<i>... la muerte posee esa falsa virtud de parecer devolver a la intimidad a aquellos a los que han dividido grandes discrepancias. Ocurre que con ella desaparece todo lo que separa. Lo que separa: lo que pone auténticamente en relación, el abismo mismo de las relaciones en que se mantiene, con sencillez, el entendimiento siempre mantenido de la afirmación amistosa.</br></br>No debemos, con artificios, fingir que proseguimos un diálogo. Lo que se ha desviado de nosotros, nos desvía también de esa parte que fue nuestra presencia, y tenemos que aprender que cuando la palabra se calla, una palabra que, a lo largo de los años, se ofreció a una “exigencia sin miramientos”, no es sólo esta palabra exigente la que ha cesado, es el silencio que ella hizo posible y desde el que volvía, según una invisible pendiente, hacia la inquietud del tiempo. Sin duda, aún podremos recorrer los mismos caminos, podremos dejar venir imágenes, apelar a una ausencia que nos figuraremos, por una consolación falaz, que es la nuestra. Podemos, en una palabra, recordar. Pero el pensamiento sabe que uno no recuerda: sin memoria, sin pensamiento, lucha ya en lo invisible donde todo recae en la indiferencia. Ahí radica su profundo dolor. Es preciso que acompañe a la amistad en el olvido</i>».'
+
     - id: de_kafka_a_kafka
       name: De Kafka a Kafka
       format-title: italic
@@ -22,6 +33,7 @@
           social-network-candidate:
           preview: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto. [...]».'
           text: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto.</br></br>Y también son los que torturan del modo más trágico la esperanza, no porque la esperanza esté condenada, sino porque no logra ser condenada. Por completa que sea la catástrofe, subsiste un margen ínfimo del que no se sabe si reserva la esperanza o al contrario la descarta para siempre.</br></br>No basta con que el mismo Dios se someta a su propia sentencia y sucumba con ella en el hundimiento más sórdido, en un estrépito inaudito de chatarra y órganos, aún hay que esperar su resurrección y el retorno de su justicia incomprensible que nos condena para siempre al espanto y el consuelo».'
+    
     - id: la_conversacion_infinita
       name: La conversación infinita
       format-title: italic
@@ -63,28 +75,48 @@
           social-network-candidate:
           preview: '«Cuando se empieza con las "razones", pronto se pierde pie por poco honesto que uno sea, pues las razones son siempre demasiado numerosas cuando una sola bastaría. [...]».'
           text: '«Cuando se empieza con las "razones", pronto se pierde pie por poco honesto que uno sea, pues las razones son siempre demasiado numerosas cuando una sola bastaría. Yo también, al escucharla, descubrí cuánto me ofendía aquel matrimonio, no por mí, claro está, ni siquiera por aquel Simón muerto que no me recordaba nada; pero, tenía el presentimiento de que una traición invisible se estaba fraguando, uno de esos actos desgarradores de los que nadie sabe nada, que empiezan en la oscuridad y terminan en el silencio, y contra los cuales la desgracia ignorada no puede defenderse».'
+
     - id: el_instante_de_mi_muerte
       name: El instante de mi muerte
       format-title: italic
       publication-date: '2020-05-15'
+      reference: Alberto Ruiz de Samaniego.
       fragments:
         - number: 'f3'
           social-network-candidate:
-          text: '«Permanecía del momento en que el fusilamiento no era más que una espera, el sentimiento de ligereza que yo no sabría traducir: ¿liberado de la vida?, ¿el infinito que se abre? Ni felicidad, ni infelicidad. Ni la ausencia de temor, quizás ya el paso más allá. Yo sé, imagino que este sentimiento cambió lo que le quedaba de existencia. Como si la muerte fuera de él no pudiese desde entonces más que chocar con la muerte en él. “Estoy vivo. No, estás muerto”».'
+          preview: '«Sé —lo sé— que aquél al que ya apuntaban los alemanes, no esperando más que la orden final, experimentó entonces un sentimiento de ligereza extraordinaria, una especie de beatitud (nada feliz, sin embargo), ¿alegría soberana? ¿El encuentro de la muerte con la muerte?».'
+          text: '«Sé —lo sé— que aquél al que ya apuntaban los alemanes, no esperando más que la orden final, experimentó entonces un sentimiento de ligereza extraordinaria, una especie de beatitud (nada feliz, sin embargo), ¿alegría soberana? ¿El encuentro de la muerte con la muerte?</br></br>En su lugar, no trataré de analizar ese sentimiento de ligereza. Quizás él era súbitamente invencible. Muerto-inmortal. Quizás el éxtasis. Más bien el sentimiento de compasión por la humanidad, la dicha de no ser inmortal ni eterno. Desde entonces, él estuvo ligado a la muerte, por una amistad subrepticia».'
         - number: 'f2'
           social-network-candidate:
-          preview: '«Sé —lo sé— que aquél al que ya apuntaban los alemanes, no esperando más que la orden final, experimentó entonces un sentimiento de ligereza extraordinaria, una especie de beatitud (nada feliz, sin embargo) ¿alegría soberana? ¿El encuentro de la muerte con la muerte? [...]».'
-          text: '«Sé —lo sé— que aquél al que ya apuntaban los alemanes, no esperando más que la orden final, experimentó entonces un sentimiento de ligereza extraordinaria, una especie de beatitud (nada feliz, sin embargo) ¿alegría soberana? ¿El encuentro de la muerte con la muerte?</br></br>En su lugar, no trataré de analizar ese sentimiento de ligereza. Quizás él era súbitamente invencible. Muerto—inmortal. Quizás el éxtasis. Más bien el sentimiento de compasión por la humanidad, la dicha de no ser inmortal ni eterno. Desde entonces, él estuvo ligado a la muerte, por una amistad subrepticia».'
+          text: '«Permanecía, sin embargo, del momento en que el fusilamiento no era más que una espera, el sentimiento de ligereza que yo no sabría traducir: ¿liberado de la vida?, ¿el infinito que se abre? Ni felicidad, ni infelicidad. Ni la ausencia de temor, y quizás ya el paso más allá. Yo sé, imagino que este sentimiento inanalizable cambió lo que le quedaba de existencia. Como si la muerte fuera de él no pudiese desde entonces más que chocar con la muerte en él. “Estoy vivo. No, estás muerto”».'
         - number: 'f1'
           text: '«Qué importa. Tan sólo permanece el sentimiento de ligereza que es la muerte misma o, para decirlo con más precisión, el instante de mi muerte desde entonces siempre pendiente».'
+
     - id: la_locura_de_la_luz
       name: La locura de la luz
       format-title: italic
       publication-date: '2020-05-15'
+      reference: Alberto Ruiz de Samaniego.
       fragments:
+        - number: 'f6'
+          social-network-candidate:
+          text: '«... mi locura ha quedado sin testigos, mi extravío no era notado, sólo mi intimidad estaba loca».'
+        - number: 'f5'
+          social-network-candidate:
+          text: '«Con la razón, me volvió la memoria y vi que incluso en los peores días, cuando me creía perfecta y enteramente desgraciado, era, sin embargo, y casi todo el tiempo, extremadamente feliz. Eso me hizo reflexionar. Este descubrimiento no era agradable. Me parecía que yo perdía mucho. Me interrogaba: ¿no estaba triste?, ¿no había sentido mi vida arruinarse? Sí, eso había sido; pero, cada minuto, cuando melevantaba y corría por las calles, cuando quedaba inmóvil en un rincón de la habitación, el frescor de la noche, la estabilidad del suelo me hacía respirar y descansar en la alegría».'
+        - number: 'f4'
+          social-network-candidate:
+          text: '«¿Soy egoísta? No tengo sentimientos más que para algunos, piedad para nadie, raramente tengo ganas de agradar, raramente ganas de que se me agrade y yo, para mí que poco menos que insensible, sólo sufro por ellos, de tal manera que su menor aprieto me provoca un mal infinito, aunque, no obstante, si es necesario, los sacrifico deliberadamente, les suprimo todo sentimiento dichoso (llego a matarlos)».'
+        - number: 'f3'
+          social-network-candidate:
+          text: '«No tenía enemigos. No me molestaba nadie. A veces en mi cabeza se creaba una vasta soledad en la que el mundo desaparecía por completo, aunque salía de allí intacto, sin un rasguño, nada lo malograba».'
+        - number: 'f2'
+          social-network-candidate:
+          text: '«Lo peor era la brusca, la horrorosa crueldad de la luz; no podía ni mirar ni dejar de mirar; ver era lo espantoso, y parar de ver me desgarraba desde la frente a la garganta».'
         - number: 'f1'
           social-network-candidate:
-          text: '«¿Soy egoísta? No tengo sentimientos más que para algunos, piedad para nadie, raramente tengo ganas de agradar, raramente ganas de que se me agrade y yo, para mí que poco menos que insensible, sólo sufro por ellos, de tal manera que su menor aprieto me provoca un mal infinito aunque, no obstante, si es necesario, los sacrifico deliberadamente, les suprimo todo sentimiento dichoso (llego a matarlos)».'
+          text: '«Yo quería bastante a los médicos, no me sentía minimizado por sus dudas. El problema es que su autoridad aumentaba de hora en hora. No nos damos cuenta pero son unos reyes. Abriendo mis habitaciones, decían: Todo lo que está allí nos pertenece. Se lanzaban sobre mis recortes de pensamiento: Eso es nuestro. Interpelaban a mi historia: Habla, y ella se ponía a su servicio. Rápidamente me despojaba de mímismo. Les distribuía mi sangre, mi intimidad, les prestaba el universo, les daba la luz. A sus ojos, en nada asombrados, me convertía en una gota de agua, una mancha de tinta. Me reducía a ellos mismos, pasaba todo entero bajo su vista, y cuando, al fin, no tenían presente más que mi perfecta nulidad y ya nada más que ver, muy irritados, se levantaban gritando: Y bien, ¿dónde está usted? ¿Dónde se esconde? Esconderse está prohibido, es una falta, etc.».'
+
     - id: la_escritura_del_desastre
       name: La escritura del desastre
       format-title: italic
