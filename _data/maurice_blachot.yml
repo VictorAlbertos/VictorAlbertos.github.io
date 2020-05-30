@@ -9,7 +9,7 @@
       name: La amistad
       format-title: italic
       publication-date: '2020-05-15'
-      reference: J. A. Doval.
+      reference: «La amistad». Traducción de J. A. Doval.
       fragments:
         - number: 'f4'
           social-network-candidate:
@@ -28,24 +28,24 @@
       name: De Kafka a Kafka
       format-title: italic
       publication-date: '2020-05-15'
+      reference: «La lectura de Kafka». Traducción de Jorge Ferreiro.
       fragments:
         - number: 'f1'
           social-network-candidate:
-          preview: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto. [...]».'
-          text: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto.</br></br>Y también son los que torturan del modo más trágico la esperanza, no porque la esperanza esté condenada, sino porque no logra ser condenada. Por completa que sea la catástrofe, subsiste un margen ínfimo del que no se sabe si reserva la esperanza o al contrario la descarta para siempre.</br></br>No basta con que el mismo Dios se someta a su propia sentencia y sucumba con ella en el hundimiento más sórdido, en un estrépito inaudito de chatarra y órganos, aún hay que esperar su resurrección y el retorno de su justicia incomprensible que nos condena para siempre al espanto y el consuelo».'
+          preview: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto».'
+          text: '«En el terreno literario, los relatos de Kafka figuran entre los más negros, entre los más apegados a un desastre absoluto. Y también son los que torturan del modo más trágico la esperanza, no porque la esperanza esté condenada, sino porque no logra ser condenada. Por completa que sea la catástrofe, subsiste un margen ínfimo del que no se sabe si reserva la esperanza o al contrario la descarta para siempre. No basta que el mismo Dios se someta a su propia sentencia y sucumba con ella en el hundimiento más sórdido, en un estrépito inaudito de chatarra y órganos, aún hay que esperar su resurrección y el retorno de su justicia incomprensible que nos condena para siempre al espanto y el consuelo».'
     
     - id: la_conversacion_infinita
       name: La conversación infinita
       format-title: italic
       publication-date: '2020-05-15'
+      reference: «Reflexiones sobre el infierno». Traducción de Isidro Herrera.
       fragments:
-        - number: 'f2'
-          social-network-candidate:
-          text: '«Pero ¿por qué dos hablas para decir una misma cosa? — Porque quien la dice es siempre el otro».'
         - number: 'f1'
           social-network-candidate:
-          preview: 'Sucede que alguien esté muy cerca de nosotros, cerca no: las murallas han caído; a veces, siempre muy cerca, pero sin relación, las murallas han caído, las que separan, las que sirven también para transmitir señales, el lenguaje de las prisiones. Hay entonces que levantar una pared, pedir un poco de indiferencia, esta tranquila distancia con la que se equilibran las vidas. Deseo ingenuo que se forma después de haberse realizado. [...]».'
-          text: '«Sucede que alguien esté muy cerca de nosotros, cerca no: las murallas han caído; a veces, siempre muy cerca, pero sin relación, las murallas han caído, las que separan, las que sirven también para transmitir señales, el lenguaje de las prisiones. Hay entonces que levantar una pared, pedir un poco de indiferencia, esta tranquila distancia con la que se equilibran las vidas. Deseo ingenuo que se forma después de haberse realizado. Pero, de tal sorprendente cercanía conservamos la impresión de que ha habido un breve momento de suerte, merced al favor, no de la mirada que ha podido intercambiarse, sino como de un movimiento que nos habría precedido a ambos, justo antes del encuentro, parece que en ese instante él era verdaderamente nuestro camarada en un espacio infinito e infinitamente desierto donde, por un maravilloso azar, él había precisamente surgido a nuestro lado; eso era así, ello iba a ser así, eso era inexplicable, seguro y maravilloso. Pero ¿quién era él? ¿Quizá solamente el desierto?, ¿el desierto convertido en nuestro compañero? Eso sigue siendo maravilloso, maravillosamente desolado, y más tarde de nuevo el camarada desapareció, no hay más que desierto, pero éste, en su seca verdad y su árida presencia, nos es de repente próximo, familiar, amigo. Proximidad que al mismo tiempo nos dice: "el desierto crece"».'
+          preview: 'Sucede que alguien esté muy cerca de nosotros, cerca no: las murallas han caído; a veces, siempre muy cerca, pero sin relación, las murallas han caído, las que separan, las que sirven también para transmitir las señales, el lenguaje de las prisiones. Hay entonces que levantar una pared, pedir un poco de indiferencia, esta tranquila distancia con la que se equilibran las vidas. Deseo ingenuo que se forma después de haberse realizado».'
+          text: '«Sucede que alguien esté muy cerca de nosotros, cerca no: las murallas han caído; a veces, siempre muy cerca, pero sin relación, las murallas han caído, las que separan, las que sirven también para transmitir las señales, el lenguaje de las prisiones. Hay entonces que levantar una pared, pedir un poco de indiferencia, esta tranquila distancia con la que se equilibran las vidas. Deseo ingenuo que se forma después de haberse realizado. Pero, de tal sorprendente cercanía conservamos la impresión de que ha habido un breve momento de suerte, merced al favor, no de la mirada que ha podido intercambiarse, sino como de un movimiento que nos habría precedido a ambos, justo antes del encuentro, parece que en ese instante <i>él</i> era verdaderamente nuestro camarada en un espacio infinito e infinitamente desierto donde, por un maravilloso azar, él había precisamente surgido a nuestro lado; eso era así, ello iba a ser así, eso era inexplicable, seguro y maravilloso. Pero ¿quién era <i>él</i>? ¿Quizá solamente el desierto?, ¿el desierto convertido en nuestro compañero? Eso sigue siendo maravilloso, maravillosamente desolado, y más tarde de nuevo el camarada desapareció, no hay más que desierto, pero éste, en su seca verdad y su árida presencia, nos es de repente próximo, familiar, amigo. Proximidad que al mismo tiempo nos dice: “</i>el desierto crece</i>”».'
+    
     - id: la_espera_el_olvido
       name: La espera el olvido
       format-title: italic
@@ -67,20 +67,12 @@
           social-network-candidate:
           preview: '«¿Me olvidará usted?». — «Sí, la olvidaré». — «¿Cómo estará seguro de haberme olvidado?». — «Cuando recuerde a otra». — «Pero es aún de mí de quien se acordará; me es preciso más». — «Tendrá más: cuando no me acuerde de mí». Ella reflexionó acerca de esta idea que parecía complacerle. [...]».'
           text: '«¿Me olvidará usted?». — «Sí, la olvidaré». — «¿Cómo estará seguro de haberme olvidado?». — «Cuando recuerde a otra». — «Pero es aún de mí de quien se acordará; me es preciso más». — «Tendrá más: cuando no me acuerde de mí». Ella reflexionó acerca de esta idea que parecía complacerle. «Olvidados juntos. ¿Y quién entonces nos olvidará? ¿Quién estará seguro de nosotros en el olvido?». — «Los demás, ¡todos los demás!». — «Pero ellos no cuentan. Me río de ser olvidada por los demás. Por usted es por quien quiero ser olvidada, únicamente por usted». — «Pues bien, en el momento en que me habrás olvidado». — «Pero, decía ella tristemente, siento efectivamente que ya te he olvidado».'
-    - id: la_sentencia_de_muerte
-      name: La sentencia de muerte
-      format-title: italic
-      fragments:
-        - number: 'f1'
-          social-network-candidate:
-          preview: '«Cuando se empieza con las "razones", pronto se pierde pie por poco honesto que uno sea, pues las razones son siempre demasiado numerosas cuando una sola bastaría. [...]».'
-          text: '«Cuando se empieza con las "razones", pronto se pierde pie por poco honesto que uno sea, pues las razones son siempre demasiado numerosas cuando una sola bastaría. Yo también, al escucharla, descubrí cuánto me ofendía aquel matrimonio, no por mí, claro está, ni siquiera por aquel Simón muerto que no me recordaba nada; pero, tenía el presentimiento de que una traición invisible se estaba fraguando, uno de esos actos desgarradores de los que nadie sabe nada, que empiezan en la oscuridad y terminan en el silencio, y contra los cuales la desgracia ignorada no puede defenderse».'
 
     - id: el_instante_de_mi_muerte
       name: El instante de mi muerte
       format-title: italic
       publication-date: '2020-05-15'
-      reference: Alberto Ruiz de Samaniego.
+      reference: Traducción de Alberto Ruiz de Samaniego.
       fragments:
         - number: 'f3'
           social-network-candidate:
@@ -96,7 +88,7 @@
       name: La locura de la luz
       format-title: italic
       publication-date: '2020-05-15'
-      reference: Alberto Ruiz de Samaniego.
+      reference: Traducción de Alberto Ruiz de Samaniego.
       fragments:
         - number: 'f6'
           social-network-candidate:
@@ -116,29 +108,7 @@
         - number: 'f1'
           social-network-candidate:
           text: '«Yo quería bastante a los médicos, no me sentía minimizado por sus dudas. El problema es que su autoridad aumentaba de hora en hora. No nos damos cuenta pero son unos reyes. Abriendo mis habitaciones, decían: Todo lo que está allí nos pertenece. Se lanzaban sobre mis recortes de pensamiento: Eso es nuestro. Interpelaban a mi historia: Habla, y ella se ponía a su servicio. Rápidamente me despojaba de mímismo. Les distribuía mi sangre, mi intimidad, les prestaba el universo, les daba la luz. A sus ojos, en nada asombrados, me convertía en una gota de agua, una mancha de tinta. Me reducía a ellos mismos, pasaba todo entero bajo su vista, y cuando, al fin, no tenían presente más que mi perfecta nulidad y ya nada más que ver, muy irritados, se levantaban gritando: Y bien, ¿dónde está usted? ¿Dónde se esconde? Esconderse está prohibido, es una falta, etc.».'
-
-    - id: la_escritura_del_desastre
-      name: La escritura del desastre
-      format-title: italic
-      publication-date: '2020-05-15'
-      fragments:
-        - number: 'f5'
-          social-network-candidate:
-          preview: '«(¿Una escena primitiva?). Vosotros que vivís más tarde, próximos a un corazón que ya no late, suponed, suponedlo: el niño —¿tiene siete años, ocho años quizá?— está de pie, corriendo la cortina y mirando a través del cristal de una ventana. Lo que ve: el jardín, los árboles de invierno, el muro de una casa; mientras ve, sin duda al modo como lo hace un niño, su espacio de juego, el hastío lo embarga y lentamente levanta la mirada hacia el cielo ordinario, con las nubes, la luz gris, el día apagado y sin lontananza. [...]».'
-          text: '«(¿Una escena primitiva?). Vosotros que vivís más tarde, próximos a un corazón que ya no late, suponed, suponedlo: el niño —¿tiene siete años, ocho años quizá?— está de pie, corriendo la cortina y mirando a través del cristal de una ventana. Lo que ve: el jardín, los árboles de invierno, el muro de una casa; mientras ve, sin duda al modo como lo hace un niño, su espacio de juego, el hastío lo embarga y lentamente levanta la mirada hacia el cielo ordinario, con las nubes, la luz gris, el día apagado y sin lontananza.</br></br>Lo que pasa después: el cielo, el mismo cielo, de repente abierto, absolutamente negro y absolutamente vacío, revelando (como a través del cristal roto) una ausencia tal que todo está ahí desde siempre y para siempre perdido, hasta el punto de que ahí se afirma y se disipa el saber vertiginoso de que nada es lo que hay y en primer lugar nada más allá. Lo inesperado de esta escena (su rasgo interminable) es el sentimiento que enseguida invade al niño, la alegría asoladora de lo que solo podrá dar testimonio con sus lágrimas. Pensamos que es una tristeza de niño, intentamos consolarlo. Él no dice nada. Vivirá en adelante en el secreto. Ya no llorará».'
-        - number: 'f4'
-          social-network-candidate:
-          text: '«Hay una suerte de ocaso de ascendencia entre pensar y morir: cuanto más pensamos, en la ausencia de pensamiento (determinado), tanto más nos elevamos, de peldaño en peldaño, hacia el precipicio, la caída en picado, la expiración empezando por la cabeza. Pensar no es sino ascensión u ocaso, pero no hay pensamiento determinado para detenerse y volverse hacia uno mismo — de ahí su vertigo que es no obstante igualdad, como morir es siempre igual, siempre tal (letal)».'
-        - number: 'f3'
-          social-network-candidate:
-          preview: '«No perdones. El perdón acusa antas de perdonar; al acusar, al afirmar la falta, la vuelve irremisible, asesta el golpe hasta la culpabilidad; de ese modo, todo se vuelve irreparable, dejando de ser posibles don y perdón. [...]».'
-          text: '«No perdones. El perdón acusa antas de perdonar; al acusar, al afirmar la falta, la vuelve irremisible, asesta el golpe hasta la culpabilidad; de ese modo, todo se vuelve irreparable, dejando de ser posibles don y perdón.</br></br>No perdones sino a la inocencia.</br></br>Perdóname por perdonarte».'
-        - number: 'f2'
-          social-network-candidate:
-          text: '«Llamo desastre a aquello que no tiene lo último como límite: aquello que arrastra a lo último en el desastre».'
-        - number: 'f1'
-          social-network-candidate:
-          text: '«Leyendo a Roland Barthes lo que no dice pero sugiere, imagino que para Werther el amor—pasión no es sino un rodeo para morir. Después de la lectura de Werther, ya no ha habido más enamorados sino más suicidados. Y Goethe ha descargado sobre Werther la tentación de morir, no su pasión; escribiendo, no en modo alguno para no morir, sino mediante el movimiento de una muerte que ya no le pertenecía. “Eso solo puede terminar mal”».'
+  
     - id: thomas_el_oscuro
       name: Thomas el oscuro
       format-title: italic
