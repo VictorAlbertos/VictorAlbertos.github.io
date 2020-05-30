@@ -8,6 +8,7 @@
     - id: la_amistad
       name: La amistad
       format-title: italic
+      publication-date: '2020-05-15'
       fragments:
         - number: 'f1'
           social-network-candidate:
@@ -15,6 +16,7 @@
     - id: de_kafka_a_kafka
       name: De Kafka a Kafka
       format-title: italic
+      publication-date: '2020-05-15'
       fragments:
         - number: 'f1'
           social-network-candidate:
@@ -23,6 +25,7 @@
     - id: la_conversacion_infinita
       name: La conversación infinita
       format-title: italic
+      publication-date: '2020-05-15'
       fragments:
         - number: 'f2'
           social-network-candidate:
@@ -63,6 +66,7 @@
     - id: el_instante_de_mi_muerte
       name: El instante de mi muerte
       format-title: italic
+      publication-date: '2020-05-15'
       fragments:
         - number: 'f3'
           social-network-candidate:
@@ -76,6 +80,7 @@
     - id: la_locura_de_la_luz
       name: La locura de la luz
       format-title: italic
+      publication-date: '2020-05-15'
       fragments:
         - number: 'f1'
           social-network-candidate:
@@ -83,6 +88,7 @@
     - id: la_escritura_del_desastre
       name: La escritura del desastre
       format-title: italic
+      publication-date: '2020-05-15'
       fragments:
         - number: 'f5'
           social-network-candidate:

@@ -7,6 +7,7 @@
     - id: el_placer_del_texto
       name: El placer del texto
       format-title: italic
+      publication-date: '2020-05-15'
       fragments:
         - number: 'f2'
           social-network-candidate:
@@ -20,6 +21,7 @@
       name: El susurro del lenguaje. Más allá de la palabra y de la escritura
       format-title: italic
       reference: '«No se consigue nunca hablar de lo que se ama».'
+      publication-date: '2020-05-15'
       fragments:
         - number: 'f3'
           preview: '«[...] precisamente ahí, en la sensación, es donde comienza la dificultad del lenguaje [...]».'
