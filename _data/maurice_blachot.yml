@@ -57,76 +57,197 @@
         contrast: 2
         reference: '<i>El olvido</i>, Andrés Ramírez G.'
       fragments:
-        - number: 'f6'
+        - number: 'f73'
           text: '«Ella tenía la sensación de un errar que no alcanzaba a situar».'
-        - number: 'f6'
+        - number: 'f72'
           text: '«¿Acaso él no desearía empujarla a otras confidencias y no era, por el contrario, su secreto deseo retenerla en esta inclinación? Eso le atraía, pero le causaba también un gran malestar. Descubría por tanto tener segundas intenciones. ¿No habían estas segundas intenciones alterado sin saberlo lo que él había escrito con tanta seguridad?».'
-        - number: 'f6'
+        - number: 'f71'
           text: '«... no pudo dejar de sentirse ligado a ella por este fracaso. No comprendía bien por qué. La había algo así como tocado a través del vacío, la había visto durante un instante».'
-        - number: 'f6'
+        - number: 'f70'
           social-network-candidate:
           text: '«“Deja de hablar, si quieres que te oiga”».'
-        - number: 'f6'
+        - number: 'f69'
           social-network-candidate:
           text: '«“¿Por qué me escucha usted así? ¿Por qué, incluso cuando habla, todavía me escucha? ¿Por qué atrae usted en mí esta habla que a continuación tengo que decir? Y usted nunca responde, nunca me deja escuchar algo suyo. Pero no diré nada, sépalo. Lo que digo no es nada”».'
-        - number: 'f6'
+        - number: 'f68'
           text: '«Siempre la vieja habla que quiere estar ahí de nuevo sin hablar».'
-        - number: 'f6'
+        - number: 'f67'
           text: '«Ella se imaginaba, o por lo menos él tenía esa impresión, que él tenía un gran poder, del cual habría podido servirse para llegar al corazón de la verdad que ella parecía tener constantemente ante sí sin lograr hacerla real; pero, con ese poder, por una incomprensible negligencia, él rechazaba hacer nada. “¿Por qué no hace todo lo que podría hacer?”. — “¿Pero qué podría hacer yo?”. — “Más de lo que hace”. — “Sí, sin duda, un poco más, añadió alegremente. Tengo a menudo esta impresión desde que la conozco”.  — “Sea sincero: ¿por qué no ejerce el poder que sabe que tiene?”. — “¿Qué clase de poder? ¿Por qué me dice eso?”. — Pero ella volvía con su tranquila obstinación: “Reconozca ese poder que le pertenece”. — “No lo conozco, y no me pertenece”. — “Ésta es de hecho la prueba de que ese poder forma parte de usted mismo”».'
-        - number: 'f6'
+        - number: 'f66'
           social-network-candidate:
           text: '«Las palabras se sirven en ella del recuerdo que ellas le ayudan a expresar».'
-        - number: 'f6'
+        - number: 'f65'
           social-network-candidate:
           text: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?”.</br></br>Lo que él presiente es que ella espera que la lleve lo suficientemente lejos como para que el recuerdo recuerde en ella y pueda expresarse. Eso es lo que no dejan de evocar en todo momento.</br></br>En secreto a la vista de todos.</br></br>Como si el dolor tuviera el pensamiento como espacio».'
-
+        - number: 'f64'
+          text: '«<i>Haz de tal manera que yo pueda hablarte</i>.</br></br>“¿Qué debo decir?”. — “¿Qué quiere usted decir?”. — “Eso que, si lo dijese, destruiría esta voluntad de decir”.</br></br>“Ella daba la impresión, cuando hablaba, de no saber enlazar las palabras con la riqueza de un lenguaje anterior. Ellas no tenían historia, ni vínculo con el pasado de todos, ni siquiera relación con la vida de ella, o con la vida de nadie. Sin embargo, decían lo que decían con una exactitud que únicamente su falta de equívoco producía sospechas: como si hubieran tenido una significación única fuera de la cual ellas volvían a tornarse silenciosas».'
+        - number: 'f63'
+          text: '«El rechazo que ella le oponía estaba en su misma docilidad. Todo era oscuro, él lo sabía, turbio tal vez, y su presencia estaba ligada a una duda: como si ella sólo hubiese estado presente para abstenerse de hablar. [...]</br></br>¿Qué le faltaba a lo que ella decía, a sus frases más sencillas?».' 
+        - number: 'f62'
+          social-network-candidate:
+          text: '«Él desde siempre sabe que nada hay ahí que no lo puedan expresar las palabras más comunes, pero a condición de que ello mismo pertenezca a ese mismo secreto, en lugar de conocerlo, y renuncie a su parte de luz en este mundo.</br></br>Él nunca sabría lo que él sabía. Eso era la soledad».'
+        - number: 'f61'
+          social-network-candidate:
+          text: '«Esperar, solamente esperar. La espera ajena, igual en todos sus momentos, como el espacio en todos sus puntos, similar al espacio, ejerciendo la misma presión continua, sin ejercerla. La espera solitaria, que estaba en nosotros, pasada ahora al afuera, espera de nosotros sin nosotros, forzándonos a esperar fuera de nuestra propia espera, no dejándonos ya nada que esperar. En primer lugar la ignorancia de la intimidad, en primer lugar el lado a lado de instantes que se ignoran, en contacto y sin relación».'
+        - number: 'f60'
+          text: '«... él no vacilaba en concluir que el vacío se encontraba en un sitio que no habría podido situar [...]».'
+        - number: 'f59'
+          social-network-candidate:
+          text: '«Con que melancolía, pero qué tranquila certidumbre, él sentía que nunca más podría decir: “Yo”».'
+        - number: 'f58'
+          social-network-candidate:
+          text: '«Debemos siempre, frente a cada instante, conducirnos como si él fuera eterno y como si esperara de nosotros volver a tornarse pasajero».'
+        - number: 'f57'
+          social-network-candidate:
+          text: '«Lo que él nunca le había preguntado: si ella decía la verdad. Ahí está lo que explicaba sus difíciles relaciones; ella decía la verdad, pero no en lo que decía».'
+        - number: 'f56'
+          text: '«Los pensamientos de la noche, siempre más brillantes, más impersonales, más dolorosos. Constantemente dolor y gozo infinitos, y al mismo tiempo la calma»'
+        - number: 'f55'
+          social-network-candidate:
+          text: '«Yo quisiera que me amara por lo que es impasible e insensible en usted».'
+        - number: 'f54'
+          social-network-candidate:
+          text: '«¿No le había ella sugerido a veces que la descripción, por más que no estuviera acabada, estaba siempre completa y que a ella sólo le faltaba su propia ausencia, de la que no se sabía si se alegraba o se alarmaba?».'
+        - number: 'f53'
+          text: '«Era la misma habla de regreso a sí misma, sin embargo, no del todo la misma, él se daba cuenta de ello; había una diferencia que quizás estaba en ese retorno y le habría enseñado mucho de haber sido capaz de reconocerla. Es tal vez una diferencia de tiempo; es quizás la misma habla un poco borrada, un poco más rica con un sentido singular a causa de esta borradura, como si hubiera siempre un poco menos en la respuesta que en la pregunta.</br></br>“Todas sus palabras me interrogan, incluso cuando usted dice cosas que no se relacionan conmigo”. — “¡Pero si todo se relaciona con usted!”. — “Conmigo, no. Yo estoy ahí y eso debería bastarle”. — “Sí, eso debería bastarme, pero con la condición de que esté seguro de usted”. — “¿No está seguro de mí?”. — “De usted, si se tratara de usted”. Él estuvo cerca de comunicarle lo que ya había sentido: ahí donde ella estaba había un conjunto indistinto extendiéndose hasta el infinito y perdiéndose en la luz del día, una multitud que no era una verdadera multitud de gente, sino algo innumerable e indefinido, una especie de debilidad abstracta, incapaz de presentarse de otro modo que en la forma vacía de un número muy grande. Y, sin embargo, ella misma, fueren cuales fueren sus relaciones con la multitud, nunca se perdía en ella realmente, imponiéndose por el contrario con una autoridad suave que la convertía en más presente y más persuasiva».'
+        - number: 'f52'
+          social-network-candidate:
+          text: '«“¿Estamos juntos? No del todo, ¿no es eso? Solamente, si pudiéramos estar separados”».'
+        - number: 'f51'
+          text: '«El misterio no es nada, incluso en tanto que nada misterioso. No puede ser objeto de atención. El misterio es el centro de la atención, cuando la atención, siendo igual y la igualdad perfecta de suyo, es la ausencia de todo centro.</br></br>En la atención desaparece el centro de atención, el punto central alrededor del cual se distribuyen la perspectiva, la vista y el orden de lo que está por verse interior y exteriormente.</br></br>La atención está holgante y deshabitada. Vacía, ella es la claridad del vacío.</br></br>Misterio: su esencia es estar siempre más acá de la atención. Y la esencia de la atención es poder preservar, en ella y por ella, lo que está siempre más acá de la atención y es la fuente de toda espera: el misterio.</br></br>La atención, acogida de lo que escapa de la atención, apertura a lo inesperado, espera que es lo inesperado de toda espera».'
+        - number: 'f50'
+          social-network-candidate:
+          text: '«Alguien en mí conversa con conmigo mismo.</br></br>Alguien en mí conversa con alguien. No los escucho. Sin embargo, sin mí que los separo y sin esta separación que mantengo entre ellos, no se escucharían».'
+        - number: 'f49'
+          social-network-candidate:
+          text: '«Ella no esperaba, él no esperaba. Entre ellos, sin embargo, la espera».'
+        - number: 'f48'
+          social-network-candidate:
+          text: '«La atención espera. Él no sabe si esta espera es la suya, separada de él y esperando fuera de él. Mora solamente con ella.</br></br>La atención que la espera concentra en él no está destinada a obtener la realización de lo que él espera, sino a dejar que se aparten, únicamente por la espera, todas las cosas realizables, cercanía de lo irrealizable.</br></br>Sólo la espera concede la atención. El tiempo vacío, sin proyecto, es la espera que concede la atención.</br></br>Por la atención él no estaba atento a sí mismo, ni a nada que se relacionara con lo que esto fuera, sino llevado, por el infinito de la espera, al límite extremo que escapa de la espera.</br></br>La espera concede la atención al retirar todo lo que es esperado.</br></br>Él dispone, por la atención, del infinito de la espera, que le abre a lo inesperado, llevándole al límite extremo que no se deja alcanzar».'
+        - number: 'f47'
+          text: '«¿Desde cuándo esperaba? La espera es siempre la espera de la espera, recobrando en sí misma el comienzo, suspendiendo el final y, en este intervalo, abriendo el intervalo de una espera distinta. La noche en la que nada es esperado representa ese movimiento de la espera.</br></br>La imposibilidad de esperar pertenece esencialmente a la espera. Él se da cuenta de que sólo había escrito para responder a la imposibilidad de escribir. Lo dicho tenía por tanto relación con la espera. Esta luz le atravesó, pero no hizo sino atravesarle».'
+        - number: 'f46'
+          social-network-candidate:
+          text: '«¿Desde cuándo había comenzado a esperar? Desde que se había liberado para la espera perdiendo el deseo de las cosas particulares y hasta el deseo del fin de las cosas. La espera comienza cuando ya no hay nada que esperar, ni siquiera el fin de esta espera. La espera ignora y destruye lo que espera. La espera no espera nada.</br></br>Sea cual fuere la importancia del objeto de la espera, está siempre infinitamente superado por el movimiento de la espera. La espera vuelve igualmente vanas todas las cosas igualmente importantes. Para esperar la menor cosa, disponemos de una potencia infinita de esperar que parece que no puede ser agotada.</br></br>“La espera no consuela”. — “Los que esperan de nada han de ser consolados”».'
+        - number: 'f45'
+          text: '«Todo lo que ella dice representa pensamientos antiguos y palabras anteriores. En un sitio distinto de éste él las comprendería; aquí las escucha demasiado tarde».'
+        - number: 'f44'
+          social-network-candidate:
+          text: '«No hay entre ellos verdadero diálogo. Sólo la espera mantiene cierta relación entre lo que dicen, palabras dichas para esperar, espera de palabras».'
+        - number: 'f43'
+          social-network-candidate:
+          text: '«Él debía precederla e ir siempre por delante, sin nunca estar seguro de si era seguido por ella. De lo que ella tenía que decirle él estaba obligado a descubrir en primer lugar las palabras con las que a continuación ella podría hacérselo escuchar. Caminaban así, inmóviles en el interior del movimiento».'
+        - number: 'f42'
+          text: '«Él la había visto una vez, dos veces, un número infinito de veces. Había pasado junto a ella y él no había borrado su presencia. Que ella no supiera nada de él, nunca lo había dudado. Ella le ignoraba, él aceptaba su ignorancia. Estaba en primer lugar aquel impulso, aquella vida profunda a causa de esta soledad redoblada; al final, aquel peso de engañifa y de error. Quien ha aceptado eso una vez debe perseverar sin fin.</br></br>Ella le ignora, mientras está más atenta que nadie a lo que él hace y dice.</br></br>A él le parece que ella, más que dudar de su presencia, no le da crédito. Quizás porque ella no duda, no cree».'
+        - number: 'f41'
+          social-network-candidate:
+          text: '«Ella había depositado toda su fe en aquello en lo que ella no creía».'
+        - number: 'f40'
+          social-network-candidate:
+          text: '«Él había soportado la espera. La espera le ha hecho eterno, y ahora ya sólo tiene que esperar eternamente.</br></br>La espera espera. A través de la espera, quien espera muere esperando. Lleva la espera a la muerte y parece que hace de la muerte la espera de lo aún esperado cuando uno muere.</br></br>La muerte, considerada como un acontecimiento esperado, no es capaz de poner fin a la espera. La espera transforma el hecho de morir en algo que no es suficiente alcanzar para dejar de esperar. La espera es lo que nos permite saber que la muerte no puede ser esperada».'
+        - number: 'f39'
+          text: '«El pudrimiento de la espera, el hastío. La espera estancada, la espera que en primer lugar está tomada como objeto, que está afectada de complacencia consigo misma, finalmente de odio hacia sí misma».'
+        - number: 'f38'
+          social-network-candidate:
+          text: '«“¿Cree usted que recuerdan?”. — “No, ellos olvidan”. — “¿Cree usted que el olvido sea la manera en que recuerdan?”. — “No, ellos olvidan y no conservan nada en el olvido”. — “¿Cree usted que lo perdido en el olvido esté preservado en el olvido del olvido?”. — “No, el olvido es indiferente al olvido”. — “Entonces, ¿estaremos maravillosamente, profundamente, eternamente olvidados?”. — “Olvidados sin maravilla, sin profundidad, sin eternidad”».'
+        - number: 'f37'
+          social-network-candidate:
+          text: '«“¿Me olvidará usted?”. — “Sí, la olvidaré”. — “¿Cómo estará seguro de haberme olvidado?”. — “Cuando recuerde a otra”. — “Pero es aún de mí de quien se acordará; me es preciso más”. — “Tendrá más: cuando no me acuerde de mí”. Ella reflexionó acerca de esta idea que parecía complacerle. “Olvidados juntos. ¿Y quién entonces nos olvidará? ¿Quién estará seguro de nosotros en el olvido?”. — “Los demás, ¡todos los demás!”. — “Pero ellos no cuentan. Me río de ser olvidada por los demás. Por usted es por quien quiero ser olvidada, únicamente por usted”. — “Pues bien, en el momento en que me habrás olvidado”. — “Pero, decía ella tristemente, siento efectivamente que ya te he olvidado”».'
+        - number: 'f36'
+          text: '«Ella no le olvidaba, ella olvidaba. Él, para ella, en el olvido en que él había desaparecido en ella, era todo lo que era. Y él la olvidaba también. No es posible recordar a quien no recuerda».'
+        - number: 'f35'
+          social-network-candidate:
+          text: '«“Sólo la he conocido para no saber nada de usted y para perder todo de mí en usted”».'
+        - number: 'f34'
+          social-network-candidate:
+          text: '«“Usted es quien me ha empujado al olvido”. — “Suavemente, reconózcalo”. — “Sí, suavemente, tiernamente, nada era más suave”. — “Era la suavidad del olvido en su atractivo”. — “¿Y por qué entonces haberme hecho recordar?”. — “Para hacer que olvide”. — “Pero necesariamente yo lo había olvidado todo”. — “No según la necesidad del olvido”.</br></br>Él espera, ella olvida, con un mismo movimiento que podría relacionarlos entre sí. Pero la espera, él lo sabe, le prohíbe ese encuentro que sólo podría cumplirse en el instante. La espera es la instancia siempre sin instante.</br></br>“Usted me ha hecho hablar, ¿por qué? ¿Por qué todas estas palabras que usted me ha concedido?”. — “Han sido recibidas antes que concedidas”. — “Me han llegado de su espera, bien lo sabe usted, y en ellas creo haberlo olvidado todo”. — “El olvido también es algo bueno”. — “Sí, usted quiere, con esas palabras de olvido, hacerme todavía más ausente”. — “Es que el olvido es aún su presencia, la de usted, en cada palabra”».'
+        - number: 'f33'
+          social-network-candidate:
+          text: '«“No encontrarás los límites del olvido, por lejos que puedas olvidar”».'
+        - number: 'f32'
+          social-network-candidate:
+          text: '«“Pero si me acordase de todo y se lo dijera todo, no habría ya para nosotros sino una sola memoria”. — “¿Una memoria común? No, dijo solemnemente él, nunca perteneceremos en común a la memoria”. — “Pues bien, entonces al olvido”. — “Quizás al olvido”. — “Sí, cuando olvido me encuentro más cerca de usted”. — “Con una proximidad no obstante sin cercanía”. — “Sin verdad tampoco, sin secreto”. — “Sin verdad, sin secreto”. — “Como si el borrado fuera el lugar último de todo encuentro. El olvido nos apartará lenta, pacientemente, con un movimiento asimismo ajeno, de lo común que todavía hay en nosotros”. Ella reflexionó al escucharle, después prosiguió con voz más baja: “A condición de que el olvido permanezca en un habla”. — “Habla de olvido”. — “En un instante, ¿será olvidado todo?”. — “Cada cosa en todas las cosas”. — “Y el instante en que todo se olvida, ¿cómo se olvidará?”. — “El olvido desciende al olvido”».'
+        - number: 'f31'
+          text: '«Esperar era esperar la ocasión. Y la ocasión sólo llegaba en el instante sustraído a la espera, el instante en que ya no es cuestión de esperar».'
+        - number: 'f30'
+          social-network-candidate:
+          text: '«Ella estaba ahí, es verdad. Toda ella estaba ante su mirada, concentrada en ella, distraída de sí misma en sí misma. Y él la veía constantemente, sin parar y como por azar. Ella no tenía otro rostro sino aquella maravillosa, aquella turbadora certidumbre.</br></br>Visible, y sin embargo no vista a causa de esta visibilidad.</br></br>No visible y no invisible, afirmando su derecho a ser vista por él mediante una luz que siempre precedía a la luz, y tal vez no era una verdadera luz, sino solamente una claridad que ellos compartían, venida del secreto de sí mismos y restituida a la ignorancia de sí mismos. Una claridad sin claridad, una lejana afirmación del atractivo, un saber melancólico y feliz que venía de que él aún no la miraba.</br></br>Rostro, la más alta afirmación de su derecho a ser vista por él, incluso aunque ella no hubiera sido visible».'
+        - number: 'f29'
+          social-network-candidate:
+          text: '«“¿Me ve usted?”. — “Naturalmente, la veo”. — “Eso es muy poco, todo el mundo puede verme”. — “Pero no tal vez como yo la veo”. — “Yo querría otra cosa, quiero otra cosa. Es muy importante. ¿Me podría ver, incluso si no pudiera verme?”. — “Pero no tal vez como yo la veo”. — “Yo querría otra cosa, quiero otra cosa. Es muy importante. ¿Me podría ver, incluso si no pudiera verme?”. — “¿Si fuera usted invisible?”. Él reflexionó: “Sin duda: en el interior de mí mismo”. — “No quiero decir que verdaderamente invisible, no pido tanto. Pero no querría que me viera por la sencilla razón de que yo fuera visible”. — “¡Que nadie más que yo la viera!”. — “No, no, visible para todos, eso me da igual, sino vista únicamente por usted por una razón más grave, comprende, y…”. — “¿Más segura?”. — “Más segura, pero no verdaderamente segura, sin esa garantía que hace visibles las cosas visibles”. — “¿Entonces, siempre?”. — “Siempre, siempre, pero no aún”».'
+        - number: 'f28'
+          social-network-candidate:
+          text: '«Lo que él pensaba se desviaba de su pensamiento para dejarle pensar puramente este desvío».'
+        - number: 'f27'
+          social-network-candidate:
+          text: '«Él a veces la olvidaba, a veces recordaba, a veces recordando el olvido y olvidándolo todo en ese recuerdo».'
+        - number: 'f26'
+          social-network-candidate:
+          text: '«El olvido es relación con lo que se olvida, relación que, volviendo secreto eso con lo que hay relación, detenta el poder y el sentido del secreto».'
+        - number: 'f25'
+          social-network-candidate:
+          text: '«Olvidando una palabra, olvidando en esa palabra todas las palabras».'
+        - number: 'f24'
+          text: '«Que el olvido hable por adelantado en cada habla que habla no solamente significa que cada palabra está encomendada a ser olvidada, sino que el olvido encuentra su reposo en el habla y la mantiene de acuerdo con lo que se oculta».'
+        - number: 'f23'
+          social-network-candidate:
+          text: '«En el olvido, lo que se desvía no puede ocultar completamente el rodeo que viene del olvido.</br></br>“Olvidar la muerte, ¿sería eso verdaderamente recordar la muerte? ¿Sería el olvido el único recuerdo que fuera a medida de la muerte?”. — “El imposible olvido. Cada vez que olvidas, al olvidar, te acuerdas de la muerte”.</br></br>Olvidando la muerte, encontrando el punto en que la muerte sustenta al olvido y el olvido da la muerte, desviándose no sólo de la muerte por el olvido sino del olvido por la muerte, entrar así, desviándose dos veces, en la verdad del rodeo.</br></br>Yendo del olvido a la espera inmóvil».'
+        - number: 'f22'
+          social-network-candidate:
+          text: '«Desde el momento en que se pregunta no hay respuesta que agote la pregunta».'
+        - number: 'f21'
+          social-network-candidate:
+          text: '«Como si la misma palabra hubiera expresado y sin embargo puesto obstáculos a la expresión».'
+        - number: 'f20'
+          social-network-candidate:
+          text: '«“Si estuviéramos vivos…”. — “¡Pero si estamos vivos!”. — “Usted lo está, pero me interroga con algo que no está vivo en usted y que busca en mí algo que ya no puede vivir. Es un sufrimiento, eso; es la angustia”».'
+        - number: 'f19'
+          text: '«Es la espera, cuando el tiempo está siempre de más y cuando, no obstante, le falta tiempo al tiempo. Esa falta sobreabundante del tiempo es la duración de la espera.</br></br>En la espera, el tiempo que le permite esperar se pierde para mejor responder a la espera.</br></br>La espera que ha lugar en el tiempo abre el tiempo a la ausencia de tiempo donde no ha lugar esperar.</br></br>Es la ausencia de tiempo quien lo deja esperar.</br></br>Es el tiempo quien le da algo que esperar.</br></br>En la espera reina la ausencia de tiempo, donde esperar es la imposibilidad de esperar.</br></br>El tiempo hace posible la imposible espera, donde se afirma la presión de la ausencia de tiempo».'
+        - number: 'f18'
+          social-network-candidate:
+          text: '«Ella olvidaba más lentamente que cualquier lentitud, más repentinamente que cualquier sorpresa.</br></br>“Tengo a veces la impresión de que usted sólo recuerda para olvidar: para conservar sensible la potencia del olvido. Del olvido es más bien de lo que usted querría acordarse”. — “Quizás. Recuerdo a dos pasos del olvido. Es una extraña impresión”. — “Peligrosa también; dos pasos se franquean rápido”. — “Sí, pero siempre habrá de nuevo dos pasos, y siento que cada vez usted me sigue, usted que, sin embargo, está delante de mí”. — “Lo estoy, yo querría seguirle”».'
+        - number: 'f17'
+          social-network-candidate:
+          text: '«El recuerdo era ese movimiento del atractivo que hacía que ella misma viniera, sin otro recuerdo que esta diferencia indiferente.</br></br>Él tenía la certidumbre de que ella no recordaba, sino que ella solamente venía en ese recuerdo, su inmóvil presencia. ¿Cómo habría podido ser compartido ese recuerdo?</br></br>El recuerdo hacía que viniera el olvido como la medida de la verdad de donde él salía».'
+        - number: 'f16'
+          text: '«No querría que usted estuviera atado a mi recuerdo. Por eso no me he acordado de mí».'
+        - number: 'f15'
+          social-network-candidate:
+          text: '«Nunca se dirige usted a mí, solamente a ese secreto en mí del que estoy separada y que es como mi propia separación».'
+        - number: 'f14'
+          text: '«Él tiene la sensación de esperar menos de lo que esperaba. Es, piensa él, el signo del aumento de la espera, signo perverso.</br></br>En la espera siempre hay más por esperar que cosas esperadas.</br></br>La espera le retira las cosas sin que él las pierda y sin que pueda conservarlas gracias a la sensación de haberlas perdido.</br></br>Él no tiene ya la fuerza de esperar. Si la tuviera, no esperaría. Tiene menos de la que tenía. Sucede que la espera gasta la fuerza de esperar. La espera no se gasta. La espera es el desgaste que no se gasta».'
+        - number: 'f13'
+          text: '«“Hay todavía un largo camino”. — “Pero no para llevarnos lejos”. — “Para conducirnos a lo más cercano”. — “Cuando todo lo que está cercano está más lejos que cualquier lejanía”.</br></br>Es como si ella llevara en sí la fuerza de la proximidad. Lejos —cuando ella está de pie contra la puerta—, necesariamente cercana y siempre por aproximación, pero cerca de él, estando aún sólo cercana y, más cerca, alejada por completo por la proximidad que ella hace manifiesta. Cuando él la tiene, toca esta fuerza de aproximación que reúne la proximidad, pero también, en esta proximidad, toda la lejanía y todo el afuera.</br></br>“Usted está cerca, ella está solamente presente”. — “Pero yo sólo estoy cerca, mientras que ella es la presencia”. — “Es verdad: solamente cerca; no negaré ese solamente. Ahí le debo tener a usted”. — “¿Por qué me tiene?”. — “Pero si usted también me tiene”. — “Yo la tengo. Pero ¿cerca de quién?”. — “Cerca: cerca de todo lo que es cercano”. — “Cerca, ¿pero no necesariamente de usted ni de mí?”. — “Ni de uno ni de otro. Pero eso es lo que hace falta. La belleza del atractivo es eso: usted nunca estará lo bastante cerca y nunca demasiado cerca; y sin embargos tenidos uno a otro y a la vera uno del otro”.</br></br>Tenidos y atraídos en su estar a la vera. Lo que atrae es la fuerza de la proximidad que se mantiene en la atracción, sin nunca agotarse en presencia y nunca disiparse en ausencia. En la proximidad, no tocante a la presencia, sino a la diferencia.</br></br>“Cerca, ¿incluso si no hablo?”. — “Dejando entonces que hable la proximidad”.</br></br>Lo que en ella hablaba era el acercamiento, acercamiento del habla, acercándose siempre, en el habla, al habla.</br></br>“Pero si yo estoy cerca, es que también lo está usted”. — “Seguramente. Sin embargo, verdaderamente no es posible decirlo”. — “¿Qué se puede decir”. — “Que estoy ahí”. — “¿Mientras que verdaderamente no estoy ahí?”. — “Usted está ahí, en la proximidad. Es su privilegio, es la verdad del atractivo”. — “El atractivo, la manera en que el acercamiento responde a todo al acercar”.</br></br>“¿Nunca, por tanto, atravesaremos la proximidad?”. — “Pero siempre encontrándonos muy próximos”».'
+        - number: 'f12'
+          social-network-candidate:
+          text: '«En la espera, si lo que se le escapa está ya siempre presente en la espera, todo está dado, excepto la sencillez de la presencia.</br></br>La espera es la espera de la presencia que no está dada en la espera, presencia no obstante conducida al sencillo juego de la presencia por la espera que le retira todo lo que de presente hay en ella».'
+        - number: 'f11'
+          social-network-candidate:
+          text: '«Es como si siempre tuvieran que buscar el camino para llegar adonde ya están».'
+        - number: 'f10'
+          social-network-candidate:
+          text: '«De pie contra la puerta, inmóvil y siempre acercándose, al tiempo que sentada en el extremo del diván, el cuerpo un poco desviado, extendido, recostado contra él, resbalando, y él, al dejarla resbalar hacia atrás, obligándola a atravesar, por la extensión en que ella se recuesta, la parte del espacio, infranqueable y ya franqueada, que la separa, pasando el rostro hasta él, mientras ella voltea los ojos tranquilamente abiertos, como si estuviesen destinados a verse, incluso aunque no ha lugar que se miren.</br></br>Como él la agarra, rodeándola insensiblemente tal como ella estará y atrayéndola con un movimiento aún no consumado de atracción, ella resbala, imagen en ese deslizamiento, deslizándose en su imagen».'
+        - number: 'f9'
+          text: '«“Sí, lo sé, ésa era ya su manera de luchar contra su presencia”. — “Oh, ella no lucha”. — “Es verdad, ella comprendió eso maravillosamente, que no hay ni que resistir ni que consentir, sino deslizarse en suspenso entre ambos, inmóvil en la prisa y en la lentitud”. — “Ella no hace nada más que responderle”. — “Pero a mí no más que a cualquier otro”. — “A usted como a nadie: lo extremadamente atrayente es eso”. — “Así atraída como fuera de su presencia”. — “Atraída, pero no obstante aún no, por la atracción de lo que siempre atrae pero aún no”. — “Por el atractivo que fuerza, rechaza y ocupa toda distancia”. — “Atraída en ella, en ese lugar del atractivo en que ella siente que se convierte”. — “Por todas partes presente”. — “Presente sin presencia”. — “Presente por esa sobrecarga de peso de carga y de ligereza que es el don que ella le hace al espacio y que la hace igual a toda la extensión en que ella se recuesta”. — “Volcada contra él”. — “Deslizándose en ella”. — “Dada al afuera”. — “Volcándose y mostrándose por una pasión de aparecer que la desvía de todo visible y de todo invisible”».'
+        - number: 'f8'
+          text: '«Él busca, girando y volviendo a girar con, en el centro, esta habla y sabiendo que encontrar es solamente todavía buscar gracias a la relación con el centro, que es lo inencontrable. El centro permite encontrar y girar, pero él no se encuentra. El centro en cuanto centro está siempre a salvo.</br></br>Girando en torno a su presencia que él sólo podía encontrar en ese rodeo.</br></br>Él cara a cara de su presencia (desviada)».'
+        - number: 'f7'
+          social-network-candidate:
+          text: '«“¿En qué piensa usted?”. — “En este pensamiento que no hay que pensar”.</br></br>El pensamiento más próximo, aquel que no hay que pensar».'
         - number: 'f6'
           social-network-candidate:
-          text:
-        - number: 'f6'
+          text: '«“La veré mejor en el momento en que habremos olvidado hablar”. — “Pero si yo no olvidase, no hablaría”. — “Es verdad, usted habla como por olvido; hablando, olvidando hablar”. — “El habla está dada al olvido”.</br></br>“No importa que usted recuerde o que usted olvide, sino que, al recordar, sea fiel al olvido en el espacio desde el que recuerda y, al olvidar, fiel a la venida que usted convierte en recuerdo”».'
+        - number: 'f5'
           social-network-candidate:
-          text:
-        - number: 'f6'
-          social-network-candidate:
-          text:
-        - number: 'f6'
-          social-network-candidate:
-          text:
-        - number: 'f6'
-          social-network-candidate:
-          text:
-        - number: 'f6'
-          social-network-candidate:
-          text:
-        - number: 'f6'
-          social-network-candidate:
-          text:
-        - number: 'f6'
-          social-network-candidate:
-          text:
-            - number: 'f6'
-          social-network-candidate:
-          text:
-            - number: 'f6'
-          social-network-candidate:
-          text:
-            - number: 'f6'
-          social-network-candidate:
-          text:
-            - number: 'f6'
-          social-network-candidate:
-          text:
-            - number: 'f6'
-          social-network-candidate:
-          text:
-            - number: 'f6'
-          social-network-candidate:
-          text:
-            - number: 'f6'
-          social-network-candidate:
-          text:
-
-
+          text: '«La presencia olvidada es siempre vasta y profunda. Profundidad de olvido en la presencia.</br></br>“Usted también, usted me ha olvidado”. — “Quizás, pero, al olvidarla, he alcanzado un poder de olvidarla que me sobrepasa con mucho y que me vincula, mucho más allá de mí, a lo que olvido. Es casi demasiado para uno solo”. — “Usted no está solo”. — “Sí, no soy solamente yo quien olvida, si olvido”».'
+        - number: 'f4'
+          text: '«Esta habla igual, él la escucha en el límite de todo lo que ella dice, pero distinguirla es ya hacerla diferente, forzarla en su indiferencia».'
+        - number: 'f3'
+          text: '«“Él me atraía, me atraía sin cesar”. — “¿Adónde la atraía?”. — “Pues bien, a este pensamiento que he olvidado”. — “¿Y puede acordarse mejor de él?”. — “No puedo. Cómo le he olvidado. Cómo me atrae, aquel que he olvidado”».'
+        - number: 'f2'
+          text: '«Cuando ella habla, arrastradas suavemente sus palabras, deslizándose su rostro a la vez, hundiéndose en el cuerpo del habla igual, ella le atrae también a él, a ese mismo movimiento de atracción donde ella no sabe que sigue, que la precede.</br></br>Como si él se hubiera deslizado, por el atractivo de la afirmación sin medida, hacia este espacio vacío donde, conduciéndola, siguiéndola, él permanece a la espera entre ver y decir».'
+        - number: 'f1'
+          text: '«<i>“Cuando me mantengo ante ti y quisiera mirarte, hablarte…”. — “Él la agarra y la atrae, atrayéndola fuera de su presencia”. — “Cuando me acerco, unido mi paso a tu paso, calmado, precipitado…”. — “Ella se recuesta contra él, aguantándose dejándose ir”. — “Cuando vas hacia adelante, despejándome un camino hacia ti…”. — “Ella se desliza, soliviantándose en aquella que él toca”. — “Cuando vamos y venimos por la habitación y nos miramos por un momento…”. — “Ella se retiene, retirada fuera de sí, esperando que lo que ha ocurrido ocurra”. — “Cuando nos alejamos uno de otro, y también de nosotros mismos, y así nos acercamos, pero lejos de nosotros…”. — “Es el vaivén de la espera: su detención”. — “Cuando nos acordamos y nos olvidamos, reunidos: separados…”. — “Es la inmovilidad de la espera, más movediza que todo lo movedizo”. — “Pero cuando dices “Ven” y vengo a este lugar del atractivo…”. — “Ella cae, dada al afuera, tranquilamente abiertos los ojos”. — “Cuando te das la vuelta y me haces una seña…”. — “Ella se desvía de todo visible y de todo invisible”. — “Recostándose y mostrándose”. — “Cara a cara en ese sosegado desvío”. — “No aquí donde ella está ni aquí donde él está, sino entre ellos”. — “Entre ellos, como ese lugar con su aire elevado y fijo, la retención de las cosas en su estado latente”</i>».'
 
     - id: el_instante_de_mi_muerte
       name: El instante de mi muerte
