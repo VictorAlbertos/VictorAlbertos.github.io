@@ -50,23 +50,83 @@
       name: La espera el olvido
       format-title: italic
       publication-date: '2020-01-16'
+      reference: Traducción de Isidro Herrera.
       image:
         name: 'la_espera_el_olvido.jpeg'
         color: 0.4
         contrast: 2
         reference: '<i>El olvido</i>, Andrés Ramírez G.'
       fragments:
-        - number: 'f3'
+        - number: 'f6'
+          text: '«Ella tenía la sensación de un errar que no alcanzaba a situar».'
+        - number: 'f6'
+          text: '«¿Acaso él no desearía empujarla a otras confidencias y no era, por el contrario, su secreto deseo retenerla en esta inclinación? Eso le atraía, pero le causaba también un gran malestar. Descubría por tanto tener segundas intenciones. ¿No habían estas segundas intenciones alterado sin saberlo lo que él había escrito con tanta seguridad?».'
+        - number: 'f6'
+          text: '«... no pudo dejar de sentirse ligado a ella por este fracaso. No comprendía bien por qué. La había algo así como tocado a través del vacío, la había visto durante un instante».'
+        - number: 'f6'
           social-network-candidate:
-          preview: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?”</br></br>Lo que él presiente es que ella espera que la lleve lo suficientemente lejos como para que el recuerdo recuerde en ella y pueda expresarse. [...]».'
-          text: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?”</br></br>Lo que él presiente es que ella espera que la lleve lo suficientemente lejos como para que el recuerdo recuerde en ella y pueda expresarse. Eso es lo que no dejan de evocar en todo momento.</br></br>En secreto a la vista de todos.</br></br>Como si el dolor tuviera el pensamiento como espacio».'
-        - number: 'f2'
+          text: '«“Deja de hablar, si quieres que te oiga”».'
+        - number: 'f6'
           social-network-candidate:
-          text: '«Él nunca sabría lo que él sabía. Eso era la soledad».'
-        - number: 'f1'
+          text: '«“¿Por qué me escucha usted así? ¿Por qué, incluso cuando habla, todavía me escucha? ¿Por qué atrae usted en mí esta habla que a continuación tengo que decir? Y usted nunca responde, nunca me deja escuchar algo suyo. Pero no diré nada, sépalo. Lo que digo no es nada”».'
+        - number: 'f6'
+          text: '«Siempre la vieja habla que quiere estar ahí de nuevo sin hablar».'
+        - number: 'f6'
+          text: '«Ella se imaginaba, o por lo menos él tenía esa impresión, que él tenía un gran poder, del cual habría podido servirse para llegar al corazón de la verdad que ella parecía tener constantemente ante sí sin lograr hacerla real; pero, con ese poder, por una incomprensible negligencia, él rechazaba hacer nada. “¿Por qué no hace todo lo que podría hacer?”. — “¿Pero qué podría hacer yo?”. — “Más de lo que hace”. — “Sí, sin duda, un poco más, añadió alegremente. Tengo a menudo esta impresión desde que la conozco”.  — “Sea sincero: ¿por qué no ejerce el poder que sabe que tiene?”. — “¿Qué clase de poder? ¿Por qué me dice eso?”. — Pero ella volvía con su tranquila obstinación: “Reconozca ese poder que le pertenece”. — “No lo conozco, y no me pertenece”. — “Ésta es de hecho la prueba de que ese poder forma parte de usted mismo”».'
+        - number: 'f6'
           social-network-candidate:
-          preview: '«¿Me olvidará usted?». — «Sí, la olvidaré». — «¿Cómo estará seguro de haberme olvidado?». — «Cuando recuerde a otra». — «Pero es aún de mí de quien se acordará; me es preciso más». — «Tendrá más: cuando no me acuerde de mí». Ella reflexionó acerca de esta idea que parecía complacerle. [...]».'
-          text: '«¿Me olvidará usted?». — «Sí, la olvidaré». — «¿Cómo estará seguro de haberme olvidado?». — «Cuando recuerde a otra». — «Pero es aún de mí de quien se acordará; me es preciso más». — «Tendrá más: cuando no me acuerde de mí». Ella reflexionó acerca de esta idea que parecía complacerle. «Olvidados juntos. ¿Y quién entonces nos olvidará? ¿Quién estará seguro de nosotros en el olvido?». — «Los demás, ¡todos los demás!». — «Pero ellos no cuentan. Me río de ser olvidada por los demás. Por usted es por quien quiero ser olvidada, únicamente por usted». — «Pues bien, en el momento en que me habrás olvidado». — «Pero, decía ella tristemente, siento efectivamente que ya te he olvidado».'
+          text: '«Las palabras se sirven en ella del recuerdo que ellas le ayudan a expresar».'
+        - number: 'f6'
+          social-network-candidate:
+          text: '«“Cuando te hablo, es como si todo lo de mí que me cubre y me protege me abandonara y me dejara expuesta y muy débil. ¿A dónde va esa parte de mí? ¿Se vuelve ella contra mí en usted?”.</br></br>Lo que él presiente es que ella espera que la lleve lo suficientemente lejos como para que el recuerdo recuerde en ella y pueda expresarse. Eso es lo que no dejan de evocar en todo momento.</br></br>En secreto a la vista de todos.</br></br>Como si el dolor tuviera el pensamiento como espacio».'
+
+        - number: 'f6'
+          social-network-candidate:
+          text:
+        - number: 'f6'
+          social-network-candidate:
+          text:
+        - number: 'f6'
+          social-network-candidate:
+          text:
+        - number: 'f6'
+          social-network-candidate:
+          text:
+        - number: 'f6'
+          social-network-candidate:
+          text:
+        - number: 'f6'
+          social-network-candidate:
+          text:
+        - number: 'f6'
+          social-network-candidate:
+          text:
+        - number: 'f6'
+          social-network-candidate:
+          text:
+            - number: 'f6'
+          social-network-candidate:
+          text:
+            - number: 'f6'
+          social-network-candidate:
+          text:
+            - number: 'f6'
+          social-network-candidate:
+          text:
+            - number: 'f6'
+          social-network-candidate:
+          text:
+            - number: 'f6'
+          social-network-candidate:
+          text:
+            - number: 'f6'
+          social-network-candidate:
+          text:
+            - number: 'f6'
+          social-network-candidate:
+          text:
+
+
 
     - id: el_instante_de_mi_muerte
       name: El instante de mi muerte
