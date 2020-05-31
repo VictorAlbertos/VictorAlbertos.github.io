@@ -110,9 +110,19 @@ p {
 
 .sticky-region {
   position: sticky;
-  height:24rem;
+  height:18rem;
   width: 100%;
   top: 0;
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .sticky-region {
+      position: sticky;
+      height:24rem;
+      width: 100%;
+      top: 0;
+    }
 }
 
 .region-black {
@@ -330,13 +340,6 @@ a.black:hover {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-  .container {
-    max-width: 70%
-  }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
   .container {
     max-width: 70%
   }
