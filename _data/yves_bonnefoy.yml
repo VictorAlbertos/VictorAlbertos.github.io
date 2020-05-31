@@ -10,6 +10,9 @@
       format-title: italic
       publication-date: '2020-05-16'
       reference: «La ordalía». Traducción de Julián Mateo.
+      image:
+        name: 'relatos_en_sueños.png'
+        reference: '<i>The Nocturnal Flambettes</i>, Mary Evans.'
       fragments:
         - number: 'f4'
           social-network-candidate:
