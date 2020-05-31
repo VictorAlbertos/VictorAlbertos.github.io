@@ -33,6 +33,9 @@
       format-title: italic
       publication-date: '2020-05-23'
       reference: Traducción de Ernesto Kavi.
+      image:
+        name: 'territorio-interior.png'
+        reference: '<i>Ruins of an Aqueduct with a House Built into One End</i>, Willem Schellinks.'
       fragments:
         - number: 'f2'
           social-network-candidate:
