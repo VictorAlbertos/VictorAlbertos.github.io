@@ -110,7 +110,7 @@ p {
 
 .sticky-region {
   position: sticky;
-  height:18rem;
+  height:24rem;
   width: 100%;
   top: 0;
 }
@@ -331,14 +331,14 @@ a.black:hover {
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
   .container {
-    max-width: 80%
+    max-width: 70%
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
   .container {
-    max-width: 80%
+    max-width: 70%
   }
 }
 
@@ -578,6 +578,8 @@ span.author-image-post {
     margin: auto;
     width: 50%;
     text-align: center;
+    color: black;
+    letter-spacing: 0.2em;
 }
 
 .subtitle-home {
@@ -585,4 +587,5 @@ span.author-image-post {
     margin: auto;
     width: 50%;
     text-align: center;
+    color: black;
 }
