@@ -176,9 +176,8 @@ for author in authors:
     titles = author['titles']
 
     for title in titles:
-        generate_post(title, 'author', author_id, only_first_fragment=False)
+        generate_post(title, 'author', author_id, only_first_fragment=True)
         generate_post(title, author_category, None, only_first_fragment=True)
-        generate_post(title, 'draw', None, only_no_published=True, only_first_fragment=True)
         generate_post(title, 'social-network-candidate', None, only_social_network_candidate=True)
 
 
