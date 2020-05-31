@@ -60,6 +60,10 @@ layout: default
 	{% for fragment in title.fragments %}
 		<a class="a_detail" name="{{fragment.number}}">
 			<div class="card-container" id="{{fragment.number}}-target"><p>{{fragment.text}}</p>
+				{% if fragment.reference %}
+					<hr>
+					<p>{{fragment.reference}}</p>
+				{% endif %}
 				<div class="row fa-margin-top"> 					
 			        <div><a id="{{fragment.number}}-target-fa" onclick="go_to_fragment('{{fragment.number}}')" href="/titles/{{title.id}}#{{fragment.number}}" class="fa black fa-share-square fa-lg"></a></div>
 			    </div>
