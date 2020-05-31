@@ -24,6 +24,11 @@ window.store = {
     {% assign title = author.titles | where: 'id', post.title_id | first %}
     {% assign fragment = title.fragments | where: 'number', post.fragment | first %}
 
+    {% if title.name %}
+    {% else %}
+    {% continue %}
+    {% endif %}
+
     {% if post.categories[0] == "image" %}
     "{{ post.url }}": {
       "title": "{{ title.name | xml_escape }}",
