@@ -108,6 +108,12 @@ p {
   margin-top: 13.75rem;
 }
 
+.no-sticky-region {
+  height:18rem;
+  width: 100%;
+}
+
+
 .sticky-region {
   position: sticky;
   height:18rem;
@@ -123,15 +129,15 @@ p {
       width: 100%;
       top: 0;
     }
+
+    .no-sticky-region {
+      height:24rem;
+      width: 100%;
+    }
 }
 
 .region-black {
   background: black;
-}
-
-.no-sticky-region {
-  height:18rem;
-  width: 100%;
 }
 
 .card-img-top { 
