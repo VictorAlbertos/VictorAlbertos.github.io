@@ -9,6 +9,9 @@
       format-title: italic
       publication-date: '2020-05-15'
       reference: Traducción de Nicolás Rosa.
+      image:
+        name: el_placer_del_texto.png
+        reference: <i>Interior del Panteón</i> (1768), Giovanni Battista Piranesi.
       fragments:
         - number: 'f2'
           social-network-candidate:
@@ -23,6 +26,10 @@
       format-title: italic
       reference: '«No se consigue nunca hablar de lo que se ama».'
       publication-date: '2020-05-15'
+      image:
+        name: el_susurro_del_lenguaje.png
+        reference: <i>A hidden life</i> (2020), Terrance Malick.
+        color: 0.3
       fragments:
         - number: 'f3'
           preview: '«... precisamente ahí, en la sensación, es donde comienza la dificultad del lenguaje [...]».'
