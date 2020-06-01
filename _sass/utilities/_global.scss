@@ -583,12 +583,20 @@ span.author-image-post {
 
 .title-home {
     font-family: 'Vidaloka', serif;
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+@media (min-width: 992px) {
+.title-home {
+    font-family: 'Vidaloka', serif;
     font-size: 4em;
-    margin: auto;
-    width: 50%;
     text-align: center;
     color: black;
     letter-spacing: 0.2em;
+}
 }
 
 .subtitle-home {
