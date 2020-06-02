@@ -1,17 +1,17 @@
 - id: paul_valery
-  name: Paul Valery
+  name: Paul Valéry
   category: they
   image:
     name: 'paul_valery.jpg'
   titles:
     - id: monsieur_test
       name: Monsieur Teste
+      year: '1896'
       format-title: italic
       publication-date: '2020-05-19'
       image:
-        name: 'teste.png'
-        color: 0.15
-        reference: '<i>Portrait of a man<i/> (1866), Edgar Degas.'
+        name: 'degas.jpg'
+        reference: '<i>Retrato de un hombre<i/> (circa 1866), Edgar Degas.'
       fragments:
         - number: 'f3'
           social-network-candidate:
@@ -21,4 +21,4 @@
           text: '«Quizá hubiera llegado a ese extraño estado, no poder mirar su propia decisión o respuesta interior sino bajo el aspecto de un expediente, sabiendo perfectamente que el desarrollo de su atención sería infinito, y que la idea de terminarlo ya no tiene ningún sentido en un espíritu que se conozca lo bastante. Estaba en ese grado de civilización interior en que la conciencia ya no tolera opiniones como no las acompañe ella con todo su séquito de modalidades, y no reposa (si eso es reposar) más que en el sentimiento de sus propios prodigios, ejercicios, substituciones y precisiones innumerables».'
         - number: 'f1'
           social-network-candidate:
-          text: '«[...] desde la extremidad del mundo hasta mi palabra silenciosa me penetro; y levantándose de la cosa informe que desea, a lo largo de fibras conocidas y centros ordenados, yo me soy, me respondo, me reflejo y repercuto, me estremezco en el infinito de los espejos —soy de cristal».'
+          text: '«... desde la extremidad del mundo hasta mi palabra silenciosa me penetro; y levantándose de la cosa informe que desea, a lo largo de fibras conocidas y centros ordenados, yo me soy, me respondo, me reflejo y repercuto, me estremezco en el infinito de los espejos —soy de cristal».'
