@@ -7,13 +7,12 @@
   titles:
     - id: el_siglo
       name: El siglo
+      year: '2005'
       format-title: italic
       publication-date: '2020-05-26'
       reference: 'Traducción de Horacio Pons.'
       image:
         name: 'el_siglo.jpg'
-        color: 0.3
-        contrast: 1.5
         reference: 'Cartel de reclutamiento bolchevique, en el que se exhorta a los trabajadores a unirse al Ejército Rojo (1920).'
       fragments:
         - number: 'f1'
