@@ -6,6 +6,7 @@
   titles:
     - id: uno_ninguno_y_cien_mil
       name: Uno, ninguno y cien mil
+      year: '1926'
       format-title: italic
       publication-date: '2020-05-27'
       reference: 'Traducción de Jorge Aulicino.'
