@@ -6,12 +6,17 @@
   titles:
     - id: la_amistad
       name: La amistad
+      year: '1971'
       format-title: italic
       publication-date: '2020-05-15'
       reference: «La amistad». Traducción de J. A. Doval.
+      image:
+        name: 'amistad_jef_leempoels.jpg'
+        reference: '<i>Amistad</i> (1896), Jef Leempoels.'
       fragments:
         - number: 'f4'
           social-network-candidate:
+          preview: '«<i>Todo lo que decimos no tiende sino a ocultar la única afirmación: que todo debe desaparecer y que no podemos permanecer fieles más que velando por este movimiento que desaparece, al que algo en nosotros, algo que rechaza todo recuerdo, pertenece desde ahora</i>».'
           text: '«<i>¿Cómo aceptar hablar de este amigo? Ni para alabanza ni en interés de alguna verdad. Los rasgos de su carácter, las formas de su existencia, los episodios de su vida, incluso de acuerdo con la búsqueda de la que se sintió responsable hasta la irresponsabilidad, no pertenecen a nadie. No hay testigos. Los más cercanos no dicen más que lo que les fue cercano, no lo lejano que se afirmó en esa proximidad, y lo lejano cesa en el momento en que cesa la presencia. En vano pretendemos mantener, con nuestras palabras, con nuestros escritos, lo que se ausenta; en vano le ofrecemos el señuelo de nuestros recuerdos y una cierta figura nueva; la dicha de permanecer en la luz, la vida prolongada con una apariencia verídica. No pretendemos más que llenar un vacío, no soportamos el dolor: la afirmación de ese vacío. ¿Quién consentiría en aceptar su insignificancia, tan desmesurada que no tenemos memoria capaz de contenerla y necesitaríamos deslizarnos en el olvido para llevarla, el tiempo de ese deslizamiento, hasta el enigma que representa? Todo lo que decimos no tiende sino a ocultar la única afirmación: que todo debe desaparecer y que no podemos permanecer fieles más que velando por este movimiento que desaparece, al que algo en nosotros, algo que rechaza todo recuerdo, pertenece desde ahora</i>».'
         - number: 'f3'
           social-network-candidate:
@@ -25,6 +30,7 @@
 
     - id: de_kafka_a_kafka
       name: De Kafka a Kafka
+      year: '1981'
       format-title: italic
       publication-date: '2020-05-15'
       reference: «La lectura de Kafka». Traducción de Jorge Ferreiro.
@@ -36,6 +42,7 @@
     
     - id: la_conversacion_infinita
       name: La conversación infinita
+      year: '1969'
       format-title: italic
       publication-date: '2020-05-15'
       reference: «Reflexiones sobre el infierno». Traducción de Isidro Herrera.
@@ -47,13 +54,12 @@
     
     - id: la_espera_el_olvido
       name: La espera el olvido
+      year: '1962'
       format-title: italic
       publication-date: '2020-01-16'
       reference: Traducción de Isidro Herrera.
       image:
         name: 'la_espera_el_olvido.jpeg'
-        color: 0.4
-        contrast: 2
         reference: '<i>El olvido</i>, Andrés Ramírez G.'
       fragments:
         - number: 'f73'
@@ -250,6 +256,7 @@
 
     - id: el_instante_de_mi_muerte
       name: El instante de mi muerte
+      year: '1994'
       format-title: italic
       publication-date: '2020-05-15'
       reference: Traducción de Alberto Ruiz de Samaniego.
@@ -266,6 +273,7 @@
 
     - id: la_locura_de_la_luz
       name: La locura de la luz
+      year: '1973'
       format-title: italic
       publication-date: '2020-05-15'
       reference: Traducción de Alberto Ruiz de Samaniego.
