@@ -7,12 +7,11 @@
   titles:
     - id: la_tentacion_del_fracaso
       name: La tentación del fracaso. Diario personal (1950-1978)
+      year: '1992'
       publication-date: '2020-05-28'
       image:
-        name: 'ribeyro_vera_lentz.jpg'
-        color: 0.00
-        contrast: 1.5
-        reference: 'Julio Ramón Ribeyro, Vera Lentz.'
+        name: 'ribeyro_baldomero_pestana.jpg'
+        reference: 'Julio Ramón Ribeyro, Baldomero Pastana.'
       fragments:
       - number: 'f1'
         format-title: italic
