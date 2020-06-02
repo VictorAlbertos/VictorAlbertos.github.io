@@ -6,10 +6,12 @@
   titles:
     - id: el_pesa_nervios
       name: El pesa-nervios
+      year: '1925'
       format-title: italic
       publication-date: '2020-05-23'
       image:
         name: 'el_pesa_nervios.jpeg'
+        reference: 'Fotograma de <i>La pasión de Juana de Arco</i> (1928), Carl Theodor Dreyer.'
       fragments:
         - number: 'f1'
           social-network-candidate:
