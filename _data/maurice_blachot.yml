@@ -297,8 +297,6 @@
       reference: Traducción de Manuel Arranz.
       image:
         name: 'thomas-obscuro.jpeg'
-        color: 0.3
-        contrast: 1.5
         reference: 'Intitulada (2011), Patricia March.'
       fragments:
         - number: 'f2'
