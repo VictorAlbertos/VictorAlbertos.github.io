@@ -2,7 +2,6 @@
   name: Maurice Blanchot
   image:
     name: 'maurice_blanchot.jpg'
-    contrast: 1.5
   category: they
   titles:
     - id: la_amistad
@@ -292,6 +291,7 @@
   
     - id: thomas_el_oscuro
       name: Thomas el oscuro
+      year: '1982'
       format-title: italic
       publication-date: '2020-05-27'
       reference: Traducción de Manuel Arranz.
