@@ -2,17 +2,17 @@
   name: Yves Bonnefoy
   image:
     name: 'yves_bonnefoy.jpg'
-    color: 0
   category: they
   titles:
     - id: relatos_en_sueños
       name: Relatos en sueños
+      year: '1977'
       format-title: italic
       publication-date: '2020-05-16'
-      reference: «La ordalía». Traducción de Julián Mateo.
+      reference: «La ordalía». Traducción de Julián Mateo Ballorca.
       image:
-        name: 'relatos_en_sueños.png'
-        reference: '<i>The Nocturnal Flambettes</i>, Mary Evans.'
+        name: 'the_nocturnal_flambettes_seen_mary_evans.jpg'
+        reference: '<i>The Nocturnal Flambettes, Seen</i>, Mary Evans Picture Library.'
       fragments:
         - number: 'f4'
           social-network-candidate:
