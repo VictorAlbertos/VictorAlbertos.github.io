@@ -125,13 +125,13 @@ p {
 @media (min-width: 992px) {
   .sticky-region {
       position: sticky;
-      height:24rem;
+      height:34rem;
       width: 100%;
       top: 0;
     }
 
     .no-sticky-region {
-      height:24rem;
+      height:34rem;
       width: 100%;
     }
 }
@@ -140,7 +140,7 @@ p {
   background: black;
 }
 
-.card-img-top { 
+.card-img-top {
   object-fit: cover;
   width: 100%;
   height:inherit;
@@ -246,60 +246,60 @@ tbody tr:nth-child(odd) th {
 }
 
 span.title-post-italic {
-  display: inline; 
+  display: inline;
   font-size: 1.5em;
   font-style: italic;
   color: white;
 }
 
 span.title-post-none {
-  display: inline; 
+  display: inline;
   font-size: 1.5em;
   color: white;
 }
 
 span.date-post {
-  display: inline; 
+  display: inline;
   font-size: 1.2em;
   color: white;
 }
 
 span.author-post {
-  display: inline; 
-  font-size: 1.25em; 
+  display: inline;
+  font-size: 1.25em;
   color: white;
 }
 
 span.title-post-black {
-  display: inline; 
-  font-size: 2em; 
+  display: inline;
+  font-size: 2em;
   font-style: italic;
   color: black;
 }
 
 span.date-post-black {
-  display: inline; 
-  font-size: 1.5em; 
+  display: inline;
+  font-size: 1.5em;
   color: black;
 }
 
 span.post-preview-title-italic {
-  font-size: 1.1em; 
+  font-size: 1.1em;
   font-style: italic;
   margin-top: 1rem;
 }
 
 span.post-preview-title-none {
-  font-size: 1.1em; 
+  font-size: 1.1em;
 }
 
 span.post-preview-author {
-  font-size: 1.1em; 
+  font-size: 1.1em;
 }
 
 span.date-post-preview {
-  display: inline; 
-  font-size: 1em; 
+  display: inline;
+  font-size: 1em;
 }
 
 .bg-dark {
@@ -345,9 +345,9 @@ a.black:hover {
 .container { margin-top: 2rem; margin-bottom: 2rem; }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .container {
-    max-width: 70%
+    max-width: 65%
   }
 }
 
