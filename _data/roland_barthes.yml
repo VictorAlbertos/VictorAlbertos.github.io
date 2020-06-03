@@ -23,16 +23,15 @@
 
     - id: el_susurro_del_lenguaje
       name: El susurro del lenguaje. Más allá de la palabra y de la escritura
+      year: ''
       format-title: italic
-      reference: '«No se consigue nunca hablar de lo que se ama».'
+      reference: '«No se consigue nunca hablar de lo que se ama». Traducción de C. Fernández.'
       publication-date: '2020-05-15'
-      image:
-        name: el_susurro_del_lenguaje.png
-        reference: <i>A hidden life</i> (2020), Terrance Malick.
-        color: 0.3
+      image: 
+        name: 'el_susurro_del_lenguaje.jpg'
       fragments:
         - number: 'f3'
-          preview: '«... precisamente ahí, en la sensación, es donde comienza la dificultad del lenguaje [...]».'
+          preview: '«Toda sensación, si uno quiere respetar su vivacidad y su acuidad induce a la afasia».'
           text: '«... precisamente ahí, en la sensación, es donde comienza la dificultad del lenguaje; no es fácil expresar una sensación: recordad esa célebre escena de <i>Knock</i> en la que la vieja campesina, abrumada por el médico implacable para que diga lo que siente, duda y se embrolla entre “Me hace cosquillas” y “Me hace rasquillas”. Toda sensación, si uno quiere respetar su vivacidad y su acuidad induce a la afasia. […] nada es más rápido que el estereotipo, por la simple razón de que se confunde, y siempre por desgracia, con lo espontáneo».'
         - number: 'f2'
           text: '«... la pasión plural obliga, en efecto —una vez que se ha admitido su excelencia—, a saltar de un objeto a otro, a medida que los presenta el azar, sin experimentar el menor sentimiento de culpabilidad respecto del desorden que esa pasión plural conlleva. Esta conducta es tan consciente en Stendhal que llega a encontrar en la música italiana —a la que adora— un principio de irregularidad completamente homólogo al del amor disperso: al tocar, los italianos no observan el <i>tempo</i>; el <i>tempo</i> es cosa de los alemanes; por un lado está el ruido alemán, el estruendo de la música alemana, ritmada por una medida implacable (“los primeros tempistas del mundo”); por otro lado, la ópera italiana, suma de placeres discontinuos y como insubordinados: es lo <i>natural</i>, garantizado por una civilización de mujeres.</br></br>En el sistema italiano de Stendhal, la música tiene un lugar privilegiado, ya que puede ocupar el lugar de todo lo demás: es el grado de ese sistema: de acuerdo con las necesidades de entusiasmo, reemplaza y significa a los viajes, a las Mujeres, a las otras artes, y, de una manera general, a cualquier otra sensación. Su estatuto significante, precioso entre todos los otros, consiste en producir efectos sin que haya que preguntarse sobre las causas, ya que esas causas son inaccesibles. La música constituye una especie de primitivismo del placer: produce un placer que se sigue intentando siempre encontrar de nuevo, pero nunca se intenta explicar; es, pues, el espacio del efecto puro, noción central de la estética stendhaliana. Ahora bien, ¿qué es un efecto puro? Es un efecto desconectado y como purificado de toda razón explicativa, es decir, en definitiva, de toda razón <i>responsable</i>. Italia es el país en que Stendhal, al no ser por completo un viajero (turista) ni completamente indígena, se encuentra voluptuosamente retirado de la responsabilidad del <i>ciudadano</i>; si Stendhal fuera ciudadano italiano, moriría “envenenado por la melancolía”: mientras que, al ser milanés de corazón, pero no de estado civil, no tiene otra cosa que hacer que recolectar los brillantes efectos de una civilización de la que no es responsable».'
