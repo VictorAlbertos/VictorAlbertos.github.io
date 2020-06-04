@@ -6,6 +6,7 @@
   titles:
     - id: el_placer_del_texto
       name: El placer del texto
+      year: '1973'
       format-title: italic
       publication-date: '2020-05-15'
       reference: Traducción de Nicolás Rosa.
@@ -23,7 +24,7 @@
 
     - id: el_susurro_del_lenguaje
       name: El susurro del lenguaje. Más allá de la palabra y de la escritura
-      year: ''
+      year: '1984'
       format-title: italic
       reference: '«No se consigue nunca hablar de lo que se ama». Traducción de C. Fernández.'
       publication-date: '2020-05-15'

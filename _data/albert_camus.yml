@@ -29,15 +29,17 @@
         - number: 'f1'
           social-network-candidate:
           text: '«La grandeza ha cambiado de campo. Está en la protesta y en el sacrificio sin porvenir. Pero no es por complacencia en la derrota. La victoria sería deseable. Pero sólo hay una victoria y es eterna. Es la que no conseguiré nunca. Con eso es con lo que tropiezo y me atasco. Una revolución se realiza siempre contra los dioses, comenzando por la de Prometeo, el primero de los conquistadores modernos. Es una reivindicación del hombre contra su destino: la reivindicación del pobre no es sino un pretexto. Pero no puedo captar este espíritu sino en su acto histórico y ahí es donde me reúno con él. No se crea, sin embargo, que me complazco en ello: frente a la contradicción esencial defiendo mi contradicción humana. Instalo mi lucidez en medio de lo que la niega. Exalto al hombre ante lo que lo aplasta y mi libertad, mi rebelión y mi pasión se unen en esa tensión, esa clarividencia y esa repetición desmesurada».'
+
     - id: la_peste
       name: La peste
+      year: 1947
       format-title: italic
       publication-date: '2020-05-14'
+      reference: 'Traducción de Rosa Chacel.'
       image:
-        name: 'la_peste.jpeg'
-        color: 0
-        contrast: 1.5
+        name: 'the_triumph_of_death_circa_1562_ pieter_brueghel.jpg'
+        reference: '</i>El triunfo de la muerte</i> (circa 1562), Pieter Brueghel.'
       fragments:
         - number: 'f1'
-          preview: '«No hay nada sobre la tierra más importante que el sufrimiento de un niño, nada más importante que el horror que este sufrimiento nos causa ni que las razones que procuraremos encontrarle. Por lo demás, en la vida Dios nos lo facilita todo, y hasta ahí la religión no tiene mérito. Pero en esto nos pone ante un muro infranqueable. [...]».'
-          text: '«No hay nada sobre la tierra más importante que el sufrimiento de un niño, nada más importante que el horror que este sufrimiento nos causa ni que las razones que procuraremos encontrarle. Por lo demás, en la vida Dios nos lo facilita todo, y hasta ahí la religión no tiene mérito. Pero en esto nos pone ante un muro infranqueable. Estamos, pues, ante la muralla de la peste y a su sombra mortal tenemos que encontrar nuestro beneficio. El Padre Paneloux no recurrió a las fáciles ventajas que le permitían escalar el muro. Hubiera podido decir que la eternidad de delicias que esperaba al niño le compensaría de su sufrimiento, pero, en verdad, no sabía nada. ¿Quién podría afirmar que una eternidad de dicha puede compensar un instante de dolor humano? No será ciertamente un cristiano, cuyo Maestro ha conocido el dolor en sus miembros y en su alma. No, el Padre seguiría al pie del muro fiel a este desgarramiento cuyo símbolo es la cruz, cara a cara con el sufrimiento de un niño. Y diría sin temor a los que escuchaban ese día: "Hermanos míos, ha llegado el momento en que es preciso creerlo todo o negarlo todo. Y ¿quién de entre vosotros se atrevería a negarlo todo?".»'
+          preview: '«... no hay nada sobre la tierra más importante que el sufrimiento de un niño, nada más importante que el horror que este sufrimiento nos causa ni que las razones que procuraremos encontrarle. Por lo demás, en la vida Dios nos lo facilita todo, y hasta ahí la religión no tiene mérito. Pero en esto nos pone ante un muro infranqueable».'
+          text: '«... no hay nada sobre la tierra más importante que el sufrimiento de un niño, nada más importante que el horror que este sufrimiento nos causa ni que las razones que procuraremos encontrarle. Por lo demás, en la vida Dios nos lo facilita todo, y hasta ahí la religión no tiene mérito. Pero en esto nos pone ante un muro infranqueable. Estamos, pues, ante la muralla de la peste y a su sombra mortal tenemos que encontrar nuestro beneficio. El Padre Paneloux no recurrió a las fáciles ventajas que le permitían escalar el muro. Hubiera podido decir que la eternidad de delicias que esperaba al niño le compensaría de su sufrimiento, pero, en verdad, no sabía nada. ¿Quién podría afirmar que una eternidad de dicha puede compensar un instante de dolor humano? No será ciertamente un cristiano, cuyo Maestro ha conocido el dolor en sus miembros y en su alma. No, el Padre seguiría al pie del muro fiel a este desgarramiento cuyo símbolo es la cruz, cara a cara con el sufrimiento de un niño. Y diría sin temor a los que escuchaban ese día: “Hermanos míos, ha llegado el momento en que es preciso creerlo todo o negarlo todo. Y ¿quién de entre vosotros se atrevería a negarlo todo?”.»'
