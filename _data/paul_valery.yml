@@ -12,7 +12,7 @@
       reference: 'Traducción de José Luis Arántegui.'
       image:
         name: 'teste.png'
-        reference: '<i>Retrato de un hombre<i/> (circa 1866), Edgar Degas.'
+        reference: '<i>Retrato de un hombre</i> (circa 1866), Edgar Degas.'
       fragments:
         - number: 'f3'
           social-network-candidate:
