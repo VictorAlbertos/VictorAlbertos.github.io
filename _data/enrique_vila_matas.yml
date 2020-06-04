@@ -6,9 +6,13 @@
   titles:
     - id: apartarse_de_uno_mismo
       name: Apartarse de uno mismo
+      year: 2019
       format-title: quotes
       reference: 'Prólogo a <i> La tentación del fracaso. Diario personal (1950-1978) </i> (1992), Julio Ramón Ribeyro.'
       publication-date: '2020-05-09'
+      image:
+        name: 'ribeyro_alicia_benavides.jpg'
+        reference: 'Julio Ramón Ribeyro, Alicia Benavides.'
       fragments:
         - number: 'f2'
           preview: '«Parece una pérdida de tiempo esa amargura absurda de Ribeyro por llegar a creerse que no estaba a la altura de esas novelas de narradores sumamente omniscientes que algunos lectores de hoy percibimos ya un tanto monstruosas en todos los sentidos».'

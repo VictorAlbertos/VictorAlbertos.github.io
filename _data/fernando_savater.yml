@@ -6,9 +6,13 @@
   titles:
     - id: entrevista_fernando_savater
       name: Entrevista
+      year: 2019
       format-title: none
-      reference: 'Entrevista hecha por Jesús Fernández Úbeda. Publicada en <i>Zenda</i> el 3 de octubre de 2019.'
+      reference: 'Entrevista hecha por Jesús Fernández. Publicada en <i>Zenda</i> el 3 de octubre de 2019.'
       publication-date: '2020-05-09'
+      image:
+        name: 'farmer_sitting_at_the_fireside_reading_(1881)_vicent_van_gogh.jpg'
+        reference: '<i>Agricultor sentado junto a la chimenea, leyendo</i> (1881), Vicent van Gogh.'
       fragments: 
       - number: 'f1'
         preview: '«Disfruto leyendo y ya está. Y agradezco que haya gente que escriba bien para divertirme».'

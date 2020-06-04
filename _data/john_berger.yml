@@ -6,9 +6,13 @@
   titles:
     - id: y_nuestros_rostros_mi_vida_breves_como_fotos
       name: Y nuestros rostros, mi vida, breves como fotos
+      year: 1984
       format-title: italic
-      reference: '«Una vez en un poema».'
+      reference: '«Una vez en un poema». Traducción de Pilar Vázquez.'
       publication-date: '2020-05-01'
+      image:
+        name: 'leticia_ruifernández.jpg'
+        reference: 'Leticia Ruifernández.'
       fragments:
       - number: 'f1'
         preview: '«La poesía puede hablar de inmortalidad porque se abandona al lenguaje en la creencia de que el lenguaje abraza toda experiencia, pasada, presente y futura».'
