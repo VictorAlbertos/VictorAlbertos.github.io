@@ -6,9 +6,12 @@
   titles:
     - id: final_del_juego
       name: Final del juego
+      year: 1956
       format-title: italic
       reference: '«Relato con fondo de agua».'
       publication-date: '2020-05-01'
+      image:
+        name: 'j_cortazar.jpg'
       fragments:
         - number: 'f2'
           preview: '«Sabés, lo terrible de ese momento de la juventud es que en una hora oscura y sin nombre todo deja de ser serio para ceder a la sucia máscara de seriedad que hay que ponerse en la cara, [...]».'
