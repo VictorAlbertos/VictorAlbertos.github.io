@@ -519,7 +519,7 @@ a.black:hover {
 }
 
 @media (max-width: 899px) {
-    .grid-item-adj { width: calc(100% - 20px); }
+    .grid-item-adj { width: calc(100%); }
 }
 @media (min-width: 900px) {
     .grid-item-adj { width: calc(50% - 20px); }
