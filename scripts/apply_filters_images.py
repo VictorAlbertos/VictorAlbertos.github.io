@@ -72,3 +72,4 @@ for image_name in all_images_names:
             original.save(root_assets_images + '/original_' + image_name)
 
 Image.open(root_img_originals + '/' + 'favicon.ico').save(root_assets_images + '/' + 'favicon.ico')
+Image.open(root_img_originals + '/' + 'title_image.jpeg').save(root_assets_images + '/' + 'title_image.jpeg')
