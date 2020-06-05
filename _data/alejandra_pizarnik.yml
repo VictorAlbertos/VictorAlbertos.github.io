@@ -7,7 +7,7 @@
     - id: alejandra_pizarnik_diarios
       name: Diarios
       image:
-        name: 'alejandra_pizarnik.jpg'
+        name: 'alejandra_pizarnik_diarios.jpg'
       publication-date: '2020-01-15'
       format-title: italic
       reference: 'Entrada fechada el viernes 1 de febrero de 1963 a las 13 h.'
