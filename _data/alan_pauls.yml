@@ -7,10 +7,11 @@
   titles:
     - id: matias_falco_entrevista_alan_pauls
       name: Entrevista
+      year: 2018
       publication-date: '2020-05-13'
       image:
         name: 'timmermans.jpg'
-        reference: '«Tea for two» (2017), en <i> Storytelling</i>, Alex Timmermans.'
+        reference: '«Tea for two» (2017), <i> Storytelling</i>, Alex Timmermans.'
       format-title: none
       reference: 'Entrevista hecha por Matías Falco. Publicada en <i>Infobae</i> el 29 de septiembre de 2018.'
       fragments:
