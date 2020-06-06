@@ -32,7 +32,6 @@
       name: De Kafka a Kafka
       year: '1981'
       format-title: italic
-      publication-date: '2020-05-15'
       reference: «La lectura de Kafka». Traducción de Jorge Ferreiro.
       fragments:
         - number: 'f1'
@@ -44,7 +43,6 @@
       name: La conversación infinita
       year: '1969'
       format-title: italic
-      publication-date: '2020-05-15'
       reference: «Reflexiones sobre el infierno». Traducción de Isidro Herrera.
       fragments:
         - number: 'f1'
@@ -73,6 +71,7 @@
           text: '«“Deja de hablar, si quieres que te oiga”».'
         - number: 'f69'
           social-network-candidate:
+          preview: '«“¿Por qué me escucha usted así? ¿Por qué, incluso cuando habla, todavía me escucha? ¿Por qué atrae usted en mí esta habla que a continuación tengo que decir? Y usted nunca responde, nunca me deja escuchar algo suyo. Pero no diré nada, sépalo. Lo que digo no es nada”».'
           text: '«“¿Por qué me escucha usted así? ¿Por qué, incluso cuando habla, todavía me escucha? ¿Por qué atrae usted en mí esta habla que a continuación tengo que decir? Y usted nunca responde, nunca me deja escuchar algo suyo. Pero no diré nada, sépalo. Lo que digo no es nada”».'
         - number: 'f68'
           text: '«Siempre la vieja habla que quiere estar ahí de nuevo sin hablar».'
@@ -258,7 +257,6 @@
       name: El instante de mi muerte
       year: '1994'
       format-title: italic
-      publication-date: '2020-05-15'
       reference: Traducción de Alberto Ruiz de Samaniego.
       fragments:
         - number: 'f3'
@@ -275,7 +273,6 @@
       name: La locura de la luz
       year: '1973'
       format-title: italic
-      publication-date: '2020-05-15'
       reference: Traducción de Alberto Ruiz de Samaniego.
       fragments:
         - number: 'f6'
@@ -301,7 +298,6 @@
       name: Thomas el oscuro
       year: '1982'
       format-title: italic
-      publication-date: '2020-05-27'
       reference: Traducción de Manuel Arranz.
       image:
         name: 'patricia_march.jpg'
