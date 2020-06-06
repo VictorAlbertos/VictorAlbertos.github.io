@@ -12,6 +12,7 @@
       reference: 'Traducción de Alfredo Brotons.'
       image:
         name: 'calle_sentido_unico.jpeg'
+        reference: 'Atentado de Wall Street, ocurrido el 16 de septiembre de 1920.' 
       fragments:
         - number: 'f5'
           social-network-candidate:
