@@ -7,12 +7,11 @@
   titles:
     - id: matias_falco_entrevista_alan_pauls
       name: Entrevista
+      year: 2018
       publication-date: '2020-05-13'
       image:
-        name: 'goc.jpeg'
-        color: 0.05
-        contrast: 1.5
-        reference: '«Tea for two» (2017), en <i> Storytelling</i>, Alex Timmermans.'
+        name: 'timmermans.jpg'
+        reference: '«Tea for two» (2017), <i> Storytelling</i>, Alex Timmermans.'
       format-title: none
       reference: 'Entrevista hecha por Matías Falco. Publicada en <i>Infobae</i> el 29 de septiembre de 2018.'
       fragments:
@@ -27,7 +26,7 @@
         - number: 'f6'
           text: '«Creo que leer efectivamente es una práctica activa, muy activa, pese a que los militantes antiintelectuales insisten en que la lectura es pasividad. Para mí la lectura es radicalmente activa y en eso el gran maestro es Borges. Pero es también pasiva en el sentido en que uno de cierta manera es irradiado por lo que lee. Uno está expuesto a lo que uno lee. Y además porque me parece que el libro, o ciertos libros, te acompañan y te ven cambiar como lector. O sea que es el libro el que va mirando tu biografía como lector. Eso para mí queda muy claro. Yo subrayo mucho los libros que leo y muchas veces miro los libros que más leí, las cosas que anoté y el modo en que el libro capturó los estados de mi vida. Y tengo la impresión de que cuando uno mira una biblioteca que tiene cierto tiempo, la sensación que uno tiene es un poco de que todo eso es medio testigo de tu vida. No solo son objetos sobre los cuales uno se inclinó, leyó y estudió, sino que son también ojos que te miraron».'
         - number: 'f5'
-          text: '«[...] a mí como lector el cine me enseñó tanto como la literatura. No reconozco diferencia de jerarquía entre una cosa y la otra».'
+          text: '«... a mí como lector el cine me enseñó tanto como la literatura. No reconozco diferencia de jerarquía entre una cosa y la otra».'
         - number: 'f4'
           text: '«Hay en el libro una defensa encendida de la lectura precoz, de leer cosas que no están hechas para uno, para la edad que uno tiene o para el estado de madurez en el que uno está. Defiendo mucho esa brutalidad. En general, la pedagogía familiar tiende a desaconsejarlo: “Esta película es demasiado para él”. Creo que lo único que hay que evitar es el impacto sin explicación, eso es lo único que daña a los niños. Me parece que la comprensión es algo que está muy sobrevalorado. Muchas veces lo que no se comprende es lo que está haciendo efecto en uno cuando lee. Entonces, me parece que es importante preservar esa cuota de desproporción que hay entre lo que uno lee y lo que uno es. Sin esa desproporción, creo que la lectura puede ser una práctica muy satisfactoria, pero me parece que es algo subversivo, radical y transformador cuando está esa diferencia entre uno y lo que lee. Ese tipo de experiencias, haber visto <i>2001: Odisea del espacio</i> o haber leído a Cortázar a los 11 años, todo lo que no se suponía que yo tuviera que leer o ver me produjo mucho desconcierto y descolocamiento. No entendí nada probablemente, pero a la vez esa película y esas lecturas fueron las que más me enseñaron. Me parece que habría que revalorizar un poco más la incomprensión, más que sobrevalorar tanto la necesidad de entender».'
         - number: 'f3'
