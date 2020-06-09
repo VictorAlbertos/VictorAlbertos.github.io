@@ -10,8 +10,8 @@
       format-title: italic
       publication-date: '2020-05-13'
       image:
-        name: 'zombi.jpg'
-        reference: Fotograma de <i>La noche de los muertos vivientes</i>, George A. Romero.
+        name: 'zombi1.jpg'
+        color: 0
       fragments:
         - number: 'f9'
           text: '«Una filosofía zombi, por tanto, acepta el reto: pensar el desgarro. Pensar esos jirones de presencia, las purulentas malformaciones de lo real, lo que no llega al nombre, los ramales de cuerpos, espacios o texturas, que se ven abocados a una desmesura irrepresentable. <i>Zombi</i> es esa extraña palabra para lo que no tiene nexo, identidad, fisonomía, cuerpo. Pensar el zombi es también pensar lo impensable».'
