@@ -7,25 +7,31 @@
     - id: fracasar_mejor
       name: Fracasar mejor
       year: 2007
-      format-title: none
-      reference: '«Publicado en The Guardian el 13 de enero de 2007.'
+      format-title: quotes
+      reference: '«Publicado en <i>The Guardian</i> el 13 de enero de 2007.'
       publication-date: '2020-05-04'
       image:
         name: 'z._smith.jpg'
       fragments:
-        - number: 'f8'
-          text: '«La mala escritura no hace nada, no cambia nada, no educa ninguna emoción, no reconecta ningún circuito interior. Cerramos las tapas de esa novela con la misma confianza metafísica en la universalidad de nuestro intermediario con que las abrimos. Pero la gran escritura fuerza a lector a que se someta a su visión».'
-        - number: 'f7'
-          text: '«La verdad de la ficción es una cuestión de perspectiva, no de autobiografía. Es lo que no puedes evitar decir si escribes bien. Es la marca de agua que corre por todo lo que haces. Es el lenguaje como revelación de una conciencia».'
-        - number: 'f6'
-          text: '«Para los escritores, según lo veo yo, sólo hay un deber: el deber de expresar de modo exacto su modo de estar en el mundo».'
-        - number: 'f5'
-          text: '«Hablando personalmente, la verdadera razón por la que escribo es para no tener que ir caminando sonámbulo toda mi vida. Es muy fácil admitir que hay frases que nos hacen enrojecer. Resulta más complicado confrontar el hecho de que para muchos escritores habrá párrafos, personajes, libros completos, por los que se pasa sonámbulo y para los que “inauténtico” es el término acertado».'
-        - number: 'f4'
-          text: '«Escribir sabe a traición, a fracaso».'
-        - number: 'f3'
-          text: '«... los escritores tienen un conocimiento diferente al de los profesores o los críticos. Ocasionalmente vale la pena escucharlos. La visión interna de quien practica la profesión es, para bien o para mal, única. Es lo que se encuentra en la crítica de Virginia Woolf, de Iris Murdoch, de Roland Barthes. Lo que une a esos críticos tan diferentes es la confianza en que todos ellos han hecho la conexión entre personalidad y prosa. Por decirlo claramente: la suya no es crítica biográfica en sentido estricto ni tampoco crítica moral, y nada de lo que escriben puede reducirse a formulaciones infantiles del tipo “sólo los hombres buenos escriben libros buenos” o “uno debe entender la vida del escritor para entender su obra”. Pero tampoco piensan que la personalidad del escritor sea irrelevante. Entienden el estilo, precisamente, como una expresión de la personalidad, en su sentido más amplio. La personalidad de un escritor es su modo de estar en el mundo: su escritura es un trazo innegable de ese modo. Cuando se entiende el estilo en esos términos, no se piensa en él sólo como una sintaxis asombrosa, como la guinda en un pastel literario, ni como el resultado incontrolable de alguna misteriosa imbricación con el lenguaje. El estilo ha de verse como una necesidad personal, como la única expresión posible de una conciencia humana individual. El estilo es el modo de un escritor de decir la verdad. El éxito literario, o el fracaso, depende no sólo de la disposición de las palabras en la página, sino de la disposición de la conciencia, lo que Aristóteles llamaba la educación de las emociones».'
+        - number: 'f1'
+          text: '«Es muy difícil que los escritores hablen con franqueza sobre su propia obra y más en un mercado literario en que se necesita que no sólo sean escritores, sino también productos para vender».'
         - number: 'f2'
           text: '«... escribir es un oficio que desafía al oficio: con solo oficio no se hace una buena novela».'
-        - number: 'f1'
-          text: '«Es muy difícil que los escritores hablen con franqueza sobre su propia obra y más en un mercado literario en que se necesita que no sólo sean escritores sino también productos para vender».'
+        - number: 'f3'
+          text: '«... los escritores tienen un conocimiento diferente al de los profesores o los críticos. Ocasionalmente vale la pena escucharlos. La visión interna de quien practica la profesión es, para bien o para mal, única. Es lo que se encuentra en la crítica de Virginia Woolf, de Iris Murdoch, de Roland Barthes. Lo que une a esos críticos tan diferentes es la confianza en que todos ellos han hecho la conexión entre personalidad y prosa. Por decirlo claramente: la suya no es crítica biográfica en sentido estricto ni tampoco crítica moral, y nada de lo que escriben puede reducirse a formulaciones infantiles del tipo “sólo los hombres buenos escriben libros buenos” o “uno debe entender la vida del escritor para entender su obra”. Pero tampoco piensan que la personalidad del escritor sea irrelevante. Entienden el estilo, precisamente, como una expresión de la personalidad, en su sentido más amplio. La personalidad de un escritor es su modo de estar en el mundo: su escritura es un trazo innegable de ese modo. Cuando se entiende el estilo en esos términos, no se piensa en él sólo como una sintaxis asombrosa, como la guinda en un pastel literario, ni como el resultado incontrolable de alguna misteriosa imbricación con el lenguaje. El estilo ha de verse como una necesidad personal, como la única expresión posible de una conciencia humana individual. El estilo es el modo de un escritor de decir la verdad. El éxito literario, o el fracaso, depende no sólo de la disposición de las palabras en la página, sino de la disposición de la conciencia, lo que Aristóteles llamaba la educación de las emociones».'
+        - number: 'f4'
+          text: '«Escribir sabe a traición, a fracaso».'
+        - number: 'f5'
+          text: '«Hablando personalmente, la verdadera razón por la que escribo es para no tener que ir caminando sonámbulo toda mi vida. Es muy fácil admitir que hay frases que nos hacen enrojecer. Resulta más complicado confrontar el hecho de que para muchos escritores habrá párrafos, personajes, libros completos, por los que se pasa sonámbulo y para los que “inauténtico” es el término acertado».'
+        - number: 'f6'
+          text: '«Para los escritores, según lo veo yo, sólo hay un deber: el deber de expresar de modo exacto su modo de estar en el mundo».'
+        - number: 'f7'
+          text: '«La verdad de la ficción es una cuestión de perspectiva, no de autobiografía. Es lo que no puedes evitar decir si escribes bien. Es la marca de agua que corre por todo lo que haces. Es el lenguaje como revelación de una conciencia».'
+        - number: 'f8'
+          text: '«La mala escritura no hace nada, no cambia nada, no educa ninguna emoción, no reconecta ningún circuito interior. Cerramos las tapas de esa novela con la misma confianza metafísica en la universalidad de nuestro intermediario con que las abrimos. Pero la gran escritura fuerza a lector a que se someta a su visión».'
+
+
+
+
+
+

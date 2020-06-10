@@ -13,7 +13,7 @@
       reference: 'Traducción de Horacio Pons.'
       image:
         name: 'propaganda_sovietica.jpg'
-        reference: 'Cartel de reclutamiento bolchevique en el que se exhorta a los trabajadores a unirse al Ejército Rojo (1920).'
+        reference: 'Cartel de reclutamiento bolchevique (1920).'
       fragments:
         - number: 'f1'
           social-network-candidate:
