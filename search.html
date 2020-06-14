@@ -1,9 +1,106 @@
----
-title_page_full: Buscar
-title_page: Buscar
----
+<!doctype html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160206315-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<form action="/search.html" method="get">
+      gtag('config', 'UA-160206315-1');
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <link rel='shortcut icon' type='image/x-icon' href='../../../../../../../../assets/img/favicon.ico'/>
+
+    <meta charset="UTF-8">
+    <meta property="og:site_name" content="Desobra">
+    
+    
+
+    <meta property="og:locale" content="es_ES"/>
+    <meta name="twitter:site" content="@_desobra"/>
+    <meta name="twitter:creator" content="@_desobra" />
+
+    
+    <title>Buscar</title>
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Abril+Fatface&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="/assets/js/search.js"></script>
+    <script src="/assets/js/start-gallery.js"></script>
+    <script src="/assets/js/disable_hover_scroll.js"></script>
+    <script src="/assets/js/subscription-newsletter.js"></script>
+    <script src="/assets/lightgallery/js/lightgallery.min.js"></script>
+    <script src="/assets/js/masonry.pkgd.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="/assets/lightgallery/css/lightgallery.css" type="text/css">
+
+
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon.png">
+</head>
+<body bgcolor="#DCDCDC">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand title" href="/">DESOBRA</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+                <a class="nav-link link-nav-bar" href="/polvos">De aquellos polvos</a>
+            </li>
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/lodos">Estos lodos</a>
+            </li>
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/punctum"><em>Punctum</em></a>
+            </li>
+            
+            
+            <li class="nav-item">
+                <a class="nav-link" href="/morada">Morada</a>
+            </li>
+            
+            
+            <li class="nav-item active">
+                <a class="nav-link" href="/morada">Buscar</a>
+            </li>
+            
+        </ul>
+        <div class="form-inline my-2 my-lg-0">
+<!--            <div><a href="#" data-toggle="modal" data-target="#submit-modal" data-whatever="@mdo"-->
+<!--                    class="fa white fa-margin-right fa-envelope fa-lg"></a></div>-->
+            <div><a href="https://twitter.com/_desobra" class="fa white fa-margin-right fa-twitter-square fa-lg"></a></div>
+            <div><a href="https://www.instagram.com/_desobra_/" class="fa white fa-margin-right fa-instagram fa-lg"></a></div>
+            <div><a href="https://www.facebook.com/Desobra-104415927842411" class="fa white fa-facebook-square fa-lg"></a></div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div id="subscribe-feedback"/>
+    <form action="/search.html" method="get">
   <div class="form-group fg--search">
     <input type="text" class="input" placeholder="Buscar por título o autor " id="search-box" name="query">
     <button type="submit"><i class="fa fa-search"></i></button>
@@ -15,60 +112,2312 @@ title_page: Buscar
 
 <script>
 window.store = {
-  {% for post in site.posts %}
-    {% for file_name_author in site.data %}
-      {% if file_name_author[1][0].id == post.categories[1] %}
-      {% assign author = file_name_author[1][0] %}
-      {% endif %}
-    {% endfor %}
-    {% assign title = author.titles | where: 'id', post.title_id | first %}
-    {% assign fragment = title.fragments | where: 'number', post.fragment | first %}
+  
+    
+    
+    
 
-    {% if title.name %}
-    {% else %}
-    {% continue %}
-    {% endif %}
+    
+    
+    
+    
+    
 
-    {% if post.categories[0] == "image" %}
-    "{{ post.url }}": {
-      "title": "{{ title.name | xml_escape }}",
-      "author": "{{ author.name | xml_escape }}",
-      "image": "{{ title.image.name }}"
-    {% else %} 
-    "{{ post.url }}": {
-      "title_id": "{{ title.id  | xml_escape}}",
-      "title": "{{ title.name | xml_escape }}",
-      "author": "{{ author.name | xml_escape }}",
-      {% if fragment %}
-        {% if fragment.preview %}
-          "excerpt": "{{ fragment.preview | strip_html | strip_newlines }}",
-        {% else %}
-          "excerpt": "{{ fragment.text | strip_html | strip_newlines }}",
-        {% endif %}
-      {% else %}
-        {% if title.preview %}
-          "excerpt": "{{ title.preview | strip_html | strip_newlines }}",
-        {% else %}
-          "excerpt": "{{ title.text | strip_html | strip_newlines }}",
-        {% endif %}
-      {% endif %}
-      "fragment": "{{ fragment.number }}"
-    {% endif %} 
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/julio_ramon_ribeyro/2020/05/28/author-f1-la_tentacion_del_fracaso.html": {
+      "title_id": "la_tentacion_del_fracaso",
+      "title": "La tentación del fracaso. Diario personal (1950-1978)",
+      "author": "Julio Ramón Ribeyro",
+      
+        
+          "excerpt": "«Guardamos todos un libro, tal vez un gran libro, pero que en el tumulto de nuestra vida interior rara vez emerge o lo hace tan rápidamente que no tenemos tiempo de arponearlo».",
+        
+      
+      "fragment": "f1"
+     
   }
-  {% unless forloop.last %},{% endunless %}
-  {% endfor %}
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/luigi_pirandello/2020/05/27/author-f10-uno_ninguno_y_cien_mil.html": {
+      "title_id": "uno_ninguno_y_cien_mil",
+      "title": "Uno, ninguno y cien mil",
+      "author": "Luigi Pirandello",
+      
+        
+          "excerpt": "«Yo quería estar solo de un modo completamente insólito, nuevo. Al revés de lo que piensan ustedes, sin mí y precisamente con un extraño cerca».",
+        
+      
+      "fragment": "f10"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/alain_badiou/2020/05/26/author-f1-el_siglo.html": {
+      "title_id": "el_siglo",
+      "title": "El siglo",
+      "author": "Alain Badiou",
+      
+        
+          "excerpt": "«Sostengo que el pensamiento del ser en tanto ser no es otra cosa que la matemática. Por eso, no me parece sorprendente que la matriz de los proyectos grandiosos del siglo xx haya sido la tentativa de los matemáticos del siglo, entre Hilbert y Grothendieck: “Romper en dos”, para hablar como Nietzsche, la historia de la matemática, a fin de instaurar una formalización integral, una teoría general de los universos del pensamiento puro».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/emil_cioran/2020/05/26/author-f1-breviario_de_podredumbre.html": {
+      "title_id": "breviario_de_podredumbre",
+      "title": "Breviario de podredumbre",
+      "author": "Emil Cioran",
+      
+        
+          "excerpt": "«Me aparté de la filosofía en el momento en que se hizo imposible descubrir en Kant ninguna debilidad humana, ningún acento de verdadera tristeza; ni en Kant ni en ninguno de los demás filósofos. Frente a la música, la mística y la poesía, la actividad filosófica proviene de una savia disminuida y de una profundidad sospechosa, que no guardan prestigios más que para los tímidos y los tibios».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/albert_camus/2020/05/25/author-f5-el_mito_de_sisifo.html": {
+      "title_id": "el_mito_de_sisifo",
+      "title": "El mito de Sísifo",
+      "author": "Albert Camus",
+      
+        
+          "excerpt": "«... en cuanto el pensamiento reflexiona sobre sí mismo lo primero que descubre es una contradicción».",
+        
+      
+      "fragment": "f5"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/virginia_woolf/2020/05/23/author-f8-como_deberia_leerse_un_libro.html": {
+      "title_id": "como_deberia_leerse_un_libro",
+      "title": "Cómo debería leerse un libro",
+      "author": "Virginia Woolf",
+      
+        
+          "excerpt": "«El único consejo, en verdad, que una persona puede dar a otra acerca de la lectura es que no se deje aconsejar, que siga su propio instinto, que utilice su sentido común, que llegue a sus propias conclusiones».",
+        
+      
+      "fragment": "f8"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/yves_bonnefoy/2020/05/23/author-f2-el_territorio_interior.html": {
+      "title_id": "el_territorio_interior",
+      "title": "El territorio interior",
+      "author": "Yves Bonnefoy",
+      
+        
+          "excerpt": "«¿No es siempre lo evidente lo primero que se escapa?».",
+        
+      
+      "fragment": "f2"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/antonin_artaud/2020/05/23/author-f1-el_pesa_nervios.html": {
+      "title_id": "el_pesa_nervios",
+      "title": "El pesa-nervios",
+      "author": "Antonin Artaud",
+      
+        
+          "excerpt": "«En cada uno de los estados de relojería pensante hay agujeros, detenciones, entiéndanme bien, no quiero decir en el tiempo, quiero decir en una cierta clase de espacio (yo me entiendo); no me refiero a un pensamiento en extensión, un pensamiento en duración de pensamientos, quiero decir UN pensamiento, uno solo, y un pensamiento EN INTERIOR, pero no quiero decir un pensamiento de Pascal, un pensamiento filosófico, quiero decir la detención deformada, la esclerosis de cierto estado».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/benjamin_constant/2020/05/22/author-f7-adolphe.html": {
+      "title_id": "adolphe",
+      "title": "Adolphe",
+      "author": "Benjamin Constant",
+      
+        
+          "excerpt": "«Desde el momento en que existe un secreto entre dos corazones que se aman, desde el momento en que uno de ellos ha podido resolverse a ocultarle al otro una sola idea, el encanto se rompe, la felicidad se destruye. La ira, la injusticia, la distracción misma, pueden ser reparadas, pero el disimulo introduce en el amor un elemento extraño que lo desnaturaliza y lo marchita a sus propios ojos».",
+        
+      
+      "fragment": "f7"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/paul_valery/2020/05/19/author-f34-monsieur_test.html": {
+      "title_id": "monsieur_test",
+      "title": "Monsieur Teste",
+      "author": "Paul Valéry",
+      
+        
+          "excerpt": "«... cada gran hombre lleva la marca de un error. Cada espíritu considerado poderoso comienza por la falta que le da a conocer».",
+        
+      
+      "fragment": "f34"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/enrique_vila_matas/2020/05/18/author-f1-paris_no_se_acaba_nunca.html": {
+      "title_id": "paris_no_se_acaba_nunca",
+      "title": "París no se acaba nunca",
+      "author": "Enrique Vila-Matas",
+      
+        
+          "excerpt": "«Era Samuel Beckett. Vestido de riguroso negro de la cabeza a los pies, estaba allí en una silla, muy quieto, parecía desesperado, daba miedo».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/yves_bonnefoy/2020/05/16/author-f4-relatos_en_sue%C3%B1os.html": {
+      "title_id": "relatos_en_sueños",
+      "title": "Relatos en sueños",
+      "author": "Yves Bonnefoy",
+      
+        
+          "excerpt": "«—Todo se precipita, y va hacia su propia perdición, dijo Ana. Pero no es un cambio de verdad. Me conozco a muerte, Gervasio, un día me encontrarás muerta. Dirás: “Ana, hoy estás diferente. Y qué frías tienes las manos, y por qué no sonríes?”. Estaré muerta, sin sorpresa, sin cambio».",
+        
+      
+      "fragment": "f4"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/maurice_blanchot/2020/05/15/author-f4-la_amistad.html": {
+      "title_id": "la_amistad",
+      "title": "La amistad",
+      "author": "Maurice Blanchot",
+      
+        
+          "excerpt": "«Todo lo que decimos no tiende sino a ocultar la única afirmación: que todo debe desaparecer y que no podemos permanecer fieles más que velando por este movimiento que desaparece, al que algo en nosotros, algo que rechaza todo recuerdo, pertenece desde ahora».",
+        
+      
+      "fragment": "f4"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/marguerite_duras/2020/05/15/author-f3-escribir.html": {
+      "title_id": "escribir",
+      "title": "Escribir",
+      "author": "Marguerite Duras",
+      
+        
+          "excerpt": "«Escribir también es no hablar. Es callarse. Es aullar sin ruido».",
+        
+      
+      "fragment": "f3"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/roland_barthes/2020/05/15/author-f3-el_susurro_del_lenguaje.html": {
+      "title_id": "el_susurro_del_lenguaje",
+      "title": "El susurro del lenguaje. Más allá de la palabra y de la escritura",
+      "author": "Roland Barthes",
+      
+        
+          "excerpt": "«Los signos de una auténtica pasión son siempre un tanto incongruentes [...]. En el amor a un país extranjero hay una especie de racismo al revés: uno se queda encantado por la diferencia, se aburre de lo Mismo, exalta lo Otro; la pasión es maniquea [...]. Stendhal tiene esa rara pasión, la pasión por lo otro, o, para decirlo con más sutileza: la pasión por el otro que está en él mismo».",
+        
+      
+      "fragment": "f3"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/roland_barthes/2020/05/15/author-f2-el_placer_del_texto.html": {
+      "title_id": "el_placer_del_texto",
+      "title": "El placer del texto",
+      "author": "Roland Barthes",
+      
+        
+          "excerpt": "«El texto que usted escribe debe probarme que me desea. Esa prueba existe: es la escritura. La escritura es esto: la ciencia de los goces del lenguaje, su kamasutra (de esta ciencia no hay más que un tratado: la escritura misma)».",
+        
+      
+      "fragment": "f2"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/albert_camus/2020/05/14/author-f1-la_peste.html": {
+      "title_id": "la_peste",
+      "title": "La peste",
+      "author": "Albert Camus",
+      
+        
+          "excerpt": "«... no hay nada sobre la tierra más importante que el sufrimiento de un niño, nada más importante que el horror que este sufrimiento nos causa ni que las razones que procuraremos encontrarle. Por lo demás, en la vida Dios nos lo facilita todo, y hasta ahí la religión no tiene mérito. Pero en esto nos pone ante un muro infranqueable».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/jorge_fernandez/2020/05/13/author-f9-filosofia_zombi.html": {
+      "title_id": "filosofia_zombi",
+      "title": "Filosofía zombi",
+      "author": "Jorge Fernández",
+      
+        
+          "excerpt": "«Una filosofía zombi, por tanto, acepta el reto: pensar el desgarro. Pensar esos jirones de presencia, las purulentas malformaciones de lo real, lo que no llega al nombre, los ramales de cuerpos, espacios o texturas, que se ven abocados a una desmesura irrepresentable. Zombi es esa extraña palabra para lo que no tiene nexo, identidad, fisonomía, cuerpo. Pensar el zombi es también pensar lo impensable».",
+        
+      
+      "fragment": "f9"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/enrique_lihn/2020/05/13/author-f4-las_cartas_de_eros.html": {
+      "title_id": "las_cartas_de_eros",
+      "title": "Las cartas de Eros",
+      "author": "Enrique Lihn",
+      
+        
+          "excerpt": "«El amor hace milagros de equilibrio, pero de equilibrio inestable».",
+        
+      
+      "fragment": "f4"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/alan_pauls/2020/05/13/author-f10-matias_falco_entrevista_alan_pauls.html": {
+      "title_id": "matias_falco_entrevista_alan_pauls",
+      "title": "Entrevista",
+      "author": "Alan Pauls",
+      
+        
+          "excerpt": "«La tercera persona me permite decir cosas que de otro modo me avergonzaría decir o no las diría con tanta soltura. Es como una especie de máscara muy simple y muy tonta, pero que produce un efecto muy eficaz: a mí me libera. También me parece que poniéndolo en tercera persona de algún modo se disuelve un poco la trampa del yo, que es siempre muy peligrosa en estos libros. Porque es obvio que estoy hablando de mí, pero esa tercera persona ya es de algún modo un personaje, y yo me tomo todas las libertades que me puedo tomar con un personaje de ficción. La tercera persona me coloca en el lugar donde quiero estar para poder escribir un libro así, que es personal, pero que perfectamente puede ser generacional o comunitario».",
+        
+      
+      "fragment": "f10"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/witold_gombrowicz/2020/05/12/author-f3-curso_de_filosofia_en_seis_horas_y_cuarto.html": {
+      "title_id": "curso_de_filosofia_en_seis_horas_y_cuarto",
+      "title": "Curso de filosofía en seis horas y cuarto",
+      "author": "Witold Gombrowicz",
+      
+        
+          "excerpt": "«Siempre he considerado que la filosofía no debe ser intelectual, sino algo que arranque de nuestra sensibilidad».",
+        
+      
+      "fragment": "f3"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/emil_cioran/2020/05/10/author-f1-ejercicios_de_admiracion_y_otros_textos.html": {
+      "title_id": "ejercicios_de_admiracion_y_otros_textos",
+      "title": "Ejercicios de admiración y otros textos",
+      "author": "Emil Cioran",
+      
+        
+          "excerpt": "«Valéry no solamente fue su propio comentador, sino que además todas sus obras sólo son una autobiografía más o menos disimulada, una refinada introspección, un diario de su espíritu, una elevación de sus experiencias, de cualquiera de ellas, al rango de acontecimiento intelectual, un atentado contra todo lo que podía haber en él de irreflexivo, una rebelión contra sus profundidades».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/hugo_von_hofmannsthal/2020/05/09/author-f3-la_carta_de_lord_chandos.html": {
+      "title_id": "la_carta_de_lord_chandos",
+      "title": "La carta de Lord Chandos",
+      "author": "Hugo Von Hofmannsthal",
+      
+        
+          "excerpt": "«Ya no lograba aprehenderlas con la mirada simplificadora de la costumbre. Todo se me desintegraba en partes, las partes otra vez en partes, y nada se dejaba ya abarcar con un concepto. Las palabras aisladas flotaban alrededor de mí; cuajaban en ojos que me miraban fijamente y de los que no puedo apartar la vista: son remolinos a los que me da vértigo asomarme, que giran sin cesar y a través de los cuales se llega al vacío».",
+        
+      
+      "fragment": "f3"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/enrique_vila_matas/2020/05/09/author-f2-apartarse_de_uno_mismo.html": {
+      "title_id": "apartarse_de_uno_mismo",
+      "title": "Apartarse de uno mismo",
+      "author": "Enrique Vila-Matas",
+      
+        
+          "excerpt": "«Sólo una vez, y en cualquier caso a lo largo de dos escuetas aunque fulgurantes décimas de segundo, accedí a ver con claridad la totalidad de un libro que estaba destinado a escribir y que comprendí que era tan bueno que superaría al  Quijote. No es que me entrara miedo de dedicarme a la tarea de escribirlo, sino la más profunda de las perezas, quizás porque me vi prisionero para siempre de mi potencial obra maestra, lo que con el tiempo me facilitó muchas cosas, pues me llevó a descubrir que aquélla no era obligatoriamente, como tanto había creído, mi máxima aspiración en la vida».",
+        
+      
+      "fragment": "f2"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/fernando_savater/2020/05/09/author-f1-entrevista_fernando_savater.html": {
+      "title_id": "entrevista_fernando_savater",
+      "title": "Entrevista",
+      "author": "Fernando Savater",
+      
+        
+          "excerpt": "«Disfruto leyendo y ya está. Y agradezco que haya gente que escriba bien para divertirme».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/jean_luc_nancy/2020/05/07/author-f2-el_intruso.html": {
+      "title_id": "el_intruso",
+      "title": "El intruso",
+      "author": "Jean-Luc Nancy",
+      
+        
+          "excerpt": "«Diferir la muerte es también exhibirla, subrayarla».",
+        
+      
+      "fragment": "f2"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/walter_benjamin/2020/05/06/author-f5-calle_de_sentido_unico.html": {
+      "title_id": "calle_de_sentido_unico",
+      "title": "Calle de sentido único",
+      "author": "Walter Benjamin",
+      
+        
+          "excerpt": "«En estos días nadie debe empeñarse en lo que “sabe hacer”. La fuerza estriba en la improvisación. Todos los golpes decisivos se darán con la mano izquierda».",
+        
+      
+      "fragment": "f5"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/zadie_smith/2020/05/04/author-f1-fracasar_mejor.html": {
+      "title_id": "fracasar_mejor",
+      "title": "Fracasar mejor",
+      "author": "Zadie Smith",
+      
+        
+          "excerpt": "«Es muy difícil que los escritores hablen con franqueza sobre su propia obra y más en un mercado literario en que se necesita que no sólo sean escritores, sino también productos para vender».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/rosa_montero/2020/05/03/author-la_loca_de_la_casa.html": {
+      "title_id": "la_loca_de_la_casa",
+      "title": "La loca de la casa",
+      "author": "Rosa Montero",
+      
+        
+          "excerpt": "«Te encuentras en el umbral mismo de la creación, y en tu cabeza se te disparan tramas admirables, novelas inmensas, ballenas grandiosas que sólo te enseñan el relámpago de su lomo mojado, mejor dicho, sólo fragmentos de ese lomo, retazos de esa ballena, pizcas de belleza que te dejan intuir la belleza insoportable del animal entero [...]».",
+        
+      
+      "fragment": ""
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/henry_miller/2020/05/03/author-f3-tropico_de_capricornio.html": {
+      "title_id": "tropico_de_capricornio",
+      "title": "Trópico de Capricornio",
+      "author": "Henry Miller",
+      
+        
+          "excerpt": "«Todo se hacía pensando en el mañana, pero el mañana nunca llegaba. El presente sólo era un puente, y en él siguen gimiendo, como el mundo, y ni a un solo idiota se le ocurre volar el puente».",
+        
+      
+      "fragment": "f3"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/thomas_bernhard/2020/05/01/author-f2-goethe_se_muere.html": {
+      "title_id": "goethe_se_muere",
+      "title": "Goethe se muere",
+      "author": "Thomas Bernhard",
+      
+        
+          "excerpt": "«No se puede ayudar a la gente en nuestro mundo, que está lleno de hipocresía desde hace ya siglos. Al mundo como a la gente no se los puede ayudar, porque ambos son por completo hipocresía».",
+        
+      
+      "fragment": "f2"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/julio_cortazar/2020/05/01/author-f2-final_del_juego.html": {
+      "title_id": "final_del_juego",
+      "title": "Final del juego",
+      "author": "Julio Cortázar",
+      
+        
+          "excerpt": "«Sabés, lo terrible de ese momento de la juventud es que en una hora oscura y sin nombre todo deja de ser serio para ceder a la sucia máscara de seriedad que hay que ponerse en la cara, [...]».",
+        
+      
+      "fragment": "f2"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/john_berger/2020/05/01/author-f1-y_nuestros_rostros_mi_vida_breves_como_fotos.html": {
+      "title_id": "y_nuestros_rostros_mi_vida_breves_como_fotos",
+      "title": "Y nuestros rostros, mi vida, breves como fotos",
+      "author": "John Berger",
+      
+        
+          "excerpt": "«La poesía puede hablar de inmortalidad porque se abandona al lenguaje en la creencia de que el lenguaje abraza toda experiencia, pasada, presente y futura».",
+        
+      
+      "fragment": "f1"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/sample_4/2020/01/22/author-sample_4_imagen.html": {
+      "title_id": "sample_4_imagen",
+      "title": "Sample 4 Imagen",
+      "author": "Sample 4 Autor",
+      
+        
+          "excerpt": "",
+        
+      
+      "fragment": ""
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/sample_3/2020/01/21/author-sample_3_imagen.html": {
+      "title_id": "sample_3_imagen",
+      "title": "Sample 3 Imagen",
+      "author": "Sample 3 Autor",
+      
+        
+          "excerpt": "",
+        
+      
+      "fragment": ""
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/sample_2/2020/01/20/author-sample_2_imagen.html": {
+      "title_id": "sample_2_imagen",
+      "title": "Sample 2 Imagen",
+      "author": "Sample 2 Autor",
+      
+        
+          "excerpt": "",
+        
+      
+      "fragment": ""
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/sample_1/2020/01/18/author-sample_1_imagen.html": {
+      "title_id": "sample_1_imagen",
+      "title": "Sample 1 Imagen",
+      "author": "Sample 1 Autor",
+      
+        
+          "excerpt": "",
+        
+      
+      "fragment": ""
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/maurice_blanchot/2020/01/16/author-f73-la_espera_el_olvido.html": {
+      "title_id": "la_espera_el_olvido",
+      "title": "La espera el olvido",
+      "author": "Maurice Blanchot",
+      
+        
+          "excerpt": "«Ella tenía la sensación de un errar que no alcanzaba a situar».",
+        
+      
+      "fragment": "f73"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/alejandra_pizarnik/2020/01/15/author-f6-alejandra_pizarnik_diarios.html": {
+      "title_id": "alejandra_pizarnik_diarios",
+      "title": "Diarios",
+      "author": "Alejandra Pizarnik",
+      
+        
+          "excerpt": "«Pero yo sé lo que necesito. Esto es lo trágico. Siempre lo encuentro por la mitad, correspondiendo a mi deseo la parte ausente y disgustándome la que se ofrece».",
+        
+      
+      "fragment": "f6"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+
+     
+    "/author/victor_albertos/2020/01/15/author-bichos.html": {
+      "title_id": "bichos",
+      "title": "Bichos",
+      "author": "Víctor Albertos",
+      
+        
+          "excerpt": "«Ese sábado V. había decidido fumigár-se-los. Mis abuelos, cuya mayor torpeza consistía en seguir vivos, seguida de cerca por su desplazamiento bípedo, consentían en prolongar su existencia a cambio de poder olvidarse de ella. Ella tenía alzhéimer, que es el premio que el organismo concede a su huésped cuando este, conciencia consciente de sí misma, ya no es consciente de otra cosa que del lento borrado de esas facultades que habían estado al servicio de un simulacro tan real como lo era la impresión de tener una conciencia. [...]».",
+        
+      
+      "fragment": ""
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/author/thomas_mann/2020/01/14/author-f12-doctor_fausto.html": {
+      "title_id": "doctor_fausto",
+      "title": "Doctor Fausto",
+      "author": "Thomas Mann",
+      
+        
+          "excerpt": "«... una mujer que durante seis años había tenido trato íntimo con un íncubo, incluso junto a su marido, mientras éste dormía, y de preferencia en los días santos, fue detenida, procesada y quemada en la hoguera. La mujer estaba ligada al demonio por la promesa de pertenecerle en cuerpo y alma al cabo de siete años».",
+        
+      
+      "fragment": "f12"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/social-network-candidate/1970/01/01/social-network-candidate-f4-doctor_fausto.html": {
+      "title_id": "doctor_fausto",
+      "title": "Doctor Fausto",
+      "author": "Thomas Mann",
+      
+        
+          "excerpt": "«Tú me ves, por lo tanto yo soy tú. ¿Vale la pena preguntar si existo en realidad? ¿Qué es, en suma, la realidad y por qué no han de ser verdaderos la aventura interna y el sentimiento? Lo que te eleva, lo que aumenta tu sensación de energía, de fuerza y de dominio, esto es la verdad, ¡qué demonio! —aunque fuera diez veces mentira visto desde el ángulo de la virtud. Quiero decir que una mentira que estimula la energía creadora puede fácilmente resistir la comparación con cualquier verdad honesta y esterilizadora».",
+        
+      
+      "fragment": "f4"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+     
+    "/social-network-candidate/1970/01/01/social-network-candidate-f2-doctor_fausto.html": {
+      "title_id": "doctor_fausto",
+      "title": "Doctor Fausto",
+      "author": "Thomas Mann",
+      
+        
+          "excerpt": "«Siente usted horror por lo que hay de depresivo en toda generalización, en el acto de alinear y de supeditar. Usted afirma lo que cada caso personal tiene de incomparable y exalta un orgullo de la soledad que puede tener su justificación. “¿Vive uno cuando otros viven?”».",
+        
+      
+      "fragment": "f2"
+     
+  }
+  ,
+  
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
 };
 </script>
 <script src="/assets/js/lunr.js"></script>
 <script src="/assets/js/search.js"></script>
 
-{% assign author = site.data.authors | where: 'id', 'maurice_blanchot' | first %}
-{{author.name}}
-
-{% assign title = author.titles | where: 'id', 'thomas_obscuro' | first %}
-{{title.name}}
-
-{% assign fragment = title.fragments | where: 'number', 'f1' | first %}
-{{fragment.preview}}
 
 
+
+
+
+
+
+
+
+
+
+</div>
+<div class="modal fade" id="submit-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Subscribirse a Desobra</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="mc_embed_signup">
+                    <form action="https://desobra.us19.list-manage.com/subscribe/post?u=590e7b2ada0e4321b4c70780b&amp;id=52509fec18"
+                          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                          class="validate" target="_blank">
+                        <input id="email" name="EMAIL" onchange="validate();"
+                               onkeyup="validate();" onpaste="validate();" oninput="validate();" id="mce-EMAIL"
+                               type="email" class="form-control" aria-describedby="emailHelp"
+                               placeholder="Introduce email">
+                        <div class="modal-footer">
+                            <button id="btn-submit" type="submit" class="btn btn-dark" disabled="disabled">Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,8 +1,0 @@
-{% assign category = paginator.posts[0].categories[0] %}
-{% if include.author_detail %}
-{% include preview_titles_author.html %}
-{% elsif category == "punctum" %}
-{% include preview_punctum.html %}
-{% else %}
-{% include preview_titles.html %}
-{% endif %}
